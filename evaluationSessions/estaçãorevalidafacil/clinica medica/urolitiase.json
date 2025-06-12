@@ -1,0 +1,465 @@
+{
+  "idEstacao": "REVALIDA FACIL",
+  "tituloEstacao": "UROLITÍASE - CÓLICA RENAL AGUDA",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Urolitíase, Cólica Renal, Dor Lombar Aguda, Hematúria, Analgesia, Tomografia Computadorizada",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Unidade de Pronto Atendimento (UPA) / Emergência Hospitalar",
+      "tipoAtendimento": "Atendimento de Urgência",
+      "infraestruturaUnidade": [
+        "Sala de emergência equipada (maca, monitor multiparamétrico básico)",
+        "Equipamentos para exame físico básico",
+        "Acesso a medicações para analgesia (AINEs, opioides, antieméticos)",
+        "Formulários para solicitação de exames laboratoriais e de imagem",
+        "Laboratório de análises clínicas e radiologia (resultados fornecidos mediante solicitação)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 38 anos, sexo masculino, chega ao pronto atendimento com queixa de dor intensa em flanco direito, de início súbito há aproximadamente 3 horas, com irradiação para região inguinal e testículo ipsilateral. Refere náuseas e um episódio de vômito.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal e história pregressa de urolitíase.",
+      "Realizar o exame físico geral e específico focado no abdômen e região lombar.",
+      "Solicitar e/ou interpretar exames complementares pertinentes (urina tipo I, função renal, imagem).",
+      "Formular hipóteses diagnósticas, com foco no diagnóstico principal.",
+      "Elaborar e comunicar a conduta terapêutica inicial, priorizando analgesia.",
+      "Orientar o paciente sobre a condição, possíveis complicações e necessidade de investigação/seguimento.",
+      "Identificar sinais de alarme que indiquem necessidade de intervenção urológica de urgência."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS. PRIORIZE O ALÍVIO DA DOR."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Ricardo Almeida\nIdade: 38 anos\nEstado Civil: Não consta no script\nOcupação: Motorista de aplicativo"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor, estou com uma dor insuportável aqui do lado direito das costas (aponta para flanco D), que começou de repente há umas 3 horas. Parece que vai até a virilha e meu testículo direito."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1",
+        "informacao": "Início: Súbito, há 3 horas. Estava trabalhando, dirigindo, e começou do nada.\nLocalização: No flanco direito, bem fundo. (Pode se contorcer ou mudar de posição frequentemente).\nIntensidade: Agora está 10! Não melhora com nada.\nTipo/Característica: Uma cólica muito forte, aperto, pontada. A pior dor da minha vida.\nIrradiação: Desce para a barriga do mesmo lado, para a virilha e para o testículo direito.\nFatores de Piora: Não tem nada específico que piora, já está no máximo.\nFatores de Melhora: Nada melhora. Já tentei deitar, andar, mas não adianta.\nEpisódios Prévios: Contínua desde que começou, com picos de piora."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "Náuseas/Vômitos: Sim, estou muito enjoado. Vomitei uma vez agora há pouco, só líquido.\nHematúria (sangue na urina): Acho que sim, a última vez que fiz xixi, um pouco antes de vir para cá, a urina estava meio avermelhada/rosada.\nDisúria (dor/ardência ao urinar): Não, para urinar não dói.\nPolaciúria (aumento da frequência urinária): Talvez um pouco mais vontade de urinar, mas sai pouco.\nFebre/Calafrios: Não tive febre nem calafrios. (Se aferida, T<37.8°C)\nOutros sintomas (se perguntado ativamente): Sudorese fria. Não tenho outros sintomas que eu tenha notado."
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "Tomei um analgésico que tinha em casa (dipirona), mas não adiantou nada."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Hipertensão leve, controlada com Losartana 50mg/dia.\nMedicamentos de Uso Contínuo/Vitaminas: Losartana 50mg uma vez ao dia.\nAlergias: Nenhuma conhecida.\nCirurgias: Apendicectomia há 15 anos.\nVacinação: Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: Bebo cerveja nos finais de semana.\nFumo: Não fumo.\nDrogas Ilícitas: Não consta no script.\nAlimentação: Como muita carne vermelha, salgadinhos, fast food.\nAtividade Física: Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "Meu pai já teve pedra nos rins também."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Comportamento",
+        "informacao": "Inquieto, com fácies de dor, segurando o flanco direito. Dificuldade em encontrar posição de alívio. Resposta a outras perguntas não previstas no script: 'Não sei informar' ou 'Doutor, essa dor não passa, faz alguma coisa!'"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Perguntas do Paciente",
+        "informacao": "Doutor(a), o que eu tenho? É grave?\nEssa dor vai passar logo?\nVou precisar operar?\nIsso pode voltar a acontecer?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_GERAL_1",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Estado Geral", "valor": "Agitado, ansioso, fácies de dor intensa, sudoreico, pálido (+/4+). Incapaz de permanecer quieto."},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "115 bpm (taquicardia sinusal)"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "22 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "165 x 95 mmHg (hipertenso devido à dor)"},
+                {"chave": "Saturação O₂", "valor": "97% (ar ambiente)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "37,2ºC"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_ESPECIFICO_2",
+        "tituloImpresso": "EXAME FÍSICO ESPECÍFICO (Abdômen e Lombar)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Abdômen",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Plano, sem abaulamentos ou cicatrizes visíveis (exceto pequena cicatriz em FID de apendicectomia)."},
+                {"chave": "Ausculta", "valor": "Ruídos hidroaéreos presentes, normoativos."},
+                {"chave": "Palpação", "valor": "Flácido, levemente doloroso à palpação profunda em flanco direito e fossa ilíaca direita, sem sinais de irritação peritoneal (Blumberg negativo). Sem massas palpáveis ou visceromegalias."},
+                {"chave": "Percussão", "valor": "Timpânico, sem hipertimpanismo localizado."}
+              ]
+            },
+            {
+              "tituloSecao": "Região Lombar",
+              "itens": [
+                {"chave": "Sinal de Giordano (Punho-percussão lombar)", "valor": "Fortemente positivo à direita, negativo à esquerda."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LAB_3",
+        "tituloImpresso": "RESULTADO DE EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Urina Tipo I (EAS)",
+              "itens": [
+                {"chave": "Cor", "valor": "Amarelo-citrino, levemente turva."},
+                {"chave": "Densidade", "valor": "1.020"},
+                {"chave": "pH", "valor": "6,0"},
+                {"chave": "Leucócitos", "valor": "5-10 por campo (Ref: <5)"},
+                {"chave": "Hemácias", "valor": "50-100 por campo (Ref: <3) (Hematúria microscópica significativa)"},
+                {"chave": "Cilindros", "valor": "Ausentes"},
+                {"chave": "Cristais", "valor": "Oxalato de cálcio (++)\nNitrito: Negativo"}
+              ]
+            },
+            {
+              "tituloSecao": "Bioquímica Sérica",
+              "itens": [
+                {"chave": "Creatinina", "valor": "1,1 mg/dL (Ref: 0,7 - 1,3 mg/dL)"},
+                {"chave": "Ureia", "valor": "35 mg/dL (Ref: 15 - 45 mg/dL)"},
+                {"chave": "Sódio (Na+)", "valor": "140 mEq/L"},
+                {"chave": "Potássio (K+)", "valor": "4,2 mEq/L"}
+              ]
+            },
+            {
+              "tituloSecao": "Hemograma",
+              "itens": [
+                {"chave": "Hb", "valor": "14,5 g/dL;"},
+                {"chave": "Ht", "valor": "44%"},
+                {"chave": "Leucócitos Totais", "valor": "11.500/mm³ (Ref: 4.000-11.000/mm³) com neutrofilia leve (75%), sem desvio à esquerda."},
+                {"chave": "Plaquetas", "valor": "280.000/mm³"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TC_ABDOME_4",
+        "tituloImpresso": "LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE ABDÔMEN E PELVE (SEM CONTRASTE)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Tomografia Computadorizada de Abdômen e Pelve (Sem Contraste) revelando cálculo ureteral e hidronefrose.",
+          "caminhoImagem": "Não se aplica, laudo textual.",
+          "laudo": "Rins tópicos, de dimensões e contornos normais. Presença de cálculo radiopaco medindo aproximadamente 0,7 cm (7mm) no seu maior eixo, localizado na junção ureterovesical (JUV) à direita. Sinais de ureterohidronefrose moderada à direita, a montante do cálculo. Rim esquerdo e ureter esquerdo sem particularidades. Bexiga urinária com paredes normais, sem cálculos no seu interior. Ausência de coleções líquidas perirrenais ou outros achados abdominais agudos.\nConclusão: Ureterolitíase à direita (cálculo de 7mm em JUV) com ureterohidronefrose moderada ipsilateral."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_URO_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O candidato deve reconhecer prontamente o quadro de cólica renal aguda. A prioridade é o manejo da dor intensa (escala de dor, analgesia multimodal precoce e eficaz – AINEs EV/IM como primeira linha se não houver contraindicação, considerar opioide se dor refratária ou muito intensa, e antiemético).",
+      "focoPrincipalDetalhado": [
+        "Investigação da história, incluindo episódios prévios e fatores de risco.",
+        "Exame físico para confirmar suspeita e afastar diagnósticos diferenciais (abdômen agudo).",
+        "Solicitação de exames pertinentes: Urina I (hematúria, sinais de infecção), função renal.",
+        "A TC de abdômen e pelve sem contraste é o padrão-ouro para diagnóstico, devendo ser solicitada para confirmar, localizar e dimensionar o cálculo, além de avaliar complicações (hidronefrose, sinais de infecção).",
+        "Interpretação correta dos exames. Conduta após confirmação: manter analgesia, hidratação venosa (com cautela se hidronefrose importante), e avaliar necessidade de terapia médica expulsiva (ex: tansulosina) para cálculos distais <10mm.",
+        "Orientar sobre sinais de alarme (febre, dor incontrolável, piora da função renal, anúria) que indicam necessidade de avaliação urológica urgente/intervenção (ex: duplo J, ureteroscopia).",
+        "Discutir medidas de prevenção secundária a longo prazo (aumento da ingesta hídrica, modificações dietéticas) e encaminhamento para urologista/nefrologista para investigação metabólica se recorrente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Identifica-se.\n(2) Cumprimenta e pergunta nome.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Ambas.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Uma.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Nenhuma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Investigação da Queixa Principal (Dor) e HDA:\nCaracteriza a dor: início, localização, irradiação, qualidade, intensidade (escala), duração, fatores de melhora/piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga ≥ 5 características.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "3-4.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "<3.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investigação de Sintomas Associados e Sinais de Alarme:\nPergunta sobre náuseas/vômitos, hematúria, sintomas urinários (disúria, polaciúria), febre/calafrios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta ≥ 3.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "1-2.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investigação de Antecedentes Relevantes (Urolitíase prévia, comorbidades, medicações, hábitos):",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga história prévia de litíase E hábitos (hidratação/dieta).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita permissão e avalia estado geral/nível de dor:",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita permissão E avalia o estado geral e a intensidade da dor.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza/Descreve Exame Físico Geral (Sinais Vitais):\nSolicita/verbaliza aferição de SV completos (PA, FC, FR, Tax, SatO2) E identifica alterações (taquicardia, hipertensão).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Ambos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita SV mas não identifica alterações OU identifica sem solicitar completo.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza/Descreve Exame Abdominal Completo:\nVerbaliza inspeção, ausculta, palpação e percussão, buscando sinais de abdômen agudo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza/descreve os 4 passos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "2-3 passos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "<2.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza/Descreve Sinal de Giordano:",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza/descreve corretamente a manobra e interpreta o achado.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não realiza ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita Exames Complementares Pertinentes:\nSolicita Urina Tipo I E Função Renal (ureia/creatinina) E Tomografia Computadorizada de abdômen e pelve sem contraste (ou USG de rins e vias urinárias como alternativa inicial se TC indisponível, mas reconhecendo TC como padrão-ouro).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 grupos de exames (Urina, Função Renal, Imagem principal).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 dos 3.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "<2.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta Corretamente os Resultados dos Exames Fornecidos (Urina I e TC):\nIdentifica hematúria na Urina I. Na TC, identifica o cálculo (localização, tamanho) e a hidronefrose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os achados chave da Urina I e da TC.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas um dos exames ou parcialmente ambos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta erroneamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal:\nVerbaliza o diagnóstico de Ureterolitíase à direita / Cólica Renal por Urolitíase.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Institui Analgesia Adequada e Precoce:\nPrescreve AINE EV/IM (ex: cetoprofeno, diclofenaco) como primeira linha (se não houver contraindicação) E considera opioide (ex: tramadol, morfina) para dor refratária/intensa. Prescreve antiemético se necessário.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Prescreve AINE E considera opioide/antiemético conforme necessidade, com doses e vias corretas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Prescreve apenas AINE ou apenas opioide, ou com dose/via inadequada, ou demora excessiva.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não prescreve analgesia ou o faz de forma grosseiramente inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora e Comunica Conduta Adicional (Hidratação, Terapia Expulsiva, Critérios de Internação/Referência):\nOrienta hidratação (EV/VO). Considera/prescreve terapia médica expulsiva (ex: tansulosina) para cálculo distal <10mm. Identifica critérios para avaliação urológica urgente (dor refratária, sinais de infecção, obstrução significativa em rim único, piora da função renal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Aborda hidratação, terapia expulsiva (se indicada pela TC) E critérios de referência/internação.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Aborda 1-2 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não aborda.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orienta o Paciente (Diagnóstico, Prognóstico, Prevenção, Sinais de Alarme para Retorno):\nExplica o diagnóstico em linguagem acessível, orienta sobre a possibilidade de eliminação espontânea, medidas de prevenção (aumento da ingesta hídrica) e sinais de alarme (febre, dor incontrolável).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre diagnóstico, prevenção E sinais de alarme.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não orienta ou o faz de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Comunicação com o Paciente (Clareza, Empatia, Linguagem Acessível):\n(Avaliação global da comunicação)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Comunica-se de forma clara, empática, linguagem acessível, responde perguntas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Falhas em um dos aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Comunicação inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

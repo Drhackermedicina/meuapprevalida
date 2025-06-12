@@ -1,0 +1,389 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "HIPOTIREOIDISMO - TIREOIDITE DE HASHIMOTO",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Hipotireoidismo, Tireoidite de Hashimoto, Fadiga, Ganho de Peso, TSH, T4 Livre, Anticorpos Antitireoidianos",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultório equipado",
+        "Equipamentos para exame físico básico",
+        "Acesso a prontuário físico com informações limitadas",
+        "Laboratório de análises clínicas (resultados fornecidos mediante solicitação)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 42 anos, sexo feminino, procura atendimento com queixa de cansaço progressivo e ganho de peso nos últimos 6 meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Realizar o exame físico geral e específico focado no problema apresentado.",
+      "Solicitar e/ou interpretar exames complementares pertinentes ao caso.",
+      "Formular hipóteses diagnósticas.",
+      "Verbalizar o diagnóstico mais provável e sua etiologia.",
+      "Elaborar e comunicar a conduta terapêutica inicial.",
+      "Orientar a paciente sobre sua condição, tratamento e seguimento."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NA PACIENTE SIMULADA É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Joana Silva\nIdade: 42 anos\nEstado Civil: Casada\nOcupação: Secretária"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), eu ando me sentindo muito cansada e engordei uns 5 quilos nos últimos seis meses, mesmo sem mudar minha alimentação."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1 (Cansaço/Fadiga)",
+        "informacao": "Início: Percebi há uns 6 meses, foi piorando aos poucos.\nLocalização: É um cansaço geral, no corpo todo.\nIntensidade: Ah, um 7 ou 8. Atrapalha meu dia a dia.\nTipo/Característica: Uma falta de energia, uma moleza, sabe? Mesmo quando durmo bem, acordo cansada.\nIrradiação: Não se aplica.\nFatores de Piora: Piora no final do dia ou quando tento fazer algum esforço maior.\nFatores de Melhora: Não notei nada que melhore muito, nem descansar adianta tanto.\nEpisódios Prévios: Vem piorando progressivamente."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 2 (Ganho de Peso)",
+        "informacao": "Início: Nos últimos 6 meses também.\nAferição e Valor: Uns 5 quilos.\nCaracterísticas Adicionais: Não mudei nada na minha alimentação e não faço exercícios regularmente, mas antes eu não engordava assim."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "Pele seca: Sim, minha pele está mais seca que o normal.\nCabelo: Tenho notado uma queda de cabelo maior e meu cabelo está mais seco e quebradiço.\nIntestino: Meu intestino ficou mais preso ultimamente, vou ao banheiro a cada 2 ou 3 dias.\nHumor: Ando meio desanimada, sem muita vontade de fazer as coisas, um pouco irritada às vezes.\nSonolência: Sim, sinto mais sono durante o dia.\nIntolerância ao frio: Tenho sentido mais frio que o normal, mesmo quando não está tão frio para os outros.\nEdema: Às vezes sinto meu rosto um pouco inchado de manhã e minhas pálpebras.\nFebre: Não tive febre.\nDispneia: Não, falta de ar não.\nNáuseas/Vômitos: Não.\nSudorese: Pelo contrário, acho que estou suando menos.\nPalpitações: Não tenho sentido.\nTosse/Expectoração: Não.\nSintomas Neurológicos (tontura, síncope, cefaleia): Às vezes uma dor de cabeça leve, mas nada de tontura ou desmaio.\nSintomas Gastrointestinais (além da constipação): Só a constipação mesmo."
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "Não usei nada específico para isso."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Não tenho nenhuma doença diagnosticada.\nMedicamentos de Uso Contínuo/Vitaminas: Não uso nenhum remédio contínuo, só um multivitamínico de vez em quando, mas parei.\nAlergias: Não tenho alergia a medicamentos.\nCirurgias: Tirei o apêndice quando tinha 15 anos.\nVacinação: Tomei as vacinas da COVID e da gripe este ano. As outras estão em dia, eu acho.\nGinecológicos/Obstétricos:\nDUM: Minha última menstruação foi há uns 20 dias, o ciclo é regular, a cada 28-30 dias.\nIntercorrências gestações prévias: Tive dois filhos, partos normais, sem problemas.\nGesta/Para/Aborto: G2 P2 A0.\nUso de contraceptivos: Uso pílula anticoncepcional combinada há 10 anos."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: Bebo socialmente, uma taça de vinho no final de semana, às vezes uma cerveja.\nFumo: Não fumo.\nDrogas Ilícitas: Não uso.\nAlimentação: Como de tudo, arroz, feijão, carne, salada. Gosto de um docinho depois do almoço. Não fiz grandes mudanças.\nAtividade Física: Não faço atividade física regularmente, meu trabalho é mais sentada.\nSono: Durmo umas 7-8 horas por noite, mas acordo cansada. Pego no sono fácil."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "Ocupação/Trabalho: Sou secretária em um escritório.\nMoradia/Saneamento: Moro em casa com água encanada e esgoto.\nViagens Recentes: Não viajei ultimamente.\nContato com Doentes/Animais: Não que eu saiba. Tenho um gato em casa, mas ele está bem."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "Minha mãe tem pressão alta. Uma tia por parte de mãe tinha um problema na tireoide, acho que tomava um remedinho, mas não sei dizer qual era o problema exatamente. Meu pai é saudável."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: O que eu tenho é grave?",
+        "informacao": "Doutor(a), o que eu tenho é grave?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Isso tem tratamento?",
+        "informacao": "Isso tem tratamento?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Vou ter que tomar remédio para sempre?",
+        "informacao": "Vou ter que tomar remédio para sempre?"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR/CHEFE DE ESTAÇÃO: Resposta a outras perguntas não previstas no script",
+        "informacao": "Não sei informar\" ou \"Não consta no script"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_GERAL_1",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS E DADOS GERAIS",
+              "itens": [
+                {"chave": "Estado Geral", "valor": "Bom estado geral, consciente, orientada no tempo e espaço, hidratada, hipocorada (+/4+), acianótica, anictérica, afebril ao toque."},
+                {"chave": "Fácies", "valor": "Mixedematosa discreta (pele infiltrada, edema periorbital leve)."},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "58 bpm"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "16 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "128 x 82 mmHg (MMSS D)"},
+                {"chave": "Saturação O₂", "valor": "97% (ar ambiente)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "36,2ºC"},
+                {"chave": "Peso", "valor": "70 kg"},
+                {"chave": "Altura", "valor": "1,65 m"},
+                {"chave": "IMC", "valor": "25,7 kg/m² (Ganho de 5kg informado)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_ESPECIFICO_2",
+        "tituloImpresso": "EXAME FÍSICO ESPECÍFICO (PESCOÇO/TIREOIDE E PELE/FÂNEROS)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "PESCOÇO/TIREOIDE",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Contorno cervical normal, sem abaulamentos visíveis ou cicatrizes."},
+                {"chave": "Palpação", "valor": "Tireoide de consistência firme-elástica, difusamente aumentada (bócio leve, aproximadamente 30g estimado), superfície irregular, indolor à palpação."},
+                {"chave": "Linfonodos", "valor": "Ausência de nódulos palpáveis distintos. Linfonodos cervicais não palpáveis."}
+              ]
+            },
+            {
+              "tituloSecao": "PELE E FÂNEROS",
+              "itens": [
+                {"chave": "Pele", "valor": "Seca, áspera ao toque, discreta palidez."},
+                {"chave": "Unhas e Cabelos", "valor": "Unhas quebradiças. Cabelos secos, com rarefação difusa leve."},
+                {"chave": "Edema", "valor": "Edema periorbital leve, sem cacifo."}
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO SIMPLIFICADO",
+              "itens": [
+                {"chave": "Reflexo Aquileu", "valor": "Com fase de relaxamento lentificada (se testado e verbalizado pelo candidato)."}
+              ]
+            },
+            {
+              "tituloSecao": "CARDIOVASCULAR",
+              "itens": [
+                {"chave": "Ausculta Cardíaca", "valor": "Bulhas rítmicas, normofonéticas, em 2 tempos, sem sopros."},
+                {"chave": "Pulsos", "valor": "Pulsos periféricos palpáveis e simétricos."}
+              ]
+            },
+            {
+              "tituloSecao": "RESPIRATÓRIO",
+              "itens": [
+                {"chave": "Ausculta Pulmonar", "valor": "Murmúrio vesicular universalmente audível, sem ruídos adventícios."}
+              ]
+            },
+            {
+              "tituloSecao": "ABDÔMEN",
+              "itens": [
+                {"chave": "Inspeção/Palpação", "valor": "Plano, flácido, indolor à palpação superficial e profunda, ruídos hidroaéreos presentes e normais."},
+                {"chave": "Visceromegalias", "valor": "Sem visceromegalias."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAIS_3",
+        "tituloImpresso": "RESULTADO DE EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {"chave": "TSH (Hormônio Tireoestimulante)", "valor": "15,8 µUI/mL (Ref: 0,4 - 4,5 µUI/mL)"},
+                {"chave": "T4 Livre", "valor": "0,5 ng/dL (Ref: 0,8 - 1,8 ng/dL)"},
+                {"chave": "Anti-TPO (Anticorpos Antitireoperoxidase)", "valor": "450 UI/mL (Ref: < 35 UI/mL)"},
+                {"chave": "Anti-Tg (Anticorpos Antitiroglobulina)", "valor": "280 UI/mL (Ref: < 40 UI/mL)"}
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "11,5 g/dL (Ref: 12,0 - 15,5 g/dL)"},
+                {"chave": "Hematócrito (Hct)", "valor": "35% (Ref: 36 - 46%)"},
+                {"chave": "Leucócitos Totais", "valor": "6.500/mm³ (Ref: 4.000 - 11.000/mm³)"},
+                {"chave": "Neutrófilos", "valor": "60%"},
+                {"chave": "Linfócitos", "valor": "30%"},
+                {"chave": "Monócitos", "valor": "7%"},
+                {"chave": "Eosinófilos", "valor": "2%"},
+                {"chave": "Basófilos", "valor": "1%"},
+                {"chave": "Plaquetas", "valor": "250.000/mm³ (Ref: 150.000 - 450.000/mm³)"}
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {"chave": "Glicemia de jejum", "valor": "88 mg/dL (Ref: < 100 mg/dL)"},
+                {"chave": "Colesterol Total", "valor": "245 mg/dL (Ref: < 190 mg/dL desejável)"},
+                {"chave": "LDL-colesterol", "valor": "160 mg/dL (Ref: < 130 mg/dL desejável)"},
+                {"chave": "HDL-colesterol", "valor": "50 mg/dL (Ref: > 40 mg/dL desejável)"},
+                {"chave": "Triglicerídeos", "valor": "180 mg/dL (Ref: < 150 mg/dL desejável)"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+      "Doutor(a), o que eu tenho é grave?",
+      "Isso tem tratamento?",
+      "Vou ter que tomar remédio para sempre?"
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MFC_2024V1_1",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 42 anos, sexo feminino, com queixa de cansaço progressivo e ganho de peso nos últimos 6 meses, apresentando sintomas clássicos de hipotireoidismo e história familiar de tireoidopatia. Exames confirmam hipotireoidismo primário por Tireoidite de Hashimoto.",
+      "focoPrincipalDetalhado": [
+        "O candidato deverá conduzir uma anamnese completa, investigando os sintomas clássicos de hipotireoidismo (fadiga, ganho de peso, pele seca, constipação, intolerância ao frio, alterações de humor, queda de cabelo, etc.) e antecedentes relevantes (história familiar de tireoidopatia).",
+        "Durante o exame físico, deve atentar para achados como pele seca, fácies mixedematosa discreta, bradicardia relativa e, crucialmente, palpar a tireoide, identificando o bócio.",
+        "Deverá solicitar corretamente os exames para diagnóstico (TSH e T4 livre) e, idealmente, para investigação etiológica (Anti-TPO, dado que Hashimoto é a causa mais comum).",
+        "A interpretação dos resultados (TSH elevado, T4 livre baixo, Anti-TPO positivo) deve levar ao diagnóstico de Hipotireoidismo Primário devido à Tireoidite de Hashimoto.",
+        "A conduta terapêutica deve incluir a prescrição de levotiroxina em dose inicial apropriada (ex: 1,6 mcg/kg/dia para o peso ideal ou iniciar com 25-50mcg e ajustar, considerando a paciente sem comorbidades cardíacas conhecidas), com orientações claras sobre o uso (em jejum, aguardar 30-60 minutos para café da manhã ou outras medicações).",
+        "Deve orientar sobre a natureza crônica da doença, a necessidade de monitoramento laboratorial (TSH em 6-8 semanas) e a melhora gradual dos sintomas.",
+        "Abordar a dislipidemia secundária (orientações dietéticas, atividade física, e que tende a melhorar com o tratamento do hipotireoidismo, reavaliar perfil lipídico após eutireoidismo)."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Identifica-se (nome e/ou função);\nE (2) Cumprimenta o paciente simulado e pergunta seu nome (ou confirma).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as duas ações.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Realiza uma ação.", "pontos": 0.1},
+          "inadequado": {"criterio": "Não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação da Queixa Principal (Fadiga e Ganho de Peso) e HDA:\nInvestiga pelo menos 4 características de cada sintoma principal (início, qualidade, intensidade, fatores de melhora/piora, evolução, etc.).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥ 4 características para ambos os sintomas.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga ≥ 4 para um sintoma OU 2-3 para ambos.", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga <2 características para ambos ou não investiga.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Investigação de Sintomas Associados Relevantes para Hipotireoidismo:\nPergunta sobre pele/cabelo, trânsito intestinal, humor/sono, intolerância ao frio, edema. (Listar pelo menos 3).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥ 3 dos sintomas listados.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Investiga 1-2 dos sintomas listados.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não investiga os sintomas listados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Investigação de Antecedentes Pessoais:\n(1) Comorbidades; E (2) Medicações em uso; E (3) Alergias.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta os três itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Pergunta um ou dois itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não pergunta item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "1.5",
+        "descricaoItem": "Investigação de História Familiar (com foco em doenças tireoidianas e autoimunes):\nPergunta sobre doenças tireoidianas ou autoimunes na família.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ativamente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não investiga.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Solicita permissão para realizar o exame físico:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita permissão.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Solicita/Verbaliza aferição de Sinais Vitais Completos:\nAdequado (0.25 pts): Solicita/verbaliza todos os sinais vitais pertinentes (PA, FC, FR, Tax, SatO2).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita/verbaliza todos os sinais vitais pertinentes (PA, FC, FR, Tax, SatO2).", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não o faz ou o faz incompletamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Realiza/Descreve Exame Físico Direcionado (Pescoço/Tireoide e Pele/Fâneros):\nVerbaliza os passos da inspeção e palpação da tireoide;\nE inspeciona pele/fâneros buscando sinais de hipotireoidismo (pele seca, alterações em cabelos/unhas, edema).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza/descreve de forma sistemática ambos os focos (tireoide e pele/fâneros).", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Realiza/descreve parcialmente ou apenas um dos focos.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não realiza ou descreve de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "2.4",
+        "descricaoItem": "Identifica e verbaliza achados relevantes no exame físico:\nVerbaliza a presença de bócio (aumento difuso e consistência alterada da tireoide), pele seca, fácies mixedematosa discreta, e/ou bradicardia relativa (FC de 58bpm). (Mencionar ao menos 2).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica e verbaliza pelo menos 2 achados positivos relevantes.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não identifica ou não verbaliza achados relevantes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Solicita Exames Complementares Pertinentes:\nSolicita TSH E T4 Livre.\n(Solicitação de Anti-TPO é valorizada, mas não essencial para pontuação máxima aqui se os outros dois forem solicitados).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita TSH e T4 Livre. (Bônus se solicitar Anti-TPO).", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Solicita apenas TSH ou apenas T4 Livre.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita os exames chave ou solicita exames inadequados para a suspeita principal.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Interpreta Corretamente os Resultados dos Exames Fornecidos:\nIdentifica o TSH elevado, o T4 Livre baixo e o Anti-TPO elevado como confirmatórios de hipotireoidismo primário autoimune.\nIdentifica a anemia discreta e a dislipidemia.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta corretamente os achados da função tireoidiana (TSH e T4L) e dos anticorpos (Anti-TPO), e menciona ao menos uma das outras alterações (anemia ou dislipidemia).", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não interpreta ou interpreta erroneamente os resultados do TSH, T4L ou Anti-TPO.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Etiologia:\nVerbaliza o diagnóstico de Hipotireoidismo Primário E a etiologia de Tireoidite de Hashimoto (ou tireoidite autoimune).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza o diagnóstico e a etiologia corretamente.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Verbaliza o diagnóstico de hipotireoidismo primário, mas sem a etiologia correta, ou vice-versa.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não verbaliza o diagnóstico ou o faz incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Elabora e Comunica Conduta Terapêutica Inicial Adequada:\nOrienta o início de Levotiroxina Sódica em dose apropriada (ex: dose calculada por peso ~1.6mcg/kg ou dose inicial de 50-100mcg para esta paciente, ou 25-50mcg com ajuste) E orienta sobre a forma correta de uso (em jejum, 30-60 min antes do café, longe de outras medicações como sulfato ferroso ou cálcio).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta o início da levotiroxina com dose plausível E orienta corretamente sobre o uso.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Orienta o início da levotiroxina, mas com dose inadequada ou sem orientação clara sobre o uso OU orienta o uso, mas não define o início/dose.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não orienta ou orienta conduta inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Orienta sobre a Condição, Seguimento e Manejo Associado:\nExplica que é uma condição geralmente crônica, a necessidade de monitoramento (TSH em 6-8 semanas após início/ajuste de dose), a melhora esperada dos sintomas.\nOrienta sobre manejo da dislipidemia (dieta, atividade física, e que pode melhorar com tratamento do hipotireoidismo, reavaliar perfil lipídico).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta sobre cronicidade/seguimento do hipotireoidismo E aborda o manejo da dislipidemia.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Orienta sobre cronicidade/seguimento OU aborda a dislipidemia.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não orienta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Comunicação com o Paciente (Clareza, Empatia, Linguagem Acessível):\n(Avaliação global da comunicação durante a estação)",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunica-se de forma clara, empática e com linguagem acessível, respondendo adequadamente às perguntas da paciente.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Apresenta falhas em um dos aspectos (clareza, empatia ou linguagem).", "pontos": 0.4},
+          "inadequado": {"criterio": "Comunicação inadequada.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

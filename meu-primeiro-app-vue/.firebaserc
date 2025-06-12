@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "appestacoes"
+  },
+  "targets": {
+    "appestacoes": {
+      "hosting": {
+        "revalidafacil-principal": [
+          "revalidafacil"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

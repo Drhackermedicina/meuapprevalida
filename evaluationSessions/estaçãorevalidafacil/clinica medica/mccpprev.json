@@ -1,0 +1,428 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "Método Clínico Centrado na Pessoa (MCCP)",
+  "numeroDaEstacao": 1,
+  "especialidade": "preventiva",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Método Clínico Centrado na Pessoa (MCCP), Prevenção, Rastreamento, Estilo de Vida, Motivação, Autocuidado, Comunicação Efetiva, Atenção Primária",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde (Unidade Básica de Saúde)",
+      "tipoAtendimento": "Ambulatorial (Consulta de rotina/avaliação de saúde)",
+      "infraestruturaUnidade": [
+        "Consultório equipado com mesa de exame",
+        "Equipamentos para exame físico básico (esfigmomanômetro, estetoscópio, balança, fita métrica)",
+        "Acesso a prontuário eletrônico/físico com informações limitadas (resultados de exames serão fornecidos pelo avaliador)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Sra. Ana Paula, 48 anos, sexo feminino, procura a Unidade Básica de Saúde para uma consulta de rotina. Ela relata que 'precisa cuidar mais da saúde', mas sente dificuldade em iniciar e manter hábitos saudáveis, apesar de saber da importância. Sua mãe tem diabetes e seu pai, hipertensão. Ela está um pouco acima do peso e sente-se desmotivada.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese, explorando a perspectiva da paciente sobre sua saúde, suas preocupações e o impacto de seus hábitos na sua vida.",
+      "Realizar o exame físico geral e direcionado para avaliação de risco.",
+      "Solicitar e/ou interpretar exames complementares de rastreamento pertinentes.",
+      "Formular uma avaliação de saúde compartilhada, verbalizando os riscos e as oportunidades de melhoria.",
+      "Construir um plano de prevenção e promoção da saúde em conjunto com a paciente, considerando suas prioridades e barreiras, incluindo orientações sobre estilo de vida e rastreamento.",
+      "Orientar a paciente sobre a importância do acompanhamento contínuo e do autocuidado."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Ana Paula Costa\nIdade: 48 anos\nEstado Civil: Casada\nOcupação: Professora de ensino fundamental"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Vim para uma consulta de rotina. Sinto que preciso cuidar mais da minha saúde, mas estou meio desmotivada. Minha mãe tem diabetes e meu pai, pressão alta, então fico preocupada."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1",
+        "informacao": "Início: Essa preocupação é antiga, mas agora com a idade e vendo meus pais, sinto que preciso agir.\nQualidade/Tipo: É uma sensação de que não estou fazendo o suficiente. Sinto que deveria ter mais energia.\nImpacto na vida: Me sinto cansada no final do dia, às vezes com dores nas costas. E me incomoda não conseguir brincar mais com meus sobrinhos como antes.\nO que a paciente pensa sobre a causa: Acho que é por causa da minha alimentação, que não é muito boa, e porque não faço exercício.\nO que a paciente sente sobre a situação: Me sinto um pouco frustrada, porque eu sei o que é certo, mas não consigo colocar em prática.\nExpectativas da paciente: Gostaria de ter mais disposição, emagrecer um pouco e ter certeza de que não vou ter as mesmas doenças dos meus pais."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "Febre: Não tive febre.\nDor: Às vezes uma dor leve nas costas, mas nada demais.\nCansaço/Fadiga: Sim, sinto um cansaço que não passa, mesmo dormindo bem.\nDispneia: Não.\nNáuseas/Vômitos: Não.\nAlterações urinárias: Não.\nOutros sintomas (se perguntado ativamente): Não tenho nenhum sintoma que me incomode muito, é mais essa sensação de 'peso' e falta de energia."
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "Não uso nada."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Não tenho nenhuma doença crônica diagnosticada. Nunca precisei tomar remédio contínuo.\nMedicamentos de Uso Contínuo/Vitamina: Não uso nada.\nAlergias: Não tenho alergias conhecidas.\nCirurgias: Fiz cirurgia de amígdalas quando criança.\nInternações Prévias: Não tive nenhuma internação.\nVacinação: Tomei as vacinas da COVID e da gripe. Não sei se preciso de mais alguma."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: Como bastante pão, massas, e doces. Pouca fruta e verdura. Gosto de refrigerante.\nAtividade Física: Não faço exercícios. Meu trabalho é em pé a maior parte do tempo, mas não é um exercício.\nÁlcool: Bebo socialmente, uma taça de vinho no final de semana.\nTabagismo: Nunca fumei.\nDrogas Ilícitas: Não uso.\nSono: Durmo bem, umas 7-8 horas por noite, mas acordo cansada."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "Minha mãe tem diabetes tipo 2 e pressão alta. Meu pai tem pressão alta e colesterol alto. Meu irmão mais velho é saudável."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Perguntas da Paciente",
+        "informacao": "Doutor(a), eu sei que preciso emagrecer e fazer exercício, mas é tão difícil! Por onde eu começo?\nA senhora acha que eu já estou com diabetes ou pressão alta, igual meus pais?\nEu já tentei várias vezes e não consigo. O que eu faço para não desistir?"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR/CHEFE DE ESTAÇÃO: Comportamento",
+        "informacao": "Resposta a outras perguntas não previstas no script: 'Não consta no script' ou 'Não sei informar'."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_mccp_ef_geral",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Estado Geral", "valor": "Bom, consciente, orientada no tempo e espaço, hidratada, corada, acianótica, anictérica, afebril."},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "82 bpm"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "16 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "128 x 84 mmHg (MMSS D)"},
+                {"chave": "Saturação O₂", "valor": "98% (ar ambiente)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "36.7ºC"},
+                {"chave": "Peso", "valor": "75 kg"},
+                {"chave": "Altura", "valor": "1.62 m"},
+                {"chave": "IMC", "valor": "28.58 kg/m² (Sobrepeso)"},
+                {"chave": "Circunferência Abdominal", "valor": "92 cm (Ref: < 80 cm para mulheres)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_mccp_lab_rastreamento",
+        "tituloImpresso": "RESULTADO DE EXAMES LABORATORIAIS (Rastreamento)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Bioquímica",
+              "itens": [
+                {"chave": "Glicemia de jejum", "valor": "98 mg/dL (Ref: 70 - 99 mg/dL)"},
+                {"chave": "Colesterol Total", "valor": "210 mg/dL (Ref: < 190 mg/dL)"},
+                {"chave": "HDL-colesterol", "valor": "40 mg/dL (Ref: > 40 mg/dL)"},
+                {"chave": "LDL-colesterol", "valor": "135 mg/dL (Ref: < 130 mg/dL)"},
+                {"chave": "Triglicerídeos", "valor": "160 mg/dL (Ref: < 150 mg/dL)"},
+                {"chave": "Creatinina", "valor": "0.8 mg/dL (Ref: 0.5 - 1.0 mg/dL)"}
+              ]
+            },
+            {
+              "tituloSecao": "Hemograma",
+              "itens": [
+                {"chave": "Hemograma", "valor": "Sem alterações significativas."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_MCCP_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O candidato deve aplicar os pilares do Método Clínico Centrado na Pessoa para explorar a perspectiva da paciente, considerar seu contexto integral e construir um plano de saúde conjunto, focando em prevenção e promoção da saúde.",
+      "focoPrincipalDetalhado": [
+        "Explorar a doença e a experiência da doença: Entender como a paciente percebe sua saúde, seus sintomas (cansaço, peso), suas preocupações e o impacto disso na sua vida.",
+        "Entender a pessoa como um todo: Considerar o contexto familiar (histórico de doenças), social (trabalho, rede de apoio), emocional (desmotivação, frustração) e cultural (hábitos alimentares).",
+        "Construir um plano conjunto: Negociar com a paciente, estabelecendo metas realistas e prioridades que façam sentido para ela, em vez de apenas prescrever.",
+        "Promoção da saúde e prevenção de doenças: Identificar fatores de risco (sobrepeso, dislipidemia, histórico familiar, sedentarismo, alimentação inadequada) e propor rastreamento e intervenções preventivas de forma colaborativa.",
+        "Demonstrar comunicação empática, escuta ativa e técnicas de entrevista motivacional."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Identifica-se (nome e/ou função);\n(2) Cumprimenta a paciente simulada e pergunta seu nome (ou confirma).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Exploração da Queixa Principal e Perspectiva da Paciente:\nInvestiga o que a paciente pensa sobre sua situação (ideias), o que ela sente (sentimentos) e o que ela espera da consulta (expectativas) em relação à sua saúde e hábitos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Explora os três componentes (ideias, sentimentos, expectativas) de forma aprofundada.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Explora 1-2 componentes ou de forma superficial.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não explora a perspectiva da paciente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investigação do Impacto da Saúde na Vida da Paciente e Contexto:\nPergunta sobre o impacto do cansaço/peso na vida diária, lazer, relações. Investiga o contexto familiar, social e ocupacional que influenciam seus hábitos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga o impacto e o contexto de forma relevante.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga parcialmente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga o impacto ou o contexto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investigação de Hábitos de Vida e Barreiras para Mudança:\nPergunta sobre: Alimentação, Atividade Física, Tabagismo, Etilismo. E explora as dificuldades e barreiras que a paciente enfrenta para mudar esses hábitos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga hábitos com detalhes E explora as barreiras.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga hábitos, mas não as barreiras, ou vice-versa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não investiga hábitos ou barreiras.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investigação de Antecedentes Pessoais e Familiares Relevantes:\n(1) Comorbidades prévias; E (2) Uso de medicações/alergias; E (3) História familiar de doenças crônicas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os três itens com detalhes relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta um ou dois itens ou sem detalhes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita permissão para realizar o exame físico:",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza a tarefa.",
+            "pontos": 0.125
+          },
+          "inadequado": {
+            "criterio": "Não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Lavar e secar as mãos:",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza a tarefa.",
+            "pontos": 0.125
+          },
+          "inadequado": {
+            "criterio": "Não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita/Verbaliza aferição de Sinais Vitais Completos:",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita/verbaliza todos os sinais vitais pertinentes (PA, FC, FR, Tax, Peso, Altura, IMC, Circunferência Abdominal).",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não o faz ou o faz incompletamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Realiza/Descreve Exame Físico Direcionado (Cardiovascular e Medidas Antropométricas):\nVerbaliza os passos de ausculta cardíaca, palpação de pulsos E verbaliza a aferição de peso, altura, cálculo de IMC e aferição de circunferência abdominal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza/descreve de forma sistemática e completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza/descreve parcialmente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não realiza ou descreve de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita Exames Complementares de Rastreamento Pertinentes:\nSolicita: Glicemia de jejum, Perfil Lipídico (Colesterol Total, HDL, LDL, Triglicerídeos), Creatinina.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os exames chave para rastreamento de doenças crônicas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita alguns dos exames chave.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não solicita os exames chave ou solicita exames inadequados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta Corretamente os Resultados dos Exames Fornecidos:\nIdentifica as alterações principais: Dislipidemia (colesterol total elevado, LDL e triglicerídeos elevados), sobrepeso, circunferência abdominal aumentada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente todos os achados relevantes.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta erroneamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Verbaliza a Avaliação de Saúde e Principais Preocupações de forma Compartilhada:\nVerbaliza os achados e riscos de forma clara, conectando-os às preocupações da paciente (ex: 'Ana, seus exames mostram que seu colesterol está um pouco alto, o que, junto com seu peso e o histórico familiar, aumenta o risco de problemas no futuro. Isso faz sentido para você?').",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a avaliação de risco de forma clara, compreensível e buscando a validação da paciente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a avaliação de risco ou o faz incorretamente/unilateralmente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Construção do Plano de Prevenção e Promoção da Saúde em Conjunto:\nNegocia com a paciente metas realistas e prioritárias para mudança de hábitos (ex: 'Ana, de tudo que conversamos, qual pequena mudança você se sentiria mais motivada a começar nesta semana?'). Orienta sobre dieta saudável, atividade física, e rastreamento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Negocia ativamente o plano com a paciente, definindo metas compartilhadas e realistas (ex: Caminhada de 30 min, 3x/semana; Trocar refrigerante por água).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Oferece orientações, mas sem negociação ou foco nas prioridades da paciente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Apenas prescreve condutas sem envolver a paciente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orienta sobre Rastreamento e Vacinação do Adulto:\nOrienta sobre a importância do rastreamento contínuo (ex: repetir exames em X tempo) e as vacinas indicadas para a idade (ex: dT, Hepatite B, Influenza, COVID-19).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre rastreamento e vacinas pertinentes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não orienta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orienta sobre Sinais de Alarme para Procurar Atendimento:\nOrienta sobre: Dor no peito, falta de ar súbita, tontura/desmaio, fraqueza em um lado do corpo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta ≥ 2 sinais de alarme.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não orienta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Comunicação com o Paciente (Clareza, Empatia, Linguagem Acessível, Motivação, Escuta Ativa):\n(Avaliação global da comunicação durante a estação)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Comunica-se de forma clara, empática, com linguagem acessível, demonstra escuta ativa e técnicas de entrevista motivacional.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Apresenta falhas em um ou dois aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Comunicação inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

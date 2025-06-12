@@ -1,0 +1,403 @@
+{
+  "idEstacao": "REVALIDA_ESTMFC_DM2_2025_005",
+  "tituloEstacao": "DIABETES MELLITUS TIPO 2 (DM2):",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Diabetes Mellitus Tipo 2, Hiperglicemia, Hemoglobina Glicada (HbA1c), Modificações do Estilo de Vida, Antidiabéticos Orais, Rastreio de Complicações.",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde (Unidade Básica de Saúde).",
+      "tipoAtendimento": "Consulta de acompanhamento de condição crónica / Consulta após resultados de exames alterados.",
+      "infraestruturaUnidade": [
+        "Consultório equipado com maca, mesa, cadeiras.",
+        "Esfigmomanómetro, estetoscópio, balança antropométrica, fita métrica.",
+        "Glicosímetro capilar com tiras (para demonstração ou verificação, se necessário).",
+        "Monofilamento de 10g para teste de sensibilidade dos pés.",
+        "Diapasão de 128 Hz.",
+        "Acesso a resultados de exames laboratoriais (fornecidos).",
+        "Prontuário para anotações.",
+        "Tabelas de referência para estratificação de risco cardiovascular e metas glicémicas."
+      ]
+    },
+    "descricaoCasoCompleta": "O Sr. Joaquim Ferreira, de 58 anos, retorna à Unidade Básica de Saúde para avaliação de exames solicitados na consulta anterior devido a queixas inespecíficas de cansaço e sede excessiva. Ele não possui diagnóstico prévio de diabetes. [cite: 8, 9]",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada, investigando sintomas de hiperglicemia, fatores de risco para DM2, história familiar, hábitos de vida e pesquisa de sintomas sugestivos de complicações crónicas do diabetes. [cite: 9]",
+      "Interpretar os resultados dos exames laboratoriais fornecidos. [cite: 10]",
+      "Realizar o exame físico focado, incluindo avaliação antropométrica, aferição da PA, avaliação cardiovascular básica e exame dos pés (inspeção, pulsos, sensibilidade com monofilamento). [cite: 10]",
+      "Confirmar o diagnóstico de Diabetes Mellitus Tipo 2 e discutir os resultados com o paciente. [cite: 11]",
+      "Estratificar o risco cardiovascular do paciente. [cite: 12]",
+      "Elaborar e comunicar o plano de tratamento inicial, incluindo metas terapêuticas (glicémicas, pressóricas, lipídicas), modificações do estilo de vida (MEV) e tratamento farmacológico inicial para DM2. [cite: 12]",
+      "Orientar o paciente sobre a sua condição, a importância da adesão ao tratamento, automonitorização (se indicada), e o plano de rastreio de complicações (retinopatia, nefropatia, neuropatia, doença cardiovascular). [cite: 13]",
+      "Agendar o seguimento e discutir a importância da equipa multidisciplinar. [cite: 14]"
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS. [cite: 23]",
+      "RESULTADOS DE EXAMES LABORATORIAIS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR. [cite: 24]",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO CLÍNICO E CONDUTAS DE FORMA CLARA E OBJETIVA. [cite: 24]",
+      "O TEMPO É CONTROLADO RIGOROSAMENTE. [cite: 25]"
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Sr. Joaquim Ferreira\nIdade: 58 anos\nEstado Civil: casado\nOcupação: pedreiro (atualmente com trabalhos mais leves) [cite: 15]"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "\"Doutor(a), eu vim mostrar aqueles exames que o senhor(a) pediu na última vez. Eu andava a sentir-me muito cansado e com muita sede.\" [cite: 25]"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE HIPERGLICEMIA (HDA)",
+        "informacao": "Cansaço (Fadiga): \"Já faz uns meses que ando assim, sem muita energia para nada. Pensei que era da idade. (Início: Uns 4-5 meses).\" [cite: 26, 27]\nSede Excessiva (Polidipsia): \"Sim, tenho bebido muito mais água que o normal, principalmente nas últimas semanas. A boca está sempre seca.\" [cite: 27]\nAumento da Frequência Urinária (Poliúria): \"Tenho ido mais vezes à casa de banho, inclusive acordo uma ou duas vezes à noite para urinar, o que não acontecia antes.\" [cite: 28]\nPerda de Peso Inexplicada: \"Acho que emagreci um pouco sim, uns 3 ou 4 quilos nos últimos meses, mesmo sem fazer dieta.\" [cite: 29]\nVisão Turva: \"Às vezes a vista fica meio embaçada, mas depois melhora. Pensei que precisava de óculos novos.\" [cite: 30]\nFome Excessiva (Polifagia): \"Tenho tido mais fome também, mesmo depois de comer.\" [cite: 31]"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS SUGESTIVOS DE COMPLICAÇÕES",
+        "informacao": "Infecções Frequentes/Problemas de Cicatrização: \"Tive uma feridinha na perna que demorou muito para cicatrizar no mês passado.\" [cite: 32]\nDormência/Formigueiro nas Mãos/Pés: \"De vez em quando sinto uns formigueiros nos pés, principalmente à noite.\" [cite: 33]"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: \"Tenho pressão alta há uns 10 anos... E o colesterol também é um pouco alto.\" [cite: 34]\nMedicamentos de Uso Contínuo: \"Tomo Losartana 50mg de manhã para a pressão e Sinvastatina 20mg à noite para o colesterol.\" [cite: 35]\nAlergias: \"Não tenho alergia a nenhum remédio.\" [cite: 36]\nCirurgias Prévias: \"Operei de hérnia inguinal há muitos anos.\" [cite: 36]\nInternações Prévias: \"Só da cirurgia da hérnia.\" [cite: 37]\nVacinação: \"Tomei as da gripe e da COVID este ano. Tenho as outras em dia, acho.\" [cite: 37]"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: \"Ah, doutor(a), eu gosto de comer bem. Arroz, feijão, carne, batata... Gosto muito de doce, pão, bolo. Como pouca salada e fruta. Bebo refrigerante quase todo dia.\" [cite: 38]\nAtividade Física: \"Não faço quase nada. Meu trabalho era pesado, mas agora faço coisas mais leves. Fico muito tempo sentado a ver televisão.\" [cite: 39]\nÁlcool: \"Bebo cerveja nos fins de semana, umas 4-5 latinhas no sábado e no domingo.\" [cite: 40]\nTabagismo: \"Fumei durante 30 anos, um maço por dia. Parei há 5 anos. (Ex-fumador, carga tabágica: 30 anos-maço).\" [cite: 41]\nSono: \"Durmo mais ou menos, umas 6 horas por noite. Acordo para ir à casa de banho.\" [cite: 42]\nStress: \"A vida é um pouco corrida, mas nada de mais.\" [cite: 43]"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA PSICOSSOCIAL E EPIDEMIOLÓGICA",
+        "informacao": "Ocupação/Trabalho: \"Era pedreiro, mas agora faço uns biscates mais leves, pintura, pequenos reparos.\" [cite: 44]\nMoradia/Saneamento: \"Moro em casa própria, com boas condições.\" [cite: 45]\nNível socioeconómico/educacional: \"Estudei até à quarta série (Ensino Fundamental I).\" [cite: 45]"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR",
+        "informacao": "\"Minha mãe tinha diabetes e morreu de problema no coração. Meu pai também tinha pressão alta. Tenho dois irmãos, um tem diabetes e o outro não tem nada que eu saiba.\" [cite: 46]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Diagnóstico de diabetes",
+        "informacao": "\"Doutor(a), então eu estou com diabetes? Isso é para sempre?\" [cite: 18]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Necessidade de insulina",
+        "informacao": "\"Vou ter que tomar insulina?\" [cite: 19]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Dificuldade de controle",
+        "informacao": "\"É muito difícil controlar essa doença?\" [cite: 19]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Restrições alimentares",
+        "informacao": "\"O que eu não vou poder comer mais?\" [cite: 19]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Relação cansaço-diabetes",
+        "informacao": "\"Esse cansaço que eu sinto é por causa disso?\" [cite: 20]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Humor/Comportamento",
+        "informacao": "Um pouco ansioso e surpreso com os resultados dos exames, mas disposto a ouvir e aprender. [cite: 16] Pode mostrar alguma resistência inicial às mudanças de hábitos. [cite: 17]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Respostas não previstas",
+        "informacao": "\"Não sei bem, doutor(a)\" ou \"O que o senhor(a) acha que devo fazer?\". [cite: 17]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Condução de Exames/Procedimentos",
+        "informacao": "Cooperar durante o exame físico, incluindo o exame dos pés. [cite: 20] Se o candidato testar a sensibilidade dos pés com monofilamento, o ator deve responder corretamente se sente ou não o toque nos pontos indicados (o avaliador terá o gabarito dos achados). [cite: 21]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Reação à conduta",
+        "informacao": "Mostrar preocupação com as possíveis limitações da doença, mas também interesse em melhorar a saúde se o candidato for claro e motivador. [cite: 22]"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "REVALIDA_ESTMFC_DM2_2025_005_LAB",
+        "tituloImpresso": "EXAMES LABORATORIAIS (Coletados na semana anterior, jejum de 10 horas)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "METABOLISMO DA GLICOSE",
+              "itens": [
+                {"chave": "Glicemia de Jejum", "valor": "185 mg/dL (Ref: <100 mg/dL; Pré-Diabetes: 100-125 mg/dL; Diabetes: ≥126 mg/dL) [cite: 47]"},
+                {"chave": "Hemoglobina Glicada (HbA1c)", "valor": "8.2% (Ref: <5.7%; Pré-Diabetes: 5.7-6.4%; Diabetes: ≥6.5%) [cite: 47]"}
+              ]
+            },
+            {
+              "tituloSecao": "PERFIL LIPÍDICO",
+              "itens": [
+                {"chave": "Colesterol Total", "valor": "220 mg/dL (Ref: <190 mg/dL) [cite: 47]"},
+                {"chave": "HDL-c", "valor": "35 mg/dL (Ref: >40 mg/dL) [cite: 47]"},
+                {"chave": "LDL-c", "valor": "140 mg/dL (Ref: <130 mg/dL; <100 mg/dL alto risco; <70 mg/dL muito alto risco) [cite: 47]"},
+                {"chave": "Triglicerídeos", "valor": "225 mg/dL (Ref: <150 mg/dL) [cite: 47, 48]"}
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL",
+              "itens": [
+                {"chave": "Creatinina", "valor": "1.0 mg/dL (Ref: 0.7-1.3 mg/dL) [cite: 48]"},
+                {"chave": "Taxa de Filtração Glomerular Estimada (TFGe CKD-EPI)", "valor": "85 mL/min/1.73m² [cite: 48]"},
+                {"chave": "Microalbuminúria (Relação Albumina/Creatinina em amostra isolada de urina)", "valor": "15 mg/g (Ref: <30 mg/g) [cite: 49]"}
+              ]
+            },
+            {
+              "tituloSecao": "URINA TIPO I (EAS)",
+              "itens": [
+                {"chave": "Densidade", "valor": "1.025 [cite: 48]"},
+                {"chave": "pH", "valor": "5.5 [cite: 48]"},
+                {"chave": "Proteínas", "valor": "Ausente [cite: 48]"},
+                {"chave": "Glicose", "valor": "Positivo (++) [cite: 48]"},
+                {"chave": "Corpos Cetónicos", "valor": "Ausente [cite: 48]"},
+                {"chave": "Sedimento", "valor": "Leucócitos 3-5 p/c, Hemácias 0-2 p/c. Ausência de cilindros. [cite: 48, 49]"}
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {"chave": "AST (TGO)", "valor": "28 U/L (Ref: <40 U/L) [cite: 49]"},
+                {"chave": "ALT (TGP)", "valor": "35 U/L (Ref: <41 U/L) [cite: 49]"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTMFC_DM2_2025_005_EXFISGERAL",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS (Realizado pelo candidato)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS E ANTROPOMETRIA",
+              "itens": [
+                {"chave": "PA no consultório", "valor": "[Valor aferido pelo candidato] mmHg (Ex: 148/92 mmHg) [cite: 49]"},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "[Valor aferido pelo candidato] bpm (Ex: 78 bpm) [cite: 49]"},
+                {"chave": "Peso", "valor": "88 kg [cite: 49]"},
+                {"chave": "Altura", "valor": "1.70 m [cite: 49]"},
+                {"chave": "IMC", "valor": "30.4 kg/m² (Obesidade Grau I) [cite: 49]"},
+                {"chave": "Circunferência Abdominal", "valor": "108 cm [cite: 49]"}
+              ]
+            },
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {"chave": "Aparência", "valor": "Bom estado geral, hidratado, corado. [cite: 49, 50]"}
+              ]
+            },
+            {
+              "tituloSecao": "AUSCULTA CARDÍACA",
+              "itens": [
+                {"chave": "Achados", "valor": "[Achados do candidato] (Ex: Bulhas rítmicas, normofonéticas, sem sopros). [cite: 50]"}
+              ]
+            },
+            {
+              "tituloSecao": "AUSCULTA PULMONAR",
+              "itens": [
+                {"chave": "Achados", "valor": "[Achados do candidato] (Ex: Murmúrio vesicular universalmente audível, sem ruídos adventícios). [cite: 51]"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTMFC_DM2_2025_005_EXPES",
+        "tituloImpresso": "EXAME DOS PÉS (Achados se o candidato realizar corretamente)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "INSPEÇÃO",
+              "itens": [
+                {"chave": "Pele", "valor": "Pele ressecada bilateralmente. [cite: 52]"},
+                {"chave": "Outros", "valor": "Ausência de calosidades significativas, fissuras, ulcerações ou deformidades aparentes. Unhas normais. [cite: 53]"}
+              ]
+            },
+            {
+              "tituloSecao": "PULSOS PERIFÉRICOS",
+              "itens": [
+                {"chave": "Pediosos e Tibiais Posteriores", "valor": "Palpáveis bilateralmente, amplitude normal. [cite: 54]"}
+              ]
+            },
+            {
+              "tituloSecao": "TESTE DE SENSIBILIDADE COM MONOFILAMENTO DE 10g",
+              "itens": [
+                {"chave": "Pé Direito", "valor": "Sensibilidade protetora diminuída em 2 dos 10 pontos testados (hálux e cabeça do 1º metatarso). [cite: 55]"},
+                {"chave": "Pé Esquerdo", "valor": "Sensibilidade protetora diminuída em 1 dos 10 pontos testados (cabeça do 3º metatarso). [cite: 56]"}
+              ]
+            },
+            {
+              "tituloSecao": "TESTE COM DIAPASÃO DE 128 Hz (SENSIBILIDADE VIBRATÓRIA)",
+              "itens": [
+                {"chave": "Achados", "valor": "Percepção diminuída na base do hálux bilateralmente. [cite: 57]"}
+              ]
+            },
+            {
+              "tituloSecao": "REFLEXO AQUILEU",
+              "itens": [
+                {"chave": "Achados", "valor": "Diminuído bilateralmente. [cite: 58]"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST_DM2_MFC_2025_005",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Sr. Joaquim, 58 anos, pedreiro, retorna com queixas de cansaço, polidipsia, poliúria, polifagia, perda ponderal e visão turva. Exames: Glicemia de Jejum 185 mg/dL, HbA1c 8.2%. Antecedentes: HAS, dislipidemia, ex-tabagista. Hábitos: dieta inadequada, sedentarismo. Exame físico: IMC 30.4 kg/m², CA 108 cm, PA [aferida pelo candidato], pele dos pés ressecada, sensibilidade protetora e vibratória diminuídas, reflexo aquileu diminuído.",
+      "focoPrincipalDetalhado": [
+        "Diagnóstico e comunicação do DM2. [cite: 61, 65]",
+        "Estratificação de risco cardiovascular e definição de metas terapêuticas. [cite: 66, 67]",
+        "Planejamento terapêutico inicial com ênfase em Modificações do Estilo de Vida (MEV) e introdução de Metformina. [cite: 68, 69]",
+        "Orientação sobre a doença, automonitorização, cuidados com os pés e rastreio de complicações. [cite: 74, 75, 76, 77]"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_estDM2_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento: Identifica-se, cumprimenta o paciente, estabelece um contato inicial adequado. [cite: 80]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza todos os passos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Falha na apresentação ou acolhimento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação de Sintomas de Hiperglicemia e Fatores de Risco para DM2: Pergunta sobre polidipsia, poliúria, polifagia, perda de peso, fadiga, história familiar, hábitos alimentares, sedentarismo. [cite: 81]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥ 4 sintomas/fatores de risco. [cite: 81]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Investiga 2-3 sintomas/fatores de risco. [cite: 81]", "pontos": 0.4},
+          "inadequado": {"criterio": "Investiga <2 sintomas/fatores de risco. [cite: 82]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Pesquisa de Sintomas Sugestivos de Complicações Crónicas: Questiona sobre alterações visuais, sintomas neurológicos periféricos (dormência, formigueiro, dor nos pés), problemas renais, infecções de repetição, problemas de cicatrização. [cite: 83]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga sintomas de complicações em ≥3 áreas.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Investiga sintomas de complicações em 1-2 áreas.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não investiga ou investiga superficialmente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Avaliação dos Antecedentes Pessoais Relevantes: Questiona sobre HAS, dislipidemia, medicações em uso, tabagismo. [cite: 84]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cobre todos os antecedentes listados.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Cobre 2-3 antecedentes.", "pontos": 0.25},
+          "inadequado": {"criterio": "Cobre <2 antecedentes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item05",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Realiza/Verbaliza Exame Físico Geral e Antropometria: Afere PA, FC, peso, altura, calcula IMC, mede circunferência abdominal. [cite: 85]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza todos os itens (PA, FC, Peso, Altura, IMC, CA).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza 3-5 itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Realiza <3 itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item06",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Realiza/Descreve Exame dos Pés: Realiza inspeção da pele e unhas, palpação de pulsos pediosos/tibiais posteriores E testa a sensibilidade com monofilamento de 10g (descrevendo a técnica). [cite: 86]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza os 3 componentes (inspeção, pulsos, monofilamento). [cite: 86]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Realiza 2 componentes. [cite: 86]", "pontos": 0.5},
+          "inadequado": {"criterio": "Realiza <2 componentes ou de forma inadequada. [cite: 87]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item07",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Realiza/Verbaliza Exame Cardiovascular Básico: Ausculta cardíaca. [cite: 88]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza ausculta cardíaca.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não realiza.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item08",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Interpreta Corretamente os Exames Laboratoriais: Identifica glicemia de jejum e HbA1c elevadas (confirmando DM2), dislipidemia, glicosúria e avalia função renal. [cite: 89]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpretação correta de DM2, dislipidemia, glicosúria e função renal.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Interpreta DM2 corretamente, mas falha em outros itens.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não interpreta DM2 corretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item09",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Confirma e Comunica o Diagnóstico de DM2: Verbaliza o diagnóstico de Diabetes Mellitus Tipo 2 e explica brevemente ao paciente o significado. [cite: 90]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Confirma diagnóstico e explica ao paciente.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Confirma, mas não explica ou explicação inadequada.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não confirma ou não comunica.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item10",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Estabelece Plano de Modificações do Estilo de Vida (MEV): Orienta detalhadamente sobre pelo menos 3 MEV (plano alimentar, atividade física, perda de peso). [cite: 91]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta ≥ 3 MEV de forma clara, específica e motivadora. [cite: 91]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Orienta 1-2 MEV ou de forma genérica. [cite: 92]", "pontos": 0.5},
+          "inadequado": {"criterio": "Não orienta MEV ou o faz de forma inadequada. [cite: 93]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item11",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Institui Tratamento Farmacológico Inicial para DM2: Prescreve Metformina como primeira linha (dose inicial e progressão), se não houver contraindicações. Justifica a escolha. [cite: 94]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Prescreve Metformina corretamente e justifica.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Prescreve Metformina, mas com dose/progressão inadequada ou sem justificativa.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não prescreve Metformina ou prescreve inadequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item12",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Define Metas Terapêuticas e Estratifica Risco Cardiovascular: Define metas para HbA1c, PA, LDL-c e estratifica o risco CV do paciente. [cite: 95]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Define metas para HbA1c, PA, LDL-c E estratifica risco CV.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Define metas para alguns, mas não todos OU não estratifica risco.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não define metas e não estratifica risco.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item13",
+        "itemNumeroOficial": "4.4",
+        "descricaoItem": "Orienta sobre Rastreio de Complicações e Cuidados com os Pés: Explica a necessidade de exames oftalmológicos, renais, neurológicos anuais e orienta sobre os cuidados diários com os pés. [cite: 96]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta sobre rastreio de complicações (≥2 áreas) E cuidados com os pés.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Orienta sobre rastreio (1 área) OU cuidados com os pés.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não orienta sobre rastreio nem cuidados com os pés.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estDM2_item14",
+        "itemNumeroOficial": "4.5",
+        "descricaoItem": "Comunicação Geral, Educação sobre a Doença e Plano de Seguimento: Explica a cronicidade da DM2, a importância da adesão, discute automonitorização (se aplicável), agenda retorno e reforça a abordagem multidisciplinar. [cite: 97]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunicação clara, empática, educativa e estabelece plano de seguimento. [cite: 97]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Falhas em um dos aspectos (clareza, empatia, educação, seguimento). [cite: 98]", "pontos": 0.4},
+          "inadequado": {"criterio": "Comunicação inadequada ou ausente. [cite: 99]", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

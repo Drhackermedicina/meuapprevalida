@@ -1,0 +1,371 @@
+{
+  "idEstacao": "REVALIDA_ESTCM_CLINMED_CEFALEIA_2025_002",
+  "tituloEstacao": "ESTAÇÃO INEP 2025.1: CLÍNICA MÉDICA / MEDICINA DE FAMÍLIA E COMUNIDADE / NEUROLOGIA (ABORDAGEM INICIAL) - CEFALEIA",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Cefaleia, Dor de Cabeça, Sinais de Alarme (Red Flags), Migrânea, Cefaleia Tensional, Exame Neurológico.",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde (Unidade Básica de Saúde) ou Pronto Atendimento de baixa complexidade.",
+      "tipoAtendimento": "Consulta Ambulatorial / Atendimento de Demanda Espontânea.",
+      "infraestruturaUnidade": [
+        "Consultório equipado com maca, mesa, cadeiras.",
+        "Equipamentos para exame físico básico: estetoscópio, esfigmomanômetro, termômetro, lanterna clínica, martelo de reflexos, diapasão, oftalmoscópio (para fundoscopia, se o candidato indicar a necessidade e descrever a técnica).",
+        "Prontuário para anotações.",
+        "Observação: Exames de imagem (ex: TC de crânio) não estão disponíveis na unidade, mas o candidato pode indicar sua necessidade e o encaminhamento, se julgar pertinente."
+      ]
+    },
+    "descricaoCasoCompleta": "Você está atendendo em uma Unidade Básica de Saúde quando uma paciente de 35 anos, previamente hígida, agenda uma consulta referindo \"dor de cabeça forte que tem piorado nas últimas semanas\".",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa e direcionada à queixa de cefaleia, investigando suas características, sintomas associados, história pregressa de cefaleia e fatores desencadeantes/de alívio.",
+      "Investigar ativamente a presença de sinais de alarme (\"red flags\") para cefaleias secundárias.",
+      "Realizar o exame físico geral e um exame neurológico focado e pertinente ao caso.",
+      "Formular hipóteses diagnósticas para a cefaleia da paciente.",
+      "Verbalizar o diagnóstico mais provável e, se aplicável, sua classificação.",
+      "Elaborar e comunicar o plano de tratamento inicial, incluindo medidas não farmacológicas e farmacológicas para alívio da dor e, se for o caso, profilaxia.",
+      "Orientar a paciente sobre sua condição, tratamento, como manejar crises futuras e quando procurar novo atendimento (sinais de alerta específicos).",
+      "Decidir sobre a necessidade de exames complementares e/ou encaminhamento especializado, justificando a decisão."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NA PACIENTE SIMULADA É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "RESULTADOS DE EXAMES COMPLEMENTARES (COMO FUNDOSCOPIA, SE DESCRITA CORRETAMENTE) SERÃO FORNECIDOS VERBALMENTE OU IMPRESSOS PELO AVALIADOR, SE PERTINENTE.",
+      "TC DE CRÂNIO NÃO ESTÁ DISPONÍVEL NA UNIDADE.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO CLÍNICO E CONDUTAS DE FORMA CLARA E OBJETIVA.",
+      "O TEMPO É CONTROLADO RIGOROSAMENTE."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Sra. Mariana Costa\nIdade: 35 anos\nEstado Civil: casada\nOcupação: professora do ensino fundamental"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "\"Doutor(a), eu vim porque estou com umas dores de cabeça muito fortes. Eu sempre tive dor de cabeça de vez em quando, mas de umas três semanas para cá, elas pioraram muito, estão mais frequentes e mais fortes.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1 (Cefaleia Atual)",
+        "informacao": "Início da Piora: \"Há umas três semanas, notei que as crises ficaram piores.\"\nFrequência: \"Antes era uma vez por mês, agora estou tendo umas duas ou três vezes por semana.\"\nLocalização: \"Geralmente começa em um lado da cabeça, mais aqui na fronte e na têmpora (aponta para região frontotemporal direita), mas às vezes parece que a dor se espalha por toda a cabeça quando fica muito forte.\"\nIrradiação: \"Não sinto que irradia para outro lugar específico, fica mais na cabeça mesmo.\"\nQualidade/Tipo: \"É uma dor latejante, pulsátil. Parece que meu coração está batendo dentro da minha cabeça.\"\nIntensidade (0-10): \"Quando a crise vem forte, chega a ser um 8 ou 9. Me impede de fazer minhas coisas.\"\nDuração de cada crise: \"Dura bastante, às vezes de 6 a 8 horas. Se eu não tomar remédio logo, pode durar o dia todo.\"\nFatores de Melhora: \"Quando eu tomo um analgésico que tenho em casa (dipirona ou paracetamol), às vezes melhora um pouco, mas demora. Ficar num quarto escuro e quieto também ajuda.\"\nFatores de Piora: \"Luz forte, barulho, cheiros fortes (perfume, produto de limpeza) parecem piorar ou até começar a dor. Estresse do trabalho também.\"\nEvolução durante a crise: \"Começa mais fraca e vai aumentando até ficar muito forte e latejante.\"\nHistória Pregressa de Cefaleia: \"Eu sempre tive dor de cabeça de vez em quando, desde a adolescência. Era mais leve, geralmente passava com um analgésico simples. Vinha mais quando eu estava muito cansada ou estressada. Uma vez um médico disse que parecia enxaqueca, mas não fiz tratamento específico, só tomava remédio quando doía.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 2 (Aura Visual)",
+        "informacao": "Início: \"Às vezes, um pouco antes da dor começar...\"\nCaracterísticas Adicionais: \"...eu vejo uns pontinhos brilhantes ou umas linhas em zigue-zague na minha visão, dura uns 20 minutos e depois some e vem a dor. Isso é novo, começou junto com essa piora das dores.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES DURANTE A CRISE",
+        "informacao": "Náuseas/Vômitos: \"Sim, quase sempre sinto náuseas, e às vezes chego a vomitar quando a dor está no auge. Depois que eu vomito, parece que alivia um pouco a dor.\"\nFotofobia/Fonofobia: \"Sim, a luz e o barulho me incomodam demais. Preciso ficar no escuro e em silêncio.\"\nOsmofobia (se perguntado): \"Sim, cheiros fortes também me incomodam muito.\"\nTontura/Vertigem: \"Não, tontura de rodar não. Só um mal-estar geral.\"\nCefaleia ao despertar/noturna que desperta: \"Não, geralmente começa durante o dia.\"\nPiora com Valsalva (tosse, espirro, esforço): \"Não reparei nisso.\"\nMudança no padrão da cefaleia habitual: \"Sim, como eu disse, antes era mais fraca, menos frequente e não tinha esses pontinhos na visão.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINAIS DE ALARME (se perguntado ativamente)",
+        "informacao": "Início súbito, 'thunderclap': \"Não, essa dor que piorou agora não foi assim de repente, a crise vai aumentando.\"\nSintomas neurológicos focais persistentes (além da aura): \"Não, fora esses brilhos na vista que somem, não sinto fraqueza nem nada disso.\"\nFebre, rigidez de nuca: \"Não, não tive febre. O pescoço fica um pouco dolorido quando a cabeça dói muito, mas não é duro.\"\nHistória de Neoplasia, HIV/Imunossupressão: \"Não, que eu saiba não tenho nada disso.\"\nTrauma craniano recente: \"Não, não bati a cabeça.\"\nDor que acorda à noite: \"Não.\"\nPapiledema (sintomas sugestivos): \"Não, minha visão volta ao normal depois que os pontinhos somem.\""
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "\"Quando eu tomo um analgésico que tenho em casa (dipirona ou paracetamol), às vezes melhora um pouco, mas demora.\""
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: \"Não tenho nenhuma doença crônica, que eu saiba. Minha pressão é normal.\"\nMedicamentos de Uso Contínuo/Vitaminas: \"Só uso anticoncepcional oral combinado (desogestrel + etinilestradiol) há uns 5 anos, de forma contínua.\"\nAlergias: \"Tenho alergia a camarão, mas não a medicamentos.\"\nCirurgias Prévias: \"Tirei o apêndice quando era criança.\"\nInternações Prévias: \"Só do apêndice.\"\nVacinação: \"Estou com as vacinas em dia.\"\nGinecológicos/Obstétricos: DUM: \"Minha última menstruação foi há uns 4 meses, por causa do uso contínuo do anticoncepcional.\" G0P0A0."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: \"Tento comer de forma saudável, mas às vezes pulo refeições por causa da correria do trabalho. Gosto muito de chocolate e café (Umas 3-4 xícaras por dia).\"\nAtividade Física: \"Faço caminhada 2 vezes por semana, mas ando meio parada ultimamente.\"\nÁlcool: \"Socialmente, uma taça de vinho no final de semana, raramente.\"\nTabagismo: \"Não fumo.\"\nDrogas Ilícitas: \"Não uso.\"\nSono: \"Tenho dormido mal por causa da preocupação com as dores e o trabalho, acordo cansada (Umas 6 horas por noite).\"\nEstresse: \"Sim, meu trabalho como professora é bem estressante, especialmente no final do semestre, que foi quando as dores pioraram.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA PSICOSSOCIAL E EPIDEMIOLÓGICA",
+        "informacao": "Ocupação/Trabalho: \"Sou professora do ensino fundamental.\"\nMoradia/Saneamento: \"Moro em casa com boas condições.\"\nViagens Recentes: \"Não.\"\nContato com Doentes/Animais: \"Não relevante.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR",
+        "informacao": "\"Minha mãe sofre muito com enxaqueca desde nova. Meu pai é saudável. Tenho uma irmã que também tem dor de cabeça forte às vezes.\""
+      },
+      {
+        "contextoOuPerguntaChave": "IMPACTO DA CEFALEIA NA QUALIDADE DE VIDA (se perguntado)",
+        "informacao": "\"Tem atrapalhado bastante. Já faltei ao trabalho um dia por causa disso. Não consigo me concentrar direito, fico irritada.\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE: Gravidade",
+        "informacao": "\"Doutor(a), isso pode ser alguma coisa grave na minha cabeça?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE: Duração do tratamento",
+        "informacao": "\"Eu vou ter que tomar remédio pra sempre?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE: Manejo domiciliar",
+        "informacao": "\"Tem alguma coisa que eu possa fazer em casa para aliviar quando a dor vier?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE: Necessidade de exames",
+        "informacao": "\"Preciso fazer algum exame tipo tomografia?\""
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Humor/Comportamento",
+        "informacao": "Preocupada com a piora das dores, um pouco ansiosa, mas colaborativa. Durante a descrição da dor mais intensa, pode demonstrar desconforto (franzir a testa, fechar os olhos)."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Respostas não previstas",
+        "informacao": "\"Não sei dizer, doutor(a)\" ou \"Isso é o que mais me preocupa\"."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Condução de Exames",
+        "informacao": "Durante o exame físico, cooperar com os movimentos solicitados. Se o candidato realizar a fundoscopia (descrevendo a técnica), informar que o avaliador fornecerá o achado (se houver impresso)."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Reação à conduta",
+        "informacao": "Demonstrar alívio se o médico for empático e explicar bem a situação. Valorizar as orientações sobre manejo não farmacológico."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "REVALIDA_ESTCM_CEFALEIA_2025_002_EXFISGERAL",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {"chave": "Aparência", "valor": "Bom estado geral, consciente, orientada no tempo e espaço, hidratada, corada, acianótica, anictérica. Afebril."}
+              ]
+            },
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Frequência Cardíaca (FC)", "valor": "78 bpm"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "16 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "120 x 75 mmHg (MMSS Direito, sentada)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "36.5ºC"}
+              ]
+            },
+            {
+              "tituloSecao": "ANTROPOMETRIA",
+              "itens": [
+                {"chave": "Peso", "valor": "65 kg"},
+                {"chave": "Altura", "valor": "1.68 m"},
+                {"chave": "IMC", "valor": "23.0 kg/m² (Eutrófica)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTCM_CEFALEIA_2025_002_EXNEURO",
+        "tituloImpresso": "EXAME NEUROLÓGICO FOCADO (Realizado pelo candidato e verbalizado achados para receber o impresso confirmando/complementando)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "NÍVEL DE CONSCIÊNCIA, FALA E LINGUAGEM",
+              "itens": [
+                {"chave": "Nível de Consciência", "valor": "Alerta, Escala de Coma de Glasgow 15."},
+                {"chave": "Fala e Linguagem", "valor": "Preservadas, sem disartria ou afasia."}
+              ]
+            },
+            {
+              "tituloSecao": "PARES CRANIANOS",
+              "itens": [
+                {"chave": "Pupilas", "valor": "Isocóricas, fotorreagentes diretas e consensuais. Diâmetro pupilar: 3mm bilateralmente."},
+                {"chave": "Motricidade Ocular Extrínseca", "valor": "Sem restrições, sem diplopia ou nistagmo."},
+                {"chave": "V Par (Trigêmeo)", "valor": "Sensibilidade facial simétrica e preservada. Força dos músculos da mastigação preservada."},
+                {"chave": "VII Par (Facial)", "valor": "Mímica facial simétrica, sem paresias."},
+                {"chave": "VIII Par (Vestibulococlear)", "valor": "Acuidade auditiva aparentemente normal (teste do sussurro). Equilíbrio sem alterações nos testes de Romberg e Fukuda-Unterberger."},
+                {"chave": "IX, X, XI, XII Pares", "valor": "Sem alterações evidentes (elevação do palato simétrica, reflexo nauseoso presente, força do esternocleidomastoideo e trapézio preservada, protrusão da língua centrada)."}
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO MOTORA",
+              "itens": [
+                {"chave": "Força Muscular", "valor": "Global grau 5 (MRC) em membros superiores e inferiores, simétrica."},
+                {"chave": "Tônus Muscular", "valor": "Normal (normotonia)."},
+                {"chave": "Movimentos Involuntários", "valor": "Ausência."}
+              ]
+            },
+            {
+              "tituloSecao": "REFLEXOS",
+              "itens": [
+                {"chave": "Reflexos Profundos", "valor": "Bicipital, tricipital, estilorradial, patelar e aquileu presentes e simétricos (++ em 4+)."},
+                {"chave": "Reflexo Cutâneo-Plantar", "valor": "Em flexão bilateral."}
+              ]
+            },
+            {
+              "tituloSecao": "COORDENAÇÃO (Testes Cerebelares)",
+              "itens": [
+                {"chave": "Testes", "valor": "Índex-nariz, índex-índex, calcanhar-joelho bem executados, sem dismetria. Diadococinesia preservada."},
+                {"chave": "Marcha Ebriosa", "valor": "Ausente."}
+              ]
+            },
+            {
+              "tituloSecao": "SENSIBILIDADE",
+              "itens": [
+                {"chave": "Tipos", "valor": "Sensibilidade tátil, dolorosa e vibratória preservadas e simétricas em face, tronco e membros. Propriocepção preservada."}
+              ]
+            },
+            {
+              "tituloSecao": "SINAIS MENÍNGEOS",
+              "itens": [
+                {"chave": "Avaliação", "valor": "Rigidez de nuca ausente. Sinais de Kernig e Brudzinski negativos."}
+              ]
+            },
+            {
+              "tituloSecao": "FUNDOSCOPIA (Se descrita corretamente)",
+              "itens": [
+                {"chave": "Achados", "valor": "Papilas ópticas com contornos nítidos, coloração normal, escavação fisiológica presente. Ausência de papiledema, hemorragias ou exsudatos. Pulsos venosos presentes (se visíveis). (Considerar normal para este caso)."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST_CEFALEIA_CLINMED_2025_002",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 35 anos, professora, refere piora de cefaleia há 3 semanas, agora 2-3x/semana, frontotemporal D, latejante, intensidade 8-9/10, duração 6-8h. Melhora com analgésicos e repouso. Piora com luz, barulho, cheiros fortes, estresse. Apresenta aura visual (pontos brilhantes, zigue-zague) há 3 semanas, antes da dor. Náuseas, vômitos, foto/fonofobia presentes. Usa ACO contínuo. Mãe com enxaqueca. Exame neurológico normal.",
+      "focoPrincipalDetalhado": [
+        "Diagnóstico diferencial de cefaleia com sinais de alarme.",
+        "Diagnóstico e classificação de Migrânea com Aura.",
+        "Manejo da crise aguda e discussão sobre profilaxia da migrânea.",
+        "Comunicação com a paciente, orientações e decisão sobre exames complementares."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_estCEFALEIA_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento: Identifica-se, cumprimenta a paciente, estabelece um contato inicial adequado. [cite: 108]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica-se, cumprimenta e estabelece contato inicial adequado.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Falha na apresentação ou acolhimento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Caracterização da Cefaleia Atual: Investiga pelo menos 6 características da dor (início, frequência, localização, tipo/qualidade, intensidade, duração, irradiação, fatores de melhora/piora, evolução). [cite: 109]",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 6 características. [cite: 109]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "4-5 características. [cite: 109]", "pontos": 0.5},
+          "inadequado": {"criterio": "<4 características. [cite: 110]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Investigação de Sintomas Associados e Aura: Pergunta ativamente sobre náuseas, vômitos, foto/fono/osmofobia E investiga sintomas premonitórios/aura (especialmente visuais). [cite: 111]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cobre sintomas associados E investiga aura. [cite: 111]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Cobre sintomas associados OU investiga aura, mas não ambos. [cite: 111]", "pontos": 0.4},
+          "inadequado": {"criterio": "Não investiga adequadamente. [cite: 112]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Investigação de Sinais de Alarme (Red Flags) e História Pregressa Relevante: Pergunta sobre pelo menos 3 sinais de alarme pertinentes (ex: início súbito, piora progressiva, novo déficit neurológico, febre, trauma, uso de medicações como ACO, história familiar). [cite: 113]",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 3 red flags + história pregressa relevante. [cite: 113]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "1-2 red flags OU omite história pregressa importante. [cite: 113]", "pontos": 0.4},
+          "inadequado": {"criterio": "Não investiga red flags. [cite: 114]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item05",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Realiza/Verbaliza Exame Físico Geral e Sinais Vitais: Avalia estado geral e afere/confirma sinais vitais. [cite: 115]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia estado geral e sinais vitais corretamente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não realiza ou realiza de forma incompleta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item06",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Realiza/Descreve Exame Neurológico Focado:\n(1) Avalia nível de consciência, pares cranianos (com ênfase em II, III, IV, VI e fundo de olho se descrito), e pesquisa de sinais meníngeos. [cite: 116]\n(2) Avalia função motora (força), reflexos profundos e coordenação. [cite: 116]\n(3) Avalia sensibilidade e marcha. [cite: 117]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Executa/descreve os 3 subitens de forma completa e correta.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Executa/descreve 1 ou 2 subitens corretamente, ou falhas menores nos 3.", "pontos": 0.75},
+          "inadequado": {"criterio": "Não realiza ou realiza de forma significativamente incompleta/incorreta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item07",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Considera Diagnósticos Diferenciais Pertinentes: Verbaliza hipóteses incluindo cefaleias primárias (migrânea, tensional) e a necessidade de excluir secundárias com base nos \"red flags\". [cite: 119]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza diagnósticos diferenciais pertinentes.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não considera diagnósticos diferenciais ou são impertinentes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item08",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Classificação: Conclui como Migrânea com Aura (Enxaqueca com Aura) com base nos critérios clínicos. [cite: 120]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Diagnóstico correto e classificação. [cite: 120]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Diagnóstico de migrânea, mas sem especificar \"com aura\" ou confunde critérios. [cite: 121]", "pontos": 0.5},
+          "inadequado": {"criterio": "Diagnóstico incorreto ou ausente. [cite: 121]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item09",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Avalia o Impacto da Cefaleia: Questiona sobre o impacto nas atividades diárias, trabalho, qualidade de vida (ex: usando MIDAS se conhecer, ou de forma qualitativa). [cite: 122]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Questiona e avalia o impacto da cefaleia.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não avalia o impacto.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item10",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Elabora Plano de Tratamento da Crise Aguda: Orienta sobre medidas não farmacológicas (repouso, evitar gatilhos) E farmacológicas (analgésicos, AINEs e/ou triptanos, com antiemético se necessário). [cite: 123]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Aborda ambos os aspectos (não farmacológico e farmacológico) de forma apropriada. [cite: 124]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Aborda apenas um aspecto ou de forma incompleta. [cite: 124]", "pontos": 0.5},
+          "inadequado": {"criterio": "Conduta inadequada ou ausente. [cite: 125]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item11",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Discute/Indica Tratamento Profilático (se pertinente): Reconhece a frequência e o impacto como indicativos de profilaxia e menciona opções ou a necessidade de considerar. [cite: 126]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Discute a necessidade e cita exemplos de classes de medicamentos profiláticos. [cite: 127]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Menciona a possibilidade, mas de forma vaga. [cite: 127]", "pontos": 0.4},
+          "inadequado": {"criterio": "Não considera profilaxia apesar da indicação. [cite: 128]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item12",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Decide e Justifica sobre Exames Complementares/Encaminhamento: Justifica a não necessidade imediata de neuroimagem se o quadro for típico de migrânea com aura e exame normal, OU justifica a solicitação se houver dúvida persistente devido à \"piora recente\". Discute encaminhamento se necessário. [cite: 129]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Justifica adequadamente a decisão sobre exames e encaminhamento.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Justificativa incompleta ou parcialmente correta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não justifica ou decisão inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estCEFALEIA_item13",
+        "itemNumeroOficial": "4.4",
+        "descricaoItem": "Comunicação com a Paciente e Orientações Finais: Explica o diagnóstico, o plano terapêutico, orienta sobre diário de cefaleia, importância de evitar gatilhos, e sinais de alerta para retorno, de forma clara, empática e em linguagem acessível. [cite: 130]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunicação efetiva e orientações completas. [cite: 130]", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Falhas na clareza, empatia ou orientações incompletas. [cite: 131]", "pontos": 0.4},
+          "inadequado": {"criterio": "Comunicação inadequada ou ausente. [cite: 131]", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

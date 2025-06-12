@@ -1,0 +1,389 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "CÂNCER DE TIREOIDE - NÓDULO TIREOIDIANO",
+  "numeroDaEstacao": 1,
+  "especialidade": "cirurgia geral",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Nódulo Tireoidiano, Câncer de Tireoide, Ultrassonografia, PAAF, Tireoidectomia, Carcinoma Papilífero",
+  "nivelDificuldade": "Médio-Difícil",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde (encaminhamento para Atenção Secundária/Terciária será parte da conduta)",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultório equipado",
+        "Equipamentos para exame físico básico",
+        "Acesso a prontuário físico com informações limitadas",
+        "Formulários para solicitação de exames (Ultrassonografia, PAAF)",
+        "Laboratório de análises clínicas (resultados fornecidos mediante solicitação)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo feminino, assintomática, vem à consulta após ter notado um \"caroço\" no pescoço há cerca de 2 meses durante autoexame.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal e fatores de risco para câncer de tireoide.",
+      "Realizar o exame físico geral e cervical detalhado.",
+      "Solicitar e/ou interpretar exames complementares pertinentes (TSH, Ultrassonografia de Tireoide).",
+      "Interpretar um laudo de Punção Aspirativa por Agulha Fina (PAAF) fornecido.",
+      "Formular hipóteses diagnósticas.",
+      "Comunicar o diagnóstico provável de forma clara e empática.",
+      "Discutir a conduta inicial, incluindo a necessidade de encaminhamento para tratamento especializado (cirúrgico).",
+      "Orientar a paciente sobre a condição e próximos passos."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NA PACIENTE SIMULADA É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS (TSH, LAUDO USG) SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE.",
+      "O LAUDO DA PAAF SERÁ FORNECIDO EM MOMENTO OPORTUNO.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Mariana Costa\nIdade: 45 anos\nEstado Civil: Casada\nOcupação: Advogada"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), eu estava me olhando no espelho há uns dois meses e senti esse caroço aqui no meu pescoço. Não dói, mas estou preocupada."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1 (Nódulo Cervical)",
+        "informacao": "Início: Percebi há uns 2 meses.\nLocalização: (Aponta para a região anterior do pescoço, lateralizado à direita). Aqui deste lado.\nTamanho Percebido: Acho que do tamanho de uma azeitona grande, talvez um pouco maior agora.\nCrescimento: Tenho a impressão que cresceu um pouquinho desde que notei.\nDor: Não, não dói nada."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS COMPRESSIVOS",
+        "informacao": "Disfagia: Não, engulo normalmente.\nDisfonia/Rouquidão: Minha voz está normal.\nDispneia/Estridor: Respiro bem, sem barulho."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE TIREOTOXICOSE/HIPOTIREOIDISMO",
+        "informacao": "Não tenho sentido nada diferente, nem palpitação, nem cansaço excessivo, meu peso está estável."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS (incluindo Fatores de Risco)",
+        "informacao": "Doenças Prévias: Tenho gastrite, controlada com omeprazol quando preciso.\nMedicamentos de Uso Contínuo/Vitaminas: Só o omeprazol de vez em quando. Não uso vitaminas.\nAlergias: Alergia a camarão.\nCirurgias Prévias: Cesariana há 10 anos.\nInternações Prévias: Só do parto.\nVacinação: Em dia.\nGinecológicos/Obstétricos: G1 P1 A0. DUM há 10 dias. Ciclos regulares.\nHistória de irradiação cervical na infância/adolescência: Não que eu me lembre. Nunca fiz radioterapia no pescoço.\nHistória familiar de outras síndromes genéticas (NEM2, Polipose Adenomatosa Familiar): Não que eu saiba.\nDieta pobre em iodo: Acho que minha alimentação é normal, uso sal iodado."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: Procuro ter uma alimentação equilibrada.\nAtividade Física: Faço pilates duas vezes por semana.\nÁlcool: Socialmente, nos finais de semana.\nFumo: Não fumo e nunca fumei.\nDrogas Ilícitas: Não uso."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "Sem particularidades para o caso."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "Minha tia (irmã da mãe) teve um problema na tireoide e tirou, acho que era câncer sim, mas ela está bem hoje."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Esse caroço pode ser câncer?",
+        "informacao": "Doutor(a), esse caroço pode ser câncer?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Eu vou precisar operar?",
+        "informacao": "Eu vou precisar operar?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Esse tipo de câncer é muito agressivo?",
+        "informacao": "Esse tipo de câncer é muito agressivo?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Quais são as minhas chances de cura?",
+        "informacao": "Quais são as minhas chances de cura?"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR/CHEFE DE ESTAÇÃO: Comportamento e respostas não previstas",
+        "informacao": "Comportamento: Ansiosa, mas buscando informações. Resposta a outras perguntas não previstas no script: \"Não sei informar\" ou \"Não consta no script\"."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_EXAME_GERAL_1",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS GERAIS E SINAIS VITAIS",
+              "itens": [
+                {"chave": "Estado Geral", "valor": "Bom estado geral, calma, ansiosa, corada, hidratada, eupneica."},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "78 bpm"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "16 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "122 x 78 mmHg (MMSS D)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "36,5ºC"},
+                {"chave": "Peso", "valor": "68 kg"},
+                {"chave": "Altura", "valor": "1,65 m"},
+                {"chave": "IMC", "valor": "24,9 kg/m²"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAME_CERVICAL_2",
+        "tituloImpresso": "EXAME FÍSICO CERVICAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "INSPEÇÃO (ESTÁTICA E DINÂMICA)",
+              "itens": [
+                {"chave": "Achados", "valor": "Abaulamento visível em região anterior do pescoço, lobo tireoidiano direito, que se move superiormente com a deglutição."},
+                {"chave": "Pele e Vasos", "valor": "Ausência de estase jugular ou turgência. Pele sobrejacente sem alterações."}
+              ]
+            },
+            {
+              "tituloSecao": "PALPAÇÃO DA TIREOIDE",
+              "itens": [
+                {"chave": "Nódulo", "valor": "Nódulo palpável no lobo direito da tireoide, medindo aproximadamente 2,5 x 2,0 cm, de consistência endurecida, superfície irregular, móvel à deglutição, indolor."},
+                {"chave": "Restante da Glândula", "valor": "Restante do parênquima tireoidiano sem nódulos palpáveis ou bócio difuso evidente. Istmo livre. Traqueia centrada."}
+              ]
+            },
+            {
+              "tituloSecao": "PALPAÇÃO DE CADEIAS LINFONODAIS CERVICAIS",
+              "itens": [
+                {"chave": "Linfonodos", "valor": "Ausência de linfonodos palpáveis suspeitos nas cadeias cervicais anteriores, laterais ou supraclaviculares."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TSH_3",
+        "tituloImpresso": "RESULTADO DE EXAMES LABORATORIAIS (TSH)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {"chave": "TSH (Hormônio Tireoestimulante)", "valor": "1,8 µUI/mL (Ref: 0,4 - 4,5 µUI/mL)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_TIREOIDE_4",
+        "tituloImpresso": "LAUDO DE ULTRASSONOGRAFIA DE TIREOIDE",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "LAUDO",
+              "itens": [
+                {"chave": "Descrição Geral", "valor": "Tireoide de dimensões normais, contornos regulares e ecotextura homogênea."},
+                {"chave": "Nódulo", "valor": "No terço médio do lobo direito, identifica-se nódulo sólido, hipoecoico, de contornos irregulares (espiculados), medindo 2,4 x 1,9 x 2,2 cm, com microcalcificações grosseiras em seu interior e fluxo vascular aumentado ao Doppler colorido predominantemente central."},
+                {"chave": "Outras Características Nódulo", "valor": "Ausência de halo completo. Dimensões (Largura x Profundidade x Altura): Maior que alto (AP > LL)."},
+                {"chave": "Parênquima Restante", "valor": "Restante do parênquima sem outras alterações nodulares significativas."},
+                {"chave": "Linfonodos Cervicais (USG)", "valor": "Linfonodos com características suspeitas não foram identificados na região cervical avaliada pelo método."},
+                {"chave": "Classificação TI-RADS (TR)", "valor": "TR5 (Altamente Suspeito)."}
+              ]
+            },
+            {
+              "tituloSecao": "CONCLUSÃO",
+              "itens": [
+                {"chave": "Opinião", "valor": "Nódulo no lobo direito da tireoide com características ultrassonográficas altamente suspeitas para malignidade (TI-RADS 5)."},
+                {"chave": "Sugestão", "valor": "Sugere-se correlação com PAAF."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_PAAF_5",
+        "tituloImpresso": "LAUDO DE PUNÇÃO ASPIRATIVA POR AGULHA FINA (PAAF) DO NÓDULO TIREOIDIANO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS DO MATERIAL",
+              "itens": [
+                {"chave": "Material", "valor": "Aspirado de nódulo em lobo tireoidiano direito."}
+              ]
+            },
+            {
+              "tituloSecao": "MICROSCOPIA",
+              "itens": [
+                {"chave": "Achados Citológicos", "valor": "Esfregaços exibindo celularidade abundante, composta por células foliculares com núcleos aumentados de volume, sobrepostos, com cromatina clara (\"em vidro fosco\" ou \"olhos de órfã Annie\"), presença de inclusões intranucleares e sulcos nucleares."},
+                {"chave": "Outros Achados", "valor": "Observam-se também algumas papilas e ocasionais psamomas. Fundo com coloide escasso."}
+              ]
+            },
+            {
+              "tituloSecao": "DIAGNÓSTICO CITOPATOLÓGICO (SISTEMA BETHESDA)",
+              "itens": [
+                {"chave": "Categoria", "valor": "Categoria VI - Maligno."},
+                {"chave": "Compatibilidade", "valor": "Compatível com Carcinoma Papilífero de Tireoide."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+      "Doutor(a), esse caroço pode ser câncer?",
+      "Eu vou precisar operar?",
+      "Esse tipo de câncer é muito agressivo?",
+      "Quais são as minhas chances de cura?"
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MFC_2024V1_CANCERTIREOIDE",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 45 anos, com nódulo tireoidiano assintomático percebido há 2 meses. Apresenta história familiar de câncer de tireoide. Exame físico revela nódulo endurecido em lobo direito. TSH normal. USG evidencia nódulo TI-RADS 5. PAAF confirma Carcinoma Papilífero (Bethesda VI).",
+      "focoPrincipalDetalhado": [
+        "O candidato deve realizar uma anamnese focada em identificar o nódulo e fatores de risco para malignidade.",
+        "O exame físico cervical deve caracterizar bem o nódulo (tamanho, consistência, mobilidade, linfonodos).",
+        "A solicitação do TSH é importante para avaliar a funcionalidade tireoidiana.",
+        "A solicitação da Ultrassonografia de Tireoide é essencial para caracterizar o nódulo e identificar achados suspeitos.",
+        "Com base no USG TI-RADS 5, a indicação de PAAF é mandatória.",
+        "Após receber o resultado da PAAF (Bethesda VI - Carcinoma Papilífero), o candidato deve comunicar o diagnóstico à paciente de forma clara, empática e profissional, explicando a natureza da doença.",
+        "A conduta principal será o encaminhamento para avaliação cirúrgica (tireoidectomia) e, possivelmente, para endocrinologista/oncologista para seguimento.",
+        "Deve orientar sobre os próximos passos, prognóstico geralmente bom para carcinoma papilífero localizado e responder às dúvidas da paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_cancer_tireoide_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Identifica-se;\nE (2) Cumprimenta e pergunta nome.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ambas.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Uma.", "pontos": 0.1},
+          "inadequado": {"criterio": "Nenhuma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação da Queixa Principal (Nódulo Tireoidiano) e HDA:\nInvestiga início, percepção de crescimento, sintomas compressivos (disfagia, dispneia, disfonia), dor.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥ 3 características.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "2 características.", "pontos": 0.5},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Investigação de Fatores de Risco para Câncer de Tireoide:\nPergunta sobre história de irradiação cervical, história familiar de câncer de tireoide.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta ambos os fatores chave.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Pergunta um fator chave.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não pergunta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Investigação de Sintomas de Hiper/Hipotireoidismo:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta ativamente sobre sintomas sistêmicos relacionados à função tireoidiana.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não pergunta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item05",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Solicita permissão para realizar o exame físico:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item06",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Realiza/Descreve Exame da Tireoide (Inspeção e Palpação):\nVerbaliza inspeção (estática e dinâmica) E palpação da tireoide caracterizando o nódulo (localização, tamanho estimado, consistência, mobilidade, dor).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza/descreve ambos com detalhamento do nódulo.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Descreve superficialmente ou apenas um passo.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item07",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Realiza/Descreve Palpação de Linfonodos Cervicais:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza a palpação sistemática das principais cadeias linfonodais cervicais.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não realiza ou o faz de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item08",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Solicita Exames Complementares Iniciais Pertinentes:\nSolicita TSH E Ultrassonografia de Tireoide.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita ambos.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Solicita apenas um.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item09",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Interpreta Corretamente o Laudo da Ultrassonografia e Indica PAAF:\nIdentifica os achados de malignidade no USG (nódulo sólido, hipoecoico, margens irregulares, microcalcificações, etc., TI-RADS 5) E indica corretamente a PAAF com base nesses achados.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta corretamente o USG E indica PAAF.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Interpreta parcialmente o USG OU indica PAAF sem justificativa clara baseada no USG.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não interpreta ou não indica PAAF.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item10",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Interpreta Corretamente o Laudo da PAAF:\nIdentifica o resultado como Bethesda VI - Maligno, compatível com Carcinoma Papilífero.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta corretamente.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não interpreta ou interpreta erroneamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item11",
+        "itemNumeroOficial": "3.4",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal:\nVerbaliza o diagnóstico de (Suspeita de/Confirmado) Carcinoma Papilífero de Tireoide.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza corretamente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não verbaliza ou o faz incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item12",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Comunica o Diagnóstico de Forma Adequada (Clareza, Empatia):\nComunica o diagnóstico de câncer de forma clara, utilizando linguagem acessível, demonstrando empatia e sensibilidade.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunicação totalmente adequada.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Falha em clareza OU empatia.", "pontos": 0.4},
+          "inadequado": {"criterio": "Comunicação inadequada/grosseira.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item13",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Elabora e Comunica Conduta Inicial Adequada (Encaminhamento):\nExplica a necessidade de tratamento cirúrgico (tireoidectomia) E encaminha a paciente para avaliação com cirurgião de cabeça e pescoço e/ou endocrinologista.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Explica necessidade de cirurgia E realiza os encaminhamentos pertinentes.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Menciona cirurgia mas não encaminha formalmente OU encaminha sem explicar claramente a necessidade.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não propõe conduta adequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_cancer_tireoide_item14",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Orienta sobre a Doença, Prognóstico Geral e Próximos Passos:\nFornece informações básicas sobre o carcinoma papilífero (geralmente bom prognóstico quando localizado), tranquiliza quanto possível, e explica os próximos passos (consultas especializadas, exames pré-operatórios, etc.). Responde às perguntas da paciente.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta sobre os 3 aspectos.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Orienta sobre 1-2 aspectos.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não orienta.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

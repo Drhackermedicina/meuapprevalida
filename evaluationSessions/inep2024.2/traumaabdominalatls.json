@@ -1,0 +1,296 @@
+{
+  "idEstacao": "REVALIDA_EST7_CIRURGIA_GERAL_TRAUMA_ABD_2024V_NUM1",
+  "tituloEstacao": "ESTAÇÃO 7 INEP 2024.2: CIRURGIA GERAL - RUPTURA ESPLÊNICA",
+  "numeroDaEstacao": 7,
+  "especialidade": "CIRURGIA GERAL",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "cirurgia geral, trauma abdominal, ruptura esplênica, choque hipovolêmico, fast, laparotomia",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Terciária.",
+      "tipoAtendimento": "Urgência e emergência.",
+      "infraestruturaUnidade": [
+        "Unidade de imagem (ultrassonografia/FAST). Tomografia está em manutenção.",
+        "Laboratório de análises clínicas.",
+        "Centro cirúrgico.",
+        "Unidade de terapia intensiva."
+      ]
+    },
+    "descricaoCasoCompleta": "Você é o médico de plantão na emergência de um hospital terciário e irá atender um paciente com 22 anos de idade com dor abdominal, em quadrante superior esquerdo (QSE).",
+    "tarefasPrincipais": [
+      "Realizar ANAMNESE e EXAME FÍSICO do paciente, verbalizando as alterações.",
+      "Estabelecer e comunicar hipótese diagnóstica inicial.",
+      "Solicitar e interpretar EXAMES LABORATORIAIS (no máximo QUATRO exames).",
+      "Solicitar e interpretar outros EXAMES COMPLEMENTARES disponíveis na unidade, pertinentes ao caso.",
+      "Estabelecer e comunicar a(s) hipótese(s) diagnóstica(s) definitiva(s) e propor tratamento inicial e definitivo."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! VOCÊ PODERÁ TOCAR O PACIENTE SOMENTE PARA REALIZAR O EXAME FÍSICO DE ABDOME."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Meu nome é Paulo.\nTenho 22 anos de idade.\nTrabalho como Pedreiro."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL E SINTOMAS ATUAIS",
+        "informacao": "Estou sentindo dor moderada no lado superior esquerdo do meu abdome, além de fraqueza e tontura."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL (HDA) - EVENTO DESENCADEANTE",
+        "informacao": "Eu sofri um acidente com a queda de uma pia de concreto sobre meu abdome há 2 dias."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - EVOLUÇÃO DOS SINTOMAS",
+        "informacao": "Nas últimas 24 horas, venho sentindo uma piora da dor, da fraqueza e da tontura."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est7_exame_fisico_geral",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO GERAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "AVALIAÇÃO GERAL",
+              "itens": [
+                {"chave": "Estado geral", "valor": "Regular, orientado no tempo e espaço."},
+                {"chave": "Mucosas", "valor": "Palidez de mucosas."},
+                {"chave": "Cianose", "valor": "Sem cianose."},
+                {"chave": "Enchimento capilar", "valor": "Lentificado."},
+                {"chave": "Pulso", "valor": "Rápido, mas pálpavel."}
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA CARDIOVASCULAR",
+              "itens": [
+                {"chave": "Avaliação", "valor": "Sem alterações."}
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA RESPIRATÓRIO",
+              "itens": [
+                {"chave": "Murmúrio vesicular", "valor": "Presente, pouco diminuído na base esquerda."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est7_tela_monitor",
+        "tituloImpresso": "IMPRESSO - TELA DE MONITOR",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS (Monitor)",
+              "itens": [
+                {"chave": "PA", "valor": "90/50 mmHg"},
+                {"chave": "FC", "valor": "110 bpm"},
+                {"chave": "SpO2 %", "valor": "94%"},
+                {"chave": "FR", "valor": "18 rpm"},
+                {"chave": "Temp", "valor": "36,8°C"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est7_exame_abdominal",
+        "tituloImpresso": "IMPRESSO - EXAME ABDOMINAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {"tituloSecao": "INSPEÇÃO", "itens": [{"chave": "Abdome", "valor": "Leve distensão abdominal."}]},
+            {"tituloSecao": "PALPAÇÃO", "itens": [{"chave": "Dor", "valor": "Dor difusa em todo o abdome, mais intensa no QSE. Sem sinais de irritação peritoneal."}]},
+            {"tituloSecao": "PERCUSSÃO", "itens": [{"chave": "Som", "valor": "Macicez em QSE."}]},
+            {"tituloSecao": "AUSCULTA", "itens": [{"chave": "Ruídos Intestinais", "valor": "Presentes e normoativos."}]}
+          ]
+        }
+      },
+      {
+        "idImpresso": "est7_exames_laboratoriais",
+        "tituloImpresso": "IMPRESSO - EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Resultados (Ref.)",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "8,7 g/dL (12,0-16,0 g/dL)"},
+                {"chave": "Hematócrito (Hct)", "valor": "25 % (36,0-46,0%)"},
+                {"chave": "Leucograma", "valor": "Sem alterações (4.000-11.000/mm³)"},
+                {"chave": "Amilase", "valor": "76 U/L (60-180 U/L)"},
+                {"chave": "Lipase", "valor": "30 U/L (0-160 U/L)"}
+              ]
+            },
+            {
+              "tituloSecao": "Gasometria arterial (Ref.)",
+              "itens": [
+                {"chave": "pH arterial", "valor": "7,36 (7,35-7,45)"},
+                {"chave": "PaCO₂", "valor": "30 mmHg (35-45 mmHg)"},
+                {"chave": "PaO₂", "valor": "80 mmHg (80-100 mmHg)"},
+                {"chave": "HCO₃ (bicarbonato)", "valor": "19 mmol/L (22-26 mmol/L)"},
+                {"chave": "Lactato", "valor": "2 (-3-3)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est7_exame_imagem_fast",
+        "tituloImpresso": "IMPRESSO - EXAME DE IMAGEM",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "LAUDO DE ULTRASSONOGRAFIA FAST",
+              "itens": [
+                {"chave": "Quadrante Superior Direito", "valor": "Líquido livre na cavidade peritoneal, estendendo-se ao flanco. Não há evidência de hematoma hepático."},
+                {"chave": "Quadrante Superior Esquerdo", "valor": "Líquido próximo à loja esplênica, com hematoma subcapsular visível. A cápsula esplênica está espessada e irregular."},
+                {"chave": "Quadrante Inferior Direito e Inferior Esquerdo", "valor": "Grande quantidade de líquido livre na cavidade pélvica."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST7_CIRURGIA_GERAL_TRAUMA_ABD_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 22 anos, vítima de trauma abdominal contuso (queda de pia de concreto sobre o abdome) há 2 dias, evoluindo com dor abdominal em QSE, fraqueza e tontura (sinais de choque hipovolêmico), sugestivo de ruptura esplênica em dois tempos.",
+      "focoPrincipalDetalhado": [
+        "Anamnese focada na queixa atual e no mecanismo de trauma.",
+        "Identificação de sinais de choque hipovolêmico.",
+        "Exame físico abdominal.",
+        "Solicitação de exames pertinentes (laboratoriais, FAST/USG abdominal).",
+        "Diagnóstico de abdome agudo hemorrágico/trauma esplênico.",
+        "Conduta inicial (reposição volêmica) e encaminhamento para tratamento cirúrgico de urgência."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est7_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) identifica-se e cumprimenta o paciente simulado;\n(2) pergunta algum dado de identificação (idade, estado civil, profissão).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as duas ações.", "pontos": 0.3},
+          "parcialmenteAdequado": {"criterio": "Realiza uma ação.", "pontos": 0.15},
+          "inadequado": {"criterio": "Não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Pergunta sobre características da dor:\n(1) início ou duração;\n(2) tipo;\n(3) irradiação;\n(4) intensidade;\n(5) fatores de piora e/ou melhora.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga quatro ou mais características.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga três características.", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga duas ou menos características ou não investiga nenhuma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Pergunta sobre os sintomas associados ao quadro clínico (choque hipovolêmico):\n(1) tontura;\n(2) fraqueza;\n(3) alterações do nível de consciência (desmaio, confusão mental, agitação);\n(4) extremidades frias (pele úmida e fria);\n(5) sede;\n(6) oligúria (diminuição da diurese);\n(7) falta de ar ou dispneia.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga cinco ou mais achados.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga quatro achados.", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga três ou menos achados ou não investiga nenhum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Solicita exame físico.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.3},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza o exame físico abdominal, testando e identificando as seguintes alterações:\n(1) dor à palpação difusa;\n(2) dor mais intensa em Quadrante Superior Esquerdo;\n(3) ausência de dor à descompressão brusca ou sem sinais de irritação peritoneal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica as três alterações.", "pontos": 1.2},
+          "parcialmenteAdequado": {"criterio": "Identifica duas alterações.", "pontos": 0.6},
+          "inadequado": {"criterio": "Identifica uma ou nenhuma das alterações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Formula o diagnóstico clínico como choque hipovolêmico/ abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza que há choque hipovolêmico / abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Verbaliza somente o choque hipovolêmico OU somente o trauma abdominal fechado OU contuso.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não verbaliza nenhum dos itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Baseado nos achados clínicos e de exame físico, inicia o tratamento do choque hipovolêmico.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica reposição volêmica com soro fisiológico ou ringer OU solução cristaloide.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Indica o tratamento, mas não especifica com deverá ser feita a reposição.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não indica o tratamento do choque hipovolêmico ou indica reposição de sangue e hemoderivados de imediato.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames laboratoriais:\n(1) Hematócrito e hemoglobina OU hemograma completo OU hemograma;\n(2) Gasometria arterial;\n(3) Lactato;\n(4) Tipagem sanguínea.\nObs: o(a) participante só irá pontuar caso cite os exames listados ANTES de receber o impresso. Só serão considerados os seis primeiros exames citados pelo participante ANTES de receber o impresso.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita os três ou mais exames acima.", "pontos": 0.7},
+          "parcialmenteAdequado": {"criterio": "Solicita dois exames.", "pontos": 0.35},
+          "inadequado": {"criterio": "Solicita um ou não solicita exame algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita a ultrassonografia de abdome ou FAST.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.8},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formula diagnóstico final de trauma esplênico (de baço) ou lesão esplênica (do baço).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Formula.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não formula.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita prova cruzada OU reserva de sangue OU transfusão sanguínea.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.7},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est7_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Indica o tratamento cirúrgico de urgência OU laparotomia exploradora de urgência OU esplenectomia de urgência OU encaminhamento urgente para o cirurgião.\nObs: só será considerado correto se for enfatizada a urgência do caso.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não indica ou indica o tratamento cirúrgico sem especificar sua urgência.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

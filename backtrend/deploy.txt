@@ -1,0 +1,1 @@
+gcloud run deploy revalidafacil-backend --source . --region southamerica-east1gcloud run deploy revalidafacil-backend --source . --region southamerica-east1

@@ -1,0 +1,241 @@
+{
+  "idEstacao": "REVALIDA_TB_JOAOP_2025_V2",
+  "tituloEstacao": "Investigação de Tosse Crônica: Sr. João P., 38 anos",
+  "numeroDaEstacao": 1,
+  "especialidade": "Medicina Preventiva",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Tuberculose Pulmonar, Diagnóstico, Tosse Crônica, UBS, Notificação",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde",
+      "tipoAtendimento": "Demanda espontânea",
+      "infraestruturaUnidade": [
+        "Consultório UBS",
+        "Mesa, cadeiras",
+        "Pia para higienização das mãos (simulada)",
+        "Pote para coleta de escarro (simulado)",
+        "Ficha de notificação de Tuberculose (simulada)"
+      ]
+    },
+    "descricaoCasoCompleta": "Sr. João P., 38 anos, pedreiro, procura a UBS com queixa de tosse persistente. Realize o atendimento completo, com foco no diagnóstico diferencial, conduta inicial e orientações.",
+    "tarefasPrincipais": [
+      "Realize o acolhimento e obtenha o consentimento.",
+      "Conduza anamnese direcionada à queixa atual e sintomas associados.",
+      "Verbalize os achados pertinentes do exame físico focado.",
+      "Liste as principais hipóteses diagnósticas.",
+      "Solicite exames complementares para confirmação.",
+      "Se suspeita de Tuberculose: verbalize o preenchimento dos campos essenciais da notificação compulsória.",
+      "Oriente o paciente sobre suspeita diagnóstica, exames e próximos passos."
+    ],
+    "avisosImportantes": [
+      "Verbalize o exame físico.",
+      "Gerencie seu tempo.",
+      "Atente para a notificação compulsória, se indicada.",
+      "Foco: raciocínio diagnóstico, exames e condutas iniciais."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO",
+        "informacao": "Nome: João Pereira. Idade: 38 anos. Profissão: Pedreiro."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL",
+        "informacao": "Doutor, essa tosse não me larga há um tempão."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - TOSSE",
+        "informacao": "Faz umas 4 semanas. Começou seca, agora sai catarro amarelo. Às vezes, um pingo de sangue junto."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - SINTOMAS ASSOCIADOS",
+        "informacao": "Febre baixa no fim da tarde, tipo 37.8°C. Suo muito de noite, acordo molhado. Emagreci uns 5 quilos este mês, sem querer. Muito cansaço, pouca fome."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Bronquite quando criança, depois mais nada sério no pulmão. Nego diabetes ou pressão alta. Internado por pneumonia há uns 10 anos."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRICO FAMILIAR",
+        "informacao": "Mãe com pressão alta. Pai morreu de derrame. Ninguém na família com tuberculose que eu saiba."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS - TABAGISMO",
+        "informacao": "Fumo desde os 18, meio maço por dia."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS - ETILISMO",
+        "informacao": "Cerveja no fim de semana, umas 4-5 latinhas."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS - DROGAS ILÍCITAS",
+        "informacao": "Não uso."
+      },
+      {
+        "contextoOuPerguntaChave": "VACINAÇÃO",
+        "informacao": "As de criança, tenho a marca da BCG. Adulto, da gripe algumas vezes e da COVID."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA",
+        "informacao": "Trabalho em obra, muita gente. Um colega, o Zé, tossiu muito há uns 2 meses, falaram que era pneumonia, mas ele sumiu. Moro com esposa e dois filhos pequenos."
+      },
+      {
+        "contextoOuPerguntaChave": "CONDIÇÕES SOCIOECONÔMICAS",
+        "informacao": "Casa de alvenaria, 3 cômodos, ventilada. Renda apertada."
+      },
+      {
+        "contextoOuPerguntaChave": "TESTE HIV",
+        "informacao": "Nunca fiz. Não uso droga na veia, esposa é parceira única."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE - ESPONTÂNEA",
+        "informacao": "Isso é grave, doutor(a)? Pega nos meus filhos?"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR",
+        "informacao": "Aja preocupado, cansado. Tussa algumas vezes de forma produtiva simulada, cubra a boca."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est3_impresso_ficha_notificacao_tb_sinan_v1",
+        "tituloImpresso": "Ficha de Notificação/Investigação Tuberculose - SINAN (Campos Essenciais)",
+        "tipoConteudo": "formulario_simulado_para_preenchimento_verbalizado",
+        "conteudo": {
+          "camposPrincipais": [
+            "Data Notificação",
+            "UF/Município Notificação",
+            "Nome Paciente",
+            "Data Nascimento",
+            "Sexo",
+            "Nome Mãe",
+            "Endereço",
+            "Data Primeiros Sintomas",
+            "Unidade Saúde Notificante",
+            "Forma Clínica Suspeita",
+            "Tipo Entrada (Caso Novo, Recidiva, etc.)",
+            "Baciloscopia Escarro Solicitada? (Amostra 1, Amostra 2)",
+            "Cultura Escarro Solicitada?",
+            "TRM-TB Escarro Solicitado?",
+            "Radiografia Tórax Solicitada?",
+            "Teste Anti-HIV Solicitado/Realizado?"
+          ],
+          "instrucao": "Candidato: verbalize o preenchimento dos campos pertinentes com os dados do caso."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+        {
+            "momento": "Após explicação da suspeita e exames",
+            "pergunta": "O tratamento é muito longo? Posso continuar trabalhando?"
+        },
+        {
+            "momento": "Ao falar sobre contágio/notificação",
+            "pergunta": "Minha esposa e filhos precisam fazer exames também?"
+        }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST3_TB_2025V2_JOAOP",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente, 38a, masculino, pedreiro, tabagista. Queixa: tosse produtiva (hemoptoicos eventuais) há 4 semanas, febre vespertina, sudorese noturna, perda ponderal (5kg), fadiga. Contato com colega de trabalho sintomático respiratório. Foco no diagnóstico de Tuberculose Pulmonar.",
+      "focoPrincipalDetalhado": [
+        "Realizar acolhimento e consentimento.",
+        "Conduzir anamnese: caracterizar síndrome respiratória (tosse, expectoração, hemoptise) e sistêmica (febre, sudorese, perda ponderal).",
+        "Investigar fatores de risco para TB (tabagismo, contato) e comorbidades.",
+        "Verbalizar exame físico (geral e respiratório), descrevendo achados sugestivos de TB.",
+        "Formular hipótese principal: Tuberculose Pulmonar.",
+        "Solicitar exames: baciloscopia de escarro (2 amostras), cultura para micobactéria + TSA, TRM-TB, radiografia de tórax. Oferecer teste anti-HIV.",
+        "Verbalizar preenchimento da ficha de notificação (SINAN).",
+        "Orientar paciente: suspeita, exames, coleta de escarro, controle de infecção (higiene da tosse), avaliação de contatos.",
+        "Agendar retorno."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est3_item01_abertura",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "ABERTURA E IDENTIFICAÇÃO:\n1. Apresenta-se ao paciente: nome, função.\n2. Confirma identificação do paciente.\n3. Cria ambiente empático.\n4. Obtém consentimento verbal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cumpriu os 4 subitens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Cumpriu 2 ou 3 subitens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Cumpriu menos de 2 subitens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item02_anamnese_hda",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "ANAMNESE - HISTÓRIA DA DOENÇA ATUAL:\n1. Caracteriza tosse: início, duração, tipo, expectoração (cor, aspecto, sangue).\n2. Investiga sintomas sistêmicos TB: febre (padrão), sudorese noturna, perda de peso, astenia, anorexia.\n3. Questiona sobre dispneia, dor torácica.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investigou detalhadamente os 3 subitens.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Investigou 2 subitens ou superficialmente.", "pontos": 0.75},
+          "inadequado": {"criterio": "Investigou menos de 2 subitens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item03_anamnese_riscos",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "ANAMNESE - ANTECEDENTES, HÁBITOS, EPIDEMIOLOGIA:\n1. Antecedentes pessoais: doenças pulmonares, comorbidades (DM, imunossupressão), medicações.\n2. Hábitos: tabagismo (carga), etilismo, drogas ilícitas.\n3. Epidemiologia: contato com sintomáticos TB, ambiente trabalho/moradia.\n4. Vacinação: BCG.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Abordou os 4 subitens.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Abordou 2 ou 3 subitens, ou incompletamente.", "pontos": 0.75},
+          "inadequado": {"criterio": "Abordou menos de 2 subitens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item04_exame_fisico_verbalizado",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "EXAME FÍSICO DIRECIONADO - VERBALIZADO:\n1. Estado geral: fácies, consciência, hidratação, nutrição, febre.\n2. Inspeção tórax: forma, simetria, expansibilidade, tiragens.\n3. Palpação tórax: frêmito tóraco-vocal; Percussão: som pulmonar.\n4. Ausculta pulmonar: murmúrio vesicular, ruídos adventícios (estertores), sopros.\n5. Linfonodomegalias: cervicais, supraclaviculares, axilares.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbalizou os 5 componentes de forma lógica.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Verbalizou 3 ou 4 componentes, ou incompletamente.", "pontos": 0.75},
+          "inadequado": {"criterio": "Verbalizou menos de 3 componentes ou inadequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item05_hipotese_exames",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "HIPÓTESE DIAGNÓSTICA E EXAMES:\n1. Formula hipótese principal: Tuberculose Pulmonar.\n2. Solicita Baciloscopia de escarro (BAAR), 2 amostras, orienta coleta.\n3. Solicita Teste Rápido Molecular para TB (TRM-TB/Xpert) no escarro.\n4. Solicita Radiografia de tórax (PA e perfil).\n5. Solicita/Oferece teste anti-HIV, com aconselhamento.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Hipótese correta e solicitou os 4 exames essenciais (BAAR, TRM-TB, RX, Anti-HIV).", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Hipótese correta, mas solicitou 2 ou 3 exames essenciais ou omitiu anti-HIV.", "pontos": 1.0},
+          "inadequado": {"criterio": "Hipótese incorreta ou solicitou menos de 2 exames essenciais.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item06_notificacao_tb",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "NOTIFICAÇÃO COMPULSÓRIA - Tuberculose:\n1. Identifica TB como doença de notificação compulsória.\n2. Verbaliza preenchimento da ficha SINAN: campos principais (Identificação, data sintomas, forma clínica suspeita, tipo entrada, exames solicitados).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identificou e verbalizou corretamente preenchimento da notificação.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Identificou, mas verbalizou preenchimento incompleto.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não identificou necessidade ou não verbalizou preenchimento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item07_orientacoes_encerramento",
+        "itemNumeroOficial": "5.1",
+        "descricaoItem": "ORIENTAÇÕES E ENCERRAMENTO:\n1. Explica suspeita diagnóstica de forma clara.\n2. Orienta coleta correta do escarro.\n3. Orienta medidas de controle de infecção (higiene da tosse, ventilação) e risco de transmissão.\n4. Orienta avaliação de contatos próximos.\n5. Agenda retorno para resultados e próximos passos; abre para dúvidas.\n6. Despede-se cordialmente.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cumpriu os 6 subitens, respondendo dúvidas.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Cumpriu 3 a 5 subitens ou superficialmente.", "pontos": 0.75},
+          "inadequado": {"criterio": "Cumpriu menos de 3 subitens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item08_habilidades_comunicacao",
+        "itemNumeroOficial": "6.1",
+        "descricaoItem": "HABILIDADES DE COMUNICAÇÃO E POSTURA:\n1. Demonstra empatia e escuta ativa.\n2. Utiliza linguagem acessível.\n3. Mantém postura profissional e ética.\n4. Gerencia o tempo.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Demonstrou consistentemente as 4 habilidades.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Demonstrou 2 ou 3 habilidades ou alguma inconsistentemente.", "pontos": 0.25},
+          "inadequado": {"criterio": "Demonstrou menos de 2 habilidades ou falhou significativamente.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

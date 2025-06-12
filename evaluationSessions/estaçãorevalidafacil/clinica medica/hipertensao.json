@@ -1,0 +1,419 @@
+{
+  "idEstacao": "REVALIDA_ESTMFC_CLINMED_HAS_2025_003",
+  "tituloEstacao": "REVALIDA FÁCIL (HIPERTENSÃO ARTERIAL SISTÊMICA):",
+  "numeroDaEstacao": 0,
+  "especialidade": "MEDICINA DE FAMÍLIA E COMUNIDADE / CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Hipertensão Arterial Sistémica, Pressão Arterial, Fatores de Risco Cardiovascular, Lesão de Órgão-Alvo, Mudança de Estilo de Vida, Tratamento Anti-hipertensivo.",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde (Unidade Básica de Saúde).",
+      "tipoAtendimento": "Consulta de rotina / Acompanhamento de condição crónica.",
+      "infraestruturaUnidade": [
+        "Consultório equipado com maca, mesa, cadeiras.",
+        "Esfigmomanómetro manual calibrado (ou automático validado) com manguitos de tamanhos adequados, estetoscópio.",
+        "Fita métrica, balança antropométrica.",
+        "Acesso a exames laboratoriais básicos (resultados fornecidos após solicitação).",
+        "Prontuário para anotações.",
+        "Observação: Exames como MAPA (Monitorização Ambulatorial da Pressão Arterial) ou MRPA (Monitorização Residencial da Pressão Arterial) podem ser mencionados como parte do processo diagnóstico, mas não serão realizados na estação.",
+        "O diagnóstico de HAS já está estabelecido para fins desta estação, focando no manejo."
+      ]
+    },
+    "descricaoCasoCompleta": "Você está a atender na Unidade Básica de Saúde o Sr. Carlos Alberto, de 52 anos, que retorna para mostrar resultados de exames e discutir os seus níveis de pressão arterial, que foram consistentemente elevados em três verificações recentes no posto de saúde (média de 155/95 mmHg) e confirmados por duas semanas de MRPA solicitada anteriormente, cujo relatório ele traz. Ele não tem queixas atuais.",
+    "tarefasPrincipais": [
+      "Realizar anamnese focada nos fatores de risco cardiovascular, história familiar de HAS e DCV, pesquisa de sintomas sugestivos de lesão de órgão-alvo (LOA) e causas secundárias de HAS (embora menos provável neste cenário).",
+      "Avaliar os hábitos de vida do paciente (alimentação, atividade física, tabagismo, etilismo, stress).",
+      "Interpretar o relatório da MRPA fornecido e os exames laboratoriais.",
+      "Realizar o exame físico direcionado, incluindo a correta aferição da pressão arterial (mesmo que já haja MRPA, para avaliação da técnica), avaliação de pulso, IMC, circunferência abdominal e pesquisa de sinais de LOA.",
+      "Confirmar o diagnóstico de Hipertensão Arterial Sistémica, classificá-la e estratificar o risco cardiovascular do paciente.",
+      "Elaborar e comunicar o plano de tratamento, incluindo metas pressóricas, modificações do estilo de vida (MEV) e, se indicado, tratamento farmacológico inicial.",
+      "Orientar o paciente sobre a sua condição, a importância da adesão ao tratamento (farmacológico e não farmacológico) e o plano de seguimento.",
+      "Discutir potenciais efeitos adversos da medicação, se prescrita."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "O RELATÓRIO DA MRPA E OS RESULTADOS DOS EXAMES LABORATORIAIS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO SOLICITADOS.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO CLÍNICO E CONDUTAS DE FORMA CLARA E OBJETIVA.",
+      "O TEMPO É CONTROLADO RIGOROSAMENTE."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Sr. Carlos Alberto Silva\nIdade: 52 anos\nEstado Civil: casado\nOcupação: motorista de autocarro"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "\"Doutor(a), eu vim trazer os exames que o(a) senhor(a) pediu e o resultado daquele aparelho de medir a pressão em casa. A enfermeira disse que minha pressão está mesmo alta.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL (Hipertensão Arterial Sistêmica)",
+        "informacao": "Início do conhecimento da condição: \"Eu nunca senti nada, doutor(a). Foi num dia que vim acompanhar minha esposa e a enfermeira mediu minha pressão por acaso, deu alta. Aí ela mediu mais umas vezes e pediu para eu fazer aquele exame em casa com o aparelho.\" [cite: 31]\nSintomas: Assintomático[cite: 32].\nMedições prévias: \"Não costumava medir.\" [cite: 33]"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES (Investigação de LOA/Causas Secundárias)",
+        "informacao": "Gerais: \"Não sinto nada de diferente. Nenhuma dor de cabeça, tontura, nada.\" [cite: 32]\nCardiovasculares: \"Dor torácica, dispneia, palpitações: Não, nada disso.\" [cite: 34]\nNeurológicos: \"Cefaleia, alterações visuais, tonturas, défices neurológicos: Não.\" [cite: 35]\nRenais/Vasculares Periféricos: \"Às vezes meus pés incham um pouco no final do dia, principalmente se fico muito tempo sentado a conduzir, mas melhora quando levanto as pernas. (Edema leve, ++/4+, vespertino).\" [cite: 35, 36] \"Claudicação intermitente: Não.\" [cite: 36]\nApneia do Sono (sugestivo): \"Minha esposa diz que eu ronco bastante e às vezes paro de respirar durante o sono.\" [cite: 39]"
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES USADAS",
+        "informacao": "\"Não tomo nenhum remédio todo dia. Só um para dor de estômago de vez em quando, omeprazol, quando como muita porcaria.\" [cite: 40]"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: \"Tive pedra nos rins há uns 5 anos, mas tratei e não tive mais crise.\" [cite: 39] \"Acho que meu colesterol estava um pouquinho alto da última vez, mas não me passaram remédio.\" [cite: 37] \"Não, fiz exame de açúcar há uns meses e deu normal.\" [cite: 36]\nMedicamentos de Uso Contínuo: \"Não tomo nenhum remédio todo dia...\" [cite: 40]\nAlergias: \"Não tenho alergia a nada que eu saiba.\" [cite: 41]\nCirurgias Prévias: \"Só de amígdalas quando era criança.\" [cite: 41]\nInternações Prévias: \"Quando tive a crise de rim.\" [cite: 42]\nVacinação: \"Tomei as da COVID e da gripe este ano.\" [cite: 42]"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: \"Ah, doutor(a), como de tudo. Gosto muito de churrasco, comida bem temperada com sal, fast food por causa da correria do trabalho. Como pouca salada e fruta. Uso saleiro na mesa e gosto de comida bem salgada.\" [cite: 43, 44]\nAtividade Física: \"Não faço nada. Meu trabalho é só sentado, a conduzir o autocarro o dia todo.\" [cite: 45]\nÁlcool: \"Bebo umas 3-4 latinhas de cerveja todo dia à noite para relaxar, e um pouco mais no fim de semana.\" [cite: 46]\nTabagismo: \"Fumei dos 18 aos 40 anos, um maço por dia. Parei há 12 anos. (Ex-fumador, carga tabágica: 22 anos-maço).\" [cite: 47, 48]\nDrogas Ilícitas: \"Não uso.\" [cite: 49]\nSono: \"Durmo umas 6-7 horas, mas acordo cansado às vezes por causa dos roncos.\" [cite: 49]\nStress: \"Meu trabalho é bem stressante, trânsito, horários...\" [cite: 50]"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA PSICOSSOCIAL E EPIDEMIOLÓGICA",
+        "informacao": "Ocupação/Trabalho: \"Sou motorista de autocarro.\" [cite: 51]\nMoradia/Saneamento: \"Moro em casa própria, tudo certo.\" [cite: 51]\nNível socioeconómico/educacional (se perguntado): \"Tenho o ensino médio completo.\" [cite: 52]"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR",
+        "informacao": "\"Meu pai morreu de derrame (AVC) com 60 anos, ele tinha pressão alta. Minha mãe tem pressão alta e diabetes, e está viva com 75 anos. Tenho um irmão mais velho, 58 anos, que também tem pressão alta.\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Risco da pressão alta",
+        "informacao": "\"Doutor(a), essa pressão alta é muito perigosa?\" [cite: 21]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Duração do tratamento medicamentoso",
+        "informacao": "\"Vou ter que tomar remédio para o resto da vida?\" [cite: 22]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Possibilidade de evitar medicação com MEV",
+        "informacao": "\"Se eu mudar minha alimentação e fizer exercício, posso não precisar de remédio?\" [cite: 23]"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Efeitos colaterais da medicação",
+        "informacao": "\"Esse remédio tem muito efeito colateral?\" [cite: 23]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Humor/Comportamento",
+        "informacao": "Inicialmente um pouco apreensivo por causa do diagnóstico, mas recetivo a explicações. [cite: 18] Parece conformado, mas com algumas dúvidas sobre \"ter que tomar remédio para sempre\". [cite: 19]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Respostas não previstas",
+        "informacao": "\"Não sei dizer, doutor(a)\" ou \"O que o senhor(a) acha que é melhor para mim?\" [cite: 20]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Condução de Exames/Procedimentos",
+        "informacao": "Cooperar durante o exame físico e aferição da PA. [cite: 24] Entregar o impresso com o relatório da MRPA e resultados de exames quando solicitado. [cite: 25]"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Reação à conduta",
+        "informacao": "Mostrar-se mais aliviado e motivado se o candidato explicar bem a condição e o plano de tratamento, valorizando as mudanças de estilo de vida. [cite: 26]"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "REVALIDA_ESTMFC_HAS_2025_003_MRPA",
+        "tituloImpresso": "RELATÓRIO DA MRPA (Monitorização Residencial da Pressão Arterial)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS DO PACIENTE E MONITORIZAÇÃO",
+              "itens": [
+                {"chave": "Paciente", "valor": "Carlos Alberto Silva, 52 anos [cite: 54]"},
+                {"chave": "Período de monitorização", "valor": "7 dias (2 medições de manhã antes do pequeno-almoço e medicação, e 2 medições à noite antes do jantar, por 7 dias; descartado o primeiro dia) [cite: 55]"},
+                {"chave": "Número de medições válidas", "valor": "26/28 [cite: 56]"}
+              ]
+            },
+            {
+              "tituloSecao": "RESULTADOS MÉDIOS DA PRESSÃO ARTERIAL",
+              "itens": [
+                {"chave": "Média da Pressão Arterial (MRPA)", "valor": "152/94 mmHg [cite: 56]"},
+                {"chave": "Média da PA Matinal", "valor": "154/96 mmHg [cite: 57]"}
+              ]
+            },
+            {
+              "tituloSecao": "CONCLUSÃO SUGERIDA",
+              "itens": [
+                {"chave": "Conclusão", "valor": "Valores médios de PA compatíveis com Hipertensão Arterial Sistémica Estágio 2 pela MRPA. [cite: 58]"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTMFC_HAS_2025_003_LAB",
+        "tituloImpresso": "RESULTADOS DE EXAMES LABORATORIAIS (Coletados após as primeiras consultas, jejum de 12h)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "15.0 g/dL (Ref: 13.5-17.5 g/dL) [cite: 59]"},
+                {"chave": "Hematócrito (Hct)", "valor": "45% (Ref: 40-52%) [cite: 59]"},
+                {"chave": "Leucócitos Totais", "valor": "7.500/mm³ (Ref: 4.000-11.000/mm³) [cite: 59]"},
+                {"chave": "Plaquetas", "valor": "280.000/mm³ (Ref: 150.000-450.000/mm³) [cite: 59]"}
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {"chave": "Glicemia de jejum", "valor": "108 mg/dL (Ref: <100 mg/dL) [cite: 59]"},
+                {"chave": "Hemoglobina Glicada (HbA1c)", "valor": "5.9% (Ref: <5.7%) [cite: 59]"},
+                {"chave": "Colesterol Total", "valor": "235 mg/dL (Ref: <190 mg/dL desejável) [cite: 59]"},
+                {"chave": "HDL-c", "valor": "38 mg/dL (Ref: >40 mg/dL) [cite: 59]"},
+                {"chave": "LDL-c (calculado)", "valor": "155 mg/dL (Ref: <130 mg/dL desejável; <100 mg/dL alto risco) [cite: 59]"},
+                {"chave": "Triglicerídeos", "valor": "210 mg/dL (Ref: <150 mg/dL) [cite: 59]"},
+                {"chave": "Ureia", "valor": "38 mg/dL (Ref: 15-45 mg/dL) [cite: 59]"},
+                {"chave": "Creatinina", "valor": "1.1 mg/dL (Ref: 0.7-1.3 mg/dL) [cite: 59]"},
+                {"chave": "Taxa de Filtração Glomerular Estimada (TFGe CKD-EPI)", "valor": "79 mL/min/1.73m² [cite: 59]"},
+                {"chave": "Sódio (Na+)", "valor": "140 mEq/L (Ref: 135-145 mEq/L) [cite: 59, 60]"},
+                {"chave": "Potássio (K+)", "valor": "4.2 mEq/L (Ref: 3.5-5.1 mEq/L) [cite: 60]"},
+                {"chave": "Ácido Úrico", "valor": "7.5 mg/dL (Ref: 3.5-7.2 mg/dL) [cite: 60]"}
+              ]
+            },
+            {
+              "tituloSecao": "URINA TIPO I (EAS)",
+              "itens": [
+                {"chave": "Densidade", "valor": "1.015 [cite: 60]"},
+                {"chave": "pH", "valor": "6.0 [cite: 60]"},
+                {"chave": "Proteínas", "valor": "Ausente [cite: 60]"},
+                {"chave": "Glicose", "valor": "Ausente [cite: 60]"},
+                {"chave": "Corpos Cetónicos", "valor": "Ausente [cite: 60]"},
+                {"chave": "Sedimento", "valor": "Raros leucócitos, raras hemácias. Ausência de cilindros. [cite: 60, 61]"}
+              ]
+            },
+            {
+              "tituloSecao": "MICROALBUMINÚRIA (Amostra isolada)",
+              "itens": [
+                {"chave": "Resultado", "valor": "25 mg/g creatinina (Ref: <30 mg/g) [cite: 61]"}
+              ]
+            },
+            {
+              "tituloSecao": "ECG (Eletrocardiograma de repouso)",
+              "itens": [
+                {"chave": "Ritmo, FC, Eixos e Intervalos", "valor": "Ritmo sinusal, FC: 70 bpm. Eixo QRS +45º. PR 0,16s, QRS 0,09s, QTcorrigido 0,40s. [cite: 61, 62]"},
+                {"chave": "Sobrecarga Ventricular Esquerda (SVE)", "valor": "Ausência de sinais pelos critérios de Sokolow-Lyon ou Cornell. [cite: 62]"},
+                {"chave": "Outras alterações", "valor": "Sem outras alterações significativas. [cite: 63]"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTMFC_HAS_2025_003_EXFISICO",
+        "tituloImpresso": "EXAME FÍSICO (Realizado pelo candidato e verbalizado achados para receber o impresso confirmando/complementando)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS E ANTROPOMETRIA",
+              "itens": [
+                {"chave": "PA no consultório (braço D, sentado, após repouso)", "valor": "158/98 mmHg [cite: 63]"},
+                {"chave": "PA no consultório (braço E)", "valor": "156/96 mmHg [cite: 64]"},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "72 bpm (pulso radial, rítmico, cheio) [cite: 64]"},
+                {"chave": "Peso", "valor": "92 kg [cite: 65]"},
+                {"chave": "Altura", "valor": "1.75 m [cite: 65]"},
+                {"chave": "IMC", "valor": "30.0 kg/m² (Obesidade Grau I) [cite: 65]"},
+                {"chave": "Circunferência Abdominal", "valor": "105 cm (medida ao nível da crista ilíaca) [cite: 66]"}
+              ]
+            },
+            {
+              "tituloSecao": "INSPEÇÃO GERAL",
+              "itens": [
+                {"chave": "Achados", "valor": "Sem achados relevantes. [cite: 66]"}
+              ]
+            },
+            {
+              "tituloSecao": "AUSCULTA CARDÍACA E PULMONAR",
+              "itens": [
+                {"chave": "Ausculta Cardíaca", "valor": "Bulhas rítmicas, normofonéticas, em 2 tempos, sem sopros audíveis. Desdobramento fisiológico de B2. [cite: 67]"},
+                {"chave": "Ausculta Pulmonar", "valor": "Murmúrio vesicular universalmente audível, sem ruídos adventícios. [cite: 68]"}
+              ]
+            },
+            {
+              "tituloSecao": "PALPAÇÃO DE PULSOS PERIFÉRICOS",
+              "itens": [
+                {"chave": "Achados", "valor": "Simétricos, amplos (radiais, femorais, pediosos, tibiais posteriores). [cite: 69]"}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME DO FUNDO DE OLHO (se descrito)",
+              "itens": [
+                {"chave": "Achados", "valor": "Artérias com discreto estreitamento arteriolar difuso (Keith-Wagener-Barker grau I). Cruzamentos AV normais. Retina sem hemorragias, exsudatos ou papiledema. [cite: 70, 71]"}
+              ]
+            },
+            {
+              "tituloSecao": "ABDÔMEN",
+              "itens": [
+                {"chave": "Achados", "valor": "Globoso (obesidade central), flácido, indolor à palpação, sem massas ou visceromegalias. RHA presentes. Ausência de sopros abdominais. [cite: 72]"}
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {"chave": "Achados", "valor": "Edema maleolar bilateral leve (++/+4), cacifo positivo, indolor. [cite: 73]"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST_HAS_MFC_2025_003",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Homem de 52 anos, motorista de autocarro, assintomático, com diagnóstico de HAS Estágio 2 confirmado por MRPA (152/94 mmHg). Apresenta múltiplos fatores de risco cardiovascular: obesidade grau I (IMC 30 kg/m²), CA 105 cm, glicemia de jejum alterada (108 mg/dL), HbA1c 5.9% (pré-diabetes), dislipidemia mista (CT 235, HDL 38, LDL 155, TG 210), ácido úrico 7.5 mg/dL, sedentarismo, etilismo diário, ex-tabagista, história familiar de DCV prematura e HAS, e provável apneia do sono. Exame físico com PA 158/98 mmHg, edema maleolar leve e FO com retinopatia grau I.",
+      "focoPrincipalDetalhado": [
+        "Confirmação diagnóstica, classificação da HAS e estratificação do risco cardiovascular. [cite: 14, 78, 79]",
+        "Elaboração de plano terapêutico abrangente, incluindo modificações de estilo de vida (MEV) e tratamento farmacológico para HAS e dislipidemia. [cite: 15, 80, 85, 90]",
+        "Comunicação eficaz com o paciente, orientações sobre a doença, adesão e seguimento. [cite: 16, 91, 93]"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_estHAS_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento: Identifica-se, cumprimenta o paciente, estabelece um contato inicial adequado. [cite: 96]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza todos os passos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Falha na apresentação ou acolhimento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação de Fatores de Risco Cardiovascular e Hábitos de Vida: Pergunta sobre alimentação (sal, gorduras), atividade física, etilismo, tabagismo (atual e pregresso), stress, sono (roncos/apneia), história familiar de DCV e HAS. [cite: 97]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥ 5 itens. [cite: 98]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga 3-4 itens. [cite: 98]", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga <3 itens. [cite: 98]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Pesquisa de Sintomas de Lesão de Órgão-Alvo (LOA) e Causas Secundárias: Questiona sobre sintomas cardíacos, neurológicos, renais, vasculares periféricos e sintomas sugestivos de apneia do sono. [cite: 99]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Questiona sobre sintomas de LOA em ≥3 sistemas e causas secundárias (apneia).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Questiona sobre sintomas de LOA em 1-2 sistemas OU não investiga causas secundárias.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga ou investiga de forma insuficiente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Interpretação de Exames Prévios (MRPA e Laboratoriais): Analisa corretamente o relatório da MRPA (confirmando HAS) e identifica as principais alterações nos exames laboratoriais (glicemia alterada, dislipidemia, ácido úrico). [cite: 100]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta MRPA e identifica ≥3 alterações laboratoriais chave.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Interpreta MRPA e identifica 1-2 alterações laboratoriais chave.", "pontos": 0.25},
+          "inadequado": {"criterio": "Interpretação incorreta ou omissão das principais alterações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item05",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Aferição Correta da Pressão Arterial: Descreve/realiza a técnica corretamente (repouso, manguito adequado, posição, etc.) e obtém valores consistentes. [cite: 101]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Técnica correta e valores consistentes.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Falhas menores na técnica.", "pontos": 0.4},
+          "inadequado": {"criterio": "Técnica incorreta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item06",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Exame Físico Geral e Antropometria: Avalia IMC, mede circunferência abdominal, pesquisa edema. [cite: 102]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza os 3 itens (IMC, CA, edema).", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Realiza 2 itens.", "pontos": 0.4},
+          "inadequado": {"criterio": "Realiza <2 itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item07",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Exame Físico Direcionado para LOA: Realiza ausculta cardíaca, palpação de pulsos. Descreve/solicita avaliação do fundo de olho. [cite: 103]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza ausculta cardíaca, palpação de pulsos E descreve/solicita FO.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza 2 dos 3 itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Realiza <2 itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item08",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Confirma Diagnóstico e Classifica a HAS: Verbaliza o diagnóstico de Hipertensão Arterial Sistémica Estágio 2 (baseado na MRPA e/ou PA de consultório). [cite: 104]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Diagnóstico e classificação corretos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Diagnóstico correto, mas classificação incorreta/ausente (ou vice-versa).", "pontos": 0.25},
+          "inadequado": {"criterio": "Diagnóstico ou classificação incorretos/ausentes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item09",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Identifica Fatores de Risco Adicionais: Lista os múltiplos fatores de risco cardiovascular presentes no paciente. [cite: 105]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica ≥ 4 FR adicionais. [cite: 106]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Identifica 2-3 FR adicionais. [cite: 106]", "pontos": 0.5},
+          "inadequado": {"criterio": "Identifica <2 FR adicionais. [cite: 106]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item10",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Estratifica o Risco Cardiovascular Global: Classifica o paciente como de Alto Risco Cardiovascular, justificando. [cite: 107]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Classifica como Alto Risco e justifica corretamente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Classifica corretamente mas não justifica, ou justificativa parcial.", "pontos": 0.25},
+          "inadequado": {"criterio": "Classificação incorreta ou ausente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item11",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Estabelece Plano de Modificações do Estilo de Vida (MEV): Orienta detalhadamente sobre pelo menos 4 MEV (dieta, exercício, redução de álcool, controlo de peso, manejo do stress, investigação/tratamento apneia do sono). [cite: 108]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta ≥ 4 MEV de forma clara e específica. [cite: 109]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Orienta 2-3 MEV ou de forma genérica. [cite: 109]", "pontos": 0.5},
+          "inadequado": {"criterio": "Orienta <2 MEV. [cite: 109]", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item12",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Institui Tratamento Farmacológico Adequado:\n(1) Indica o início de anti-hipertensivo(s) de primeira linha (IECA/BRA, Tiazídico, BCC), considerando o perfil do paciente e justifica a escolha. [cite: 110]\n(2) Considera/prescreve estatina para dislipidemia devido ao alto risco CV e LDL elevado. [cite: 111]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica anti-hipertensivo e estatina corretamente com justificativa.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Indica corretamente anti-hipertensivo OU estatina, ou ambos sem justificativa completa.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não indica ou indica incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item13",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Define Metas Terapêuticas e Plano de Seguimento: Estabelece metas de PA e agenda retorno para reavaliação. [cite: 112]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Define metas de PA e agenda retorno.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Define um dos itens (metas OU retorno).", "pontos": 0.25},
+          "inadequado": {"criterio": "Não define metas nem agendamento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estHAS_item14",
+        "itemNumeroOficial": "4.4",
+        "descricaoItem": "Comunicação com o Paciente: Explica a condição (HAS), a importância do tratamento combinado (MEV + fármacos), envolve o paciente nas decisões, utiliza linguagem acessível e empática. Orienta sobre adesão e potenciais efeitos adversos. [cite: 113]",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunicação clara, empática, informativa e colaborativa, cobrindo os pontos citados. [cite: 114]", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Falhas em um ou dois dos aspectos (clareza, empatia, informação, colaboração, conteúdo das orientações). [cite: 114, 115]", "pontos": 0.5},
+          "inadequado": {"criterio": "Comunicação inadequada ou ausente, ou omite informações cruciais. [cite: 115]", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

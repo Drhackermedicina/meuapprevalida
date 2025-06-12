@@ -1,0 +1,414 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "HIPERTIREOIDISMO - DOENÇA DE GRAVES",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Hipertireoidismo, Doença de Graves, Palpitações, Perda de Peso, Exoftalmia, TSH, T4 Livre, TRAb",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde.",
+      "tipoAtendimento": "Ambulatorial.",
+      "infraestruturaUnidade": [
+        "Consultório equipado.",
+        "Equipamentos para exame físico básico.",
+        "Acesso a prontuário físico com informações limitadas.",
+        "Laboratório de análises clínicas."
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, sexo feminino, procura atendimento com queixa de palpitações, nervosismo e perda de peso há cerca de 3 meses, apesar de aumento do apetite.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Realizar o exame físico geral e específico focado no problema apresentado, com atenção especial aos sinais da Doença de Graves.",
+      "Solicitar e/ou interpretar exames complementares pertinentes ao caso.",
+      "Formular hipóteses diagnósticas.",
+      "Verbalizar o diagnóstico mais provável e sua etiologia.",
+      "Elaborar e comunicar a conduta terapêutica inicial.",
+      "Orientar a paciente sobre sua condição, tratamento, potenciais efeitos colaterais e seguimento."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NA PACIENTE SIMULADA É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Carla Mendes\nIdade: 35 anos\nEstado Civil: Solteira\nOcupação: Professora"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), eu tenho me sentido muito agitada, meu coração dispara do nada e perdi uns 7 quilos nos últimos 3 meses, mesmo comendo mais que o normal."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1 (Palpitações)",
+        "informacao": "Início: Há uns 3 meses, mais ou menos. No começo era de vez em quando, agora é quase todo dia.\nLocalização: Sinto no peito, parece que o coração vai sair pela boca.\nIrradiação: Não.\nTipo/Característica: Coração acelerado, forte.\nIntensidade: Quando dá a crise, é um 8. Me deixa muito ansiosa.\nDuração: Alguns minutos, mas a sensação de coração acelerado fica por mais tempo.\nFatores de Piora: Quando fico nervosa ou faço algum esforço.\nFatores de Melhora: Tento respirar fundo, ficar quieta, às vezes melhora um pouco.\nEpisódios Prévios: Tem ficado mais frequente."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 2 (Nervosismo/Agitação)",
+        "informacao": "Início: Junto com as palpitações, uns 3 meses.\nTipo/Característica: Uma inquietação, não consigo parar quieta, fico irritada fácil. Meus alunos até comentaram que estou mais impaciente.\nIntensidade: Moderada a intensa, atrapalha minha concentração."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 3 (Perda de Peso com Polifagia)",
+        "informacao": "Início: Nos últimos 3 meses também.\nAferição e Valor: Perdi uns 7 quilos.\nCaracterísticas Adicionais: Aumentou muito, sinto fome toda hora, como bem mais do que antes, mas continuo emagrecendo."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "Intolerância ao calor: Sim, sinto muito calor, mesmo quando os outros estão com frio. Suo bastante.\nTremores: Sim, principalmente nas mãos. Fica difícil até para escrever no quadro.\nAlterações Oculares: Notei meus olhos um pouco mais saltados, às vezes ficam vermelhos e irritados. Sinto como se tivesse areia neles. Minha mãe comentou que meus olhos estão diferentes. (Se o candidato perguntar especificamente sobre visão dupla ou dor ao movimentar os olhos: \"Às vezes, quando olho para os lados, parece que a imagem demora um pouco para focar, mas não chega a ser visão dupla constante. Dói um pouco quando movimento muito os olhos.\")\nFadiga/Fraqueza: Apesar de estar agitada, me sinto cansada, sem força muscular, principalmente para subir escadas.\nAlterações de Pele e Cabelo: Minha pele está mais fina e úmida. Meu cabelo parece mais fino também.\nTrânsito Intestinal: Meu intestino está mais solto, vou ao banheiro umas 3 vezes ao dia, fezes mais amolecidas, mas não é diarreia líquida.\nIrregularidade Menstrual: Minha menstruação ficou mais escassa nos últimos dois ciclos.\nInsônia: Tenho dificuldade para dormir, demoro a pegar no sono por causa da agitação.\nDispneia: Sinto falta de ar quando faço algum esforço maior, como subir um lance de escada correndo."
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "Tentei tomar chá de camomila para o nervosismo, mas não adiantou muito."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Nenhuma doença diagnosticada.\nMedicamentos de Uso Contínuo/Vitaminas: Não uso.\nAlergias: Alergia a poeira (rinite).\nCirurgias Prévias: Amigdalectomia na infância.\nInternações Prévias: Só da cirurgia.\nVacinação: Em dia, tomei da gripe e COVID recentemente.\nGinecológicos/Obstétricos:\nDUM: Há 15 dias, ciclo anterior foi mais curto e com fluxo menor.\nGesta/Para/Aborto: G0 P0 A0.\nUso de contraceptivos: Uso preservativo."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Alimentação: Como de tudo, mas tenho comido mais por causa da fome. Gosto de café, tomo umas 3-4 xícaras por dia.\nAtividade Física: Costumava caminhar, mas parei por causa do cansaço e das palpitações.\nÁlcool: Raramente, uma taça de vinho em ocasiões especiais.\nFumo: Fumo socialmente, uns 3-4 cigarros no final de semana, há uns 5 anos.\nDrogas Ilícitas: Não uso."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA PSICOSSOCIAL E EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "Ocupação/Trabalho: Professora do ensino fundamental, um pouco estressante às vezes.\nMoradia/Saneamento: Moro sozinha em apartamento com boas condições."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "Minha avó materna tinha um problema na tireoide, tomava remédio, mas não sei dizer qual. Minha mãe tem vitiligo."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Preocupação",
+        "informacao": "Doutor(a), o que está acontecendo comigo? Estou muito preocupada."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Periculosidade",
+        "informacao": "Isso é perigoso?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Tratamento dos olhos",
+        "informacao": "Esse tratamento vai resolver o problema dos meus olhos também?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: Tempo de tratamento",
+        "informacao": "Vou ter que tomar remédio por muito tempo?"
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR/CHEFE DE ESTAÇÃO: Resposta a outras perguntas não previstas no script",
+        "informacao": "Não sei informar\" ou \"Não consta no script"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_GRAVES_EXAMEFISICO_GERAL_1",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS E DADOS GERAIS",
+              "itens": [
+                {"chave": "Estado Geral", "valor": "Ansiosa, agitada, emagrecida, corada, hidratada, acianótica, anictérica."},
+                {"chave": "Frequência Cardíaca (FC)", "valor": "110 bpm (sinusal)"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "20 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "140 x 70 mmHg (MMSS D) (Pressão de pulso aumentada)"},
+                {"chave": "Saturação O₂", "valor": "98% (ar ambiente)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "37,1ºC"},
+                {"chave": "Peso", "valor": "55 kg"},
+                {"chave": "Altura", "valor": "1,68 m"},
+                {"chave": "IMC", "valor": "19,5 kg/m² (Perda de 7kg informada)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_GRAVES_EXAMEFISICO_ESPECIFICO_2",
+        "tituloImpresso": "EXAME FÍSICO ESPECÍFICO (PESCOÇO/TIREOIDE, OCULAR, PELE, CARDIOVASCULAR, NEUROLÓGICO)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "PESCOÇO/TIREOIDE",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Abaulamento difuso na região anterior do pescoço, móvel à deglutição."},
+                {"chave": "Palpação", "valor": "Bócio difuso, de consistência firme-elástica, superfície lisa, indolor. Estimativa de 60g. Presença de frêmito tireoidiano palpável."},
+                {"chave": "Ausculta da Tireoide", "valor": "Revela sopro sistólico e diastólico."},
+                {"chave": "Linfonodos Cervicais", "valor": "Não palpáveis."}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME OCULAR",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Exoftalmia bilateral discreta (proptose de aproximadamente 18mm, N<18mm, se o candidato simular uso de exoftalmômetro de Hertel ou estimar), retração palpebral superior (sinal de Dalrymple), hiperemia conjuntival leve."},
+                {"chave": "Sinais Específicos", "valor": "Lid lag presente (sinal de von Graefe)."},
+                {"chave": "Motilidade Ocular Extrínseca", "valor": "Sem restrições significativas ou diplopia referida ao exame."}
+              ]
+            },
+            {
+              "tituloSecao": "PELE E FÂNEROS",
+              "itens": [
+                {"chave": "Pele", "valor": "Quente, lisa e úmida. Sem mixedema pré-tibial."},
+                {"chave": "Cabelos e Unhas", "valor": "Cabelos finos e sedosos. Unhas normais."}
+              ]
+            },
+            {
+              "tituloSecao": "CARDIOVASCULAR",
+              "itens": [
+                {"chave": "Ausculta Cardíaca", "valor": "Bulhas cardíacas taquicárdicas, hiperfonéticas, ritmo regular em 2 tempos."},
+                {"chave": "Sopros", "valor": "Sopro sistólico ejetivo suave (2+/6+) em foco aórtico e pulmonar."}
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO",
+              "itens": [
+                {"chave": "Tremores", "valor": "Tremor fino e rápido de extremidades, visível com mãos estendidas."},
+                {"chave": "Reflexos", "valor": "Hiperreflexia global discreta."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_GRAVES_LABORATORIAIS_3",
+        "tituloImpresso": "RESULTADO DE EXAMES LABORATORIAIS (FUNÇÃO TIREOIDIANA, ANTICORPOS, HEMOGRAMA)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {"chave": "TSH (Hormônio Tireoestimulante)", "valor": "< 0,01 µUI/mL (Ref: 0,4 - 4,5 µUI/mL)"},
+                {"chave": "T4 Livre", "valor": "3,5 ng/dL (Ref: 0,8 - 1,8 ng/dL)"},
+                {"chave": "T3 Total", "valor": "350 ng/dL (Ref: 80 - 180 ng/dL) (Opcional, mas reforça o diagnóstico)"}
+              ]
+            },
+            {
+              "tituloSecao": "ANTICORPOS TIREOIDIANOS",
+              "itens": [
+                {"chave": "TRAb (Anticorpo anti-receptor de TSH)", "valor": "15 UI/L (Ref: < 1,75 UI/L)"},
+                {"chave": "Anti-TPO (Anticorpos Antitireoperoxidase)", "valor": "150 UI/mL (Ref: < 35 UI/mL) (Pode estar positivo em Graves)"}
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "13,0 g/dL (Ref: 12,0 - 15,5 g/dL)"},
+                {"chave": "Hematócrito (Hct)", "valor": "39% (Ref: 36 - 46%)"},
+                {"chave": "Leucócitos Totais", "valor": "7.200/mm³ (Ref: 4.000 - 11.000/mm³) (sem leucopenia ou agranulocitose basal)"},
+                {"chave": "Plaquetas", "valor": "280.000/mm³ (Ref: 150.000 - 450.000/mm³)"}
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA (Função Hepática - se solicitado)",
+              "itens": [
+                {"chave": "AST/TGO", "valor": "45 U/L (Ref: < 35 U/L)"},
+                {"chave": "ALT/TGP", "valor": "50 U/L (Ref: < 40 U/L)"},
+                {"chave": "Fosfatase Alcalina", "valor": "130 U/L (Ref: 30-120 U/L) (Pode estar levemente elevada)"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+      "Doutor(a), o que está acontecendo comigo? Estou muito preocupada.",
+      "Isso é perigoso?",
+      "Esse tratamento vai resolver o problema dos meus olhos também?",
+      "Vou ter que tomar remédio por muito tempo?"
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MFC_2024V1_GRAVES",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 35 anos, sexo feminino, com queixa de palpitações, nervosismo e perda de peso com polifagia há 3 meses. Apresenta sinais clínicos de tireotoxicose e oftalmopatia de Graves. Exames laboratoriais confirmam hipertireoidismo primário por Doença de Graves (TSH suprimido, T4L elevado, TRAb positivo).",
+      "focoPrincipalDetalhado": [
+        "O candidato deverá conduzir uma anamnese detalhada, investigando os sintomas clássicos de tireotoxicose (palpitações, perda de peso com polifagia, intolerância ao calor, tremores, nervosismo, fadiga) e os específicos da Doença de Graves (alterações oculares, história familiar de doenças autoimunes/tireoidianas).",
+        "O exame físico deve ser minucioso na busca de taquicardia, bócio difuso (com frêmito/sopro), sinais de oftalmopatia de Graves (proptose, retração palpebral, lid lag) e tremores.",
+        "A solicitação correta de exames é crucial: TSH, T4 Livre (e/ou T3) e TRAb.",
+        "A interpretação (TSH suprimido, T4L/T3 elevados, TRAb positivo) leva ao diagnóstico de Hipertireoidismo por Doença de Graves.",
+        "A conduta inicial deve incluir: Controle sintomático: Betabloqueador (ex: Propranolol 20-40mg 3-4x/dia, ou Atenolol), se não houver contraindicações.",
+        "Terapia antitireoidiana: Início de droga antitireoidiana (DAT) – Metimazol (ex: 10-30mg/dia) como primeira escolha na maioria dos casos (exceto 1º trimestre de gestação, crise tireotóxica ou alergia/intolerância ao metimazol, onde PTU seria considerado).",
+        "Orientações: Explicar a doença, as opções de tratamento a longo prazo (DAT, radioiodo, cirurgia – mencionar brevemente, foco na inicial), a importância da adesão, os potenciais efeitos colaterais graves das DATs (principalmente agranulocitose – orientar procurar atendimento médico imediato se febre e dor de garganta; e hepatotoxicidade) e a necessidade de monitoramento laboratorial (hemograma antes de iniciar DAT e T4L/T3 em 4-6 semanas).",
+        "Aconselhamento para cessação do tabagismo: Fundamental devido ao risco aumentado e piora da oftalmopatia de Graves.",
+        "Manejo da Oftalmopatia Leve (se presente): Medidas de suporte (colírios lubrificantes, dormir com cabeceira elevada, óculos escuros). Se moderada/grave, discutir encaminhamento ao oftalmologista."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_graves_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Identifica-se;\nE (2) Cumprimenta e pergunta nome.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ambas.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Uma.", "pontos": 0.1},
+          "inadequado": {"criterio": "Nenhuma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação da Queixa Principal (Palpitações, Nervosismo, Perda de Peso) e HDA:\nInvestiga ≥ 4 características para cada um dos 3 sintomas principais.",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 4 para os três.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "≥ 4 para dois OU 2-3 para os três.", "pontos": 0.5},
+          "inadequado": {"criterio": "Menos.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Investigação de Sintomas Associados Relevantes para Doença de Graves:\nPergunta sobre intolerância ao calor, tremores, sintomas oculares (dor, visão dupla, proptose percebida), alterações de pele/cabelo, trânsito intestinal, irregularidade menstrual. (Listar pelo menos 4).",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 4.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "2-3.", "pontos": 0.4},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Investigação de Antecedentes Pessoais e Hábitos de Vida Relevantes:\n(1) Comorbidades; (2) Medicações; (3) Alergias; E (4) Tabagismo.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta os quatro itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "2-3 itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item05",
+        "itemNumeroOficial": "1.5",
+        "descricaoItem": "Investigação de História Familiar (doenças tireoidianas/autoimunes):",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ativamente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não investiga.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item06",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Solicita permissão para realizar o exame físico:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item07",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Solicita/Verbaliza aferição de Sinais Vitais Completos e identifica alterações:\nSolicita/verbaliza SV (PA, FC, FR, Tax, SatO2) E identifica taquicardia e/ou pressão de pulso aumentada.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ambos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Solicita SV mas não identifica alterações OU identifica sem solicitar completo.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item08",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Realiza/Descreve Exame da Tireoide (Inspeção, Palpação, Ausculta):\nVerbaliza inspeção, palpação (identificando bócio difuso, consistência) E ausculta (buscando frêmito/sopro).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza/descreve os 3 passos com achados.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "2 passos.", "pontos": 0.4},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item09",
+        "itemNumeroOficial": "2.4",
+        "descricaoItem": "Realiza/Descreve Exame Ocular buscando sinais de Oftalmopatia de Graves:\nInspeciona buscando proptose, retração palpebral, hiperemia. Testa motilidade e/ou pergunta sobre diplopia. Verifica lid lag. (Mencionar/realizar ≥2).",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 2 itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item10",
+        "itemNumeroOficial": "2.5",
+        "descricaoItem": "Identifica e verbaliza outros achados relevantes:\nVerbaliza tremores finos de extremidades, pele quente/úmida. (Mencionar ambos).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ambos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Um.", "pontos": 0.25},
+          "inadequado": {"criterio": "Nenhum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item11",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Solicita Exames Complementares Pertinentes:\nSolicita TSH E T4 Livre (ou T3) E TRAb.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita os três.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Solicita TSH e T4L, mas não TRAb.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não solicita TSH e T4L.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item12",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Interpreta Corretamente os Resultados dos Exames Fornecidos:\nIdentifica TSH suprimido, T4 Livre (e/ou T3) elevado E TRAb positivo.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta corretamente os três.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Interpreta TSH e T4L, mas erra/omite TRAb.", "pontos": 0.4},
+          "inadequado": {"criterio": "Erra TSH/T4L.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item13",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Etiologia:\nVerbaliza o diagnóstico de Hipertireoidismo E a etiologia de Doença de Graves.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ambos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Um.", "pontos": 0.25},
+          "inadequado": {"criterio": "Nenhum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item14",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Prescreve Betabloqueador para controle sintomático (se não contraindicado):",
+        "pontuacoes": {
+          "adequado": {"criterio": "Prescreve dose e posologia adequadas (ex: Propranolol 20-40mg VO 6/6h ou 8/8h).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Não aplicável", "pontos": 0.0},
+          "inadequado": {"criterio": "Não prescreve ou o faz incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item15",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Prescreve Droga Antitireoidiana (DAT) e orienta sobre seu uso e efeitos colaterais graves:\nPrescreve Metimazol em dose adequada (ex: 10-30mg/dia) E orienta sobre como tomar E alerta para sinais de agranulocitose (febre, dor de garganta procurar PS) e hepatotoxicidade.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Prescreve DAT corretamente E orienta sobre uso E alerta para efeitos colaterais graves.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Prescreve DAT, mas falha na orientação de uso OU nos alertas de efeitos colaterais.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não prescreve DAT ou o faz com erro grosseiro.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item16",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Orienta sobre a Doença, Seguimento e Aconselhamento (incluindo tabagismo):\nExplica a natureza autoimune da Doença de Graves, necessidade de acompanhamento regular (laboratorial em 4-6 sem), E aconselha cessar tabagismo (se fumante).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Aborda os 3 pontos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Aborda 2 pontos.", "pontos": 0.25},
+          "inadequado": {"criterio": "<2.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_graves_item17",
+        "itemNumeroOficial": "4.4",
+        "descricaoItem": "Comunicação com o Paciente (Clareza, Empatia, Linguagem Acessível):\n(Avaliação global da comunicação)",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunica-se de forma clara, empática, linguagem acessível, responde perguntas.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Falhas em um dos aspectos.", "pontos": 0.25},
+          "inadequado": {"criterio": "Comunicação inadequada.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

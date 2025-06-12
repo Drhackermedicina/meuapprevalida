@@ -1,0 +1,135 @@
+{
+  "idEstacao": "[Ex: REVALIDA FACIL]",
+  "tituloEstacao": "[TEMA CENTRAL]",
+  "numeroDaEstacao": 1,
+  "especialidade": "[ESPECIALIDADE DA ESTAÇÃO]",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "[Palavra-chave 1], [Palavra-chave 2], [etc.]",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "[Nível de atenção conforme PDF de instruções]",
+      "tipoAtendimento": "[Tipo de atendimento conforme PDF de instruções]",
+      "infraestruturaUnidade": [
+        "[Infraestrutura 1 listada no PDF de instruções]",
+        "[Infraestrutura 2 listada no PDF de instruções]",
+        "[etc.]"
+      ]
+    },
+    "descricaoCasoCompleta": "[Descrição do caso conforme PDF de instruções ao participante].",
+    "tarefasPrincipais": [
+      "[Tarefa principal 1 para o participante, conforme PDF de instruções].",
+      "[Tarefa principal 2 para o participante, conforme PDF de instruções].",
+      "[etc.]"
+    ],
+    "avisosImportantes": [
+      "[Qualquer aviso especial (ex: sobre tocar paciente), conforme PDF de instruções]."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: [Nome do Paciente/Acompanhante]\nIdade: [Idade]\nEstado Civil: [Estado Civil]\nOcupação: [Ocupação]"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "[Queixa principal em primeira pessoa, conforme roteiro do ator/paciente]."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1",
+        "informacao": "Início: [Detalhes do início]\nLocalização: [Detalhes da localização]\nIntensidade: [Detalhes da intensidade]\nTipo/Característica: [Detalhes do tipo/característica]\nIrradiação: [Detalhes da irradiação]\nFatores de Piora: [Detalhes dos fatores de piora]\nFatores de Melhora: [Detalhes dos fatores de melhora]\nEpisódios Prévios: [Detalhes de episódios prévios]"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 2, se houver",
+        "informacao": "Início: [Detalhes]\nAferição e Valor: [Detalhes]\nCaracterísticas Adicionais: [Detalhes ou 'Não sei informar / Não consta no script']"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "[Sintoma Acompanhante 1]: [Descrição em primeira pessoa].\n[Sintoma Acompanhante 2]: [Descrição em primeira pessoa].\nOutros sintomas (se perguntado ativamente): [Resposta do ator, ex: 'Não tenho outros sintomas que eu tenha notado.' ou 'Não consta no script']"
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "[Relato do paciente em primeira pessoa]."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: [Relato do paciente].\nMedicamentos de Uso Contínuo/Vitaminas: [Relato do paciente].\nAlergias: [Relato do paciente].\nCirurgias: [Relato do paciente].\nVacinação: [Relato do paciente, se aplicável]."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: [Relato do paciente].\nFumo: [Relato do paciente].\nDrogas Ilícitas: [Relato do paciente].\nAlimentação: [Relato do paciente, se aplicável].\nAtividade Física: [Relato do paciente, se aplicável]."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA EPIDEMIOLÓGICA (se aplicável ao caso)",
+        "informacao": "[Relato do paciente em primeira pessoa]."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR (se aplicável ao caso)",
+        "informacao": "[Relato do paciente em primeira pessoa]."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE/ACOMPANHANTE: [Contexto da Pergunta]",
+        "informacao": "[Pergunta textual do paciente/acompanhante, se houver no roteiro]."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR/CHEFE DE ESTAÇÃO: [Contexto da Instrução]",
+        "informacao": "[Instrução específica para o ator ou chefe de estação, se houver no roteiro]."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est[NºEstação]_impresso_NOMEUNICO_1",
+        "tituloImpresso": "[TÍTULO DO IMPRESSO 1 CONFORME PDF DA PROVA]",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "[TÍTULO DA SEÇÃO 1 DO IMPRESSO (Ex: SINAIS VITAIS)]",
+              "itens": [
+                {"chave": "[Nome do Dado 1.1]", "valor": "[Valor do Dado 1.1 (Unidade) (Ref. se houver)]"},
+                {"chave": "[Nome do Dado 1.2]", "valor": "[Valor do Dado 1.2 (Unidade) (Ref. se houver)]"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_NOMEUNICO_2",
+        "tituloImpresso": "[TÍTULO DO IMPRESSO 2 CONFORME PDF DA PROVA]",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "[Descrição da imagem ou do conteúdo principal do impresso].",
+          "caminhoImagem": "[CAMINHO_PARA_IMAGEM_OU_REFERENCIA_VISUAL]",
+          "laudo": "[Laudo associado à imagem, se houver, ou texto principal do impresso]."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST[NºEstação]_[ÁREA CURTA]_[ANO]V[Versão]_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "[Resumo do caso para o PEP, conforme PDF do PEP].",
+      "focoPrincipalDetalhado": [
+        "[Foco principal detalhado 1 do PEP].",
+        "[Foco principal detalhado 2 do PEP].",
+        "[etc.]"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est[NºEstação]_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "[Descrição completa do Item de Avaliação 1 do PEP, com subitens formatados com \\n].\n(1) [Subitem 1.1].\n(2) [Subitem 1.2].",
+        "pontuacoes": {
+          "adequado": {"criterio": "[Critério para pontuação adequada].", "pontos": 0.0},
+          "parcialmenteAdequado": {"criterio": "[Critério para pontuação parcialmente adequada (se houver)].", "pontos": 0.0},
+          "inadequado": {"criterio": "[Critério para pontuação inadequada].", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

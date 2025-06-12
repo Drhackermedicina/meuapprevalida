@@ -1,0 +1,391 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "ACIDENTE VASCULAR CEREBRAL ISQUÊMICO",
+  "numeroDaEstacao": 2,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "AVC Isquêmico, Hemiparesia, Afasia, UPA, HAS, DM2",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária (Unidade de Pronto Atendimento - UPA)",
+      "tipoAtendimento": "Atendimento de Urgência/Emergência",
+      "infraestruturaUnidade": [
+        "Maca com lençol",
+        "Esfigmomanômetro e estetoscópio",
+        "Oxímetro de pulso",
+        "Termômetro",
+        "Glicosímetro com lancetas e fitas",
+        "Martelo de reflexos",
+        "Diapasão (para sensibilidade vibratória, se o candidato optar por testar)",
+        "Algodão e agulha descartável (para teste de sensibilidade)",
+        "Lanterna clínica",
+        "Prancheta com papel e caneta para anotações do candidato",
+        "Telefone (simulado, para contato com outros serviços, se necessário)",
+        "Não há exames de imagem disponíveis na sala da UPA"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na Unidade de Pronto Atendimento (UPA) quando uma mulher de 68 anos, Sra. Helena Silva, é trazida pelo SAMU. Ela está acompanhada por seu filho, que relata que a mãe apresentou \"fraqueza súbita no lado direito do corpo e dificuldade para falar\" há cerca de 1 hora, enquanto assistia televisão. O filho nega trauma ou outros sintomas agudos recentes. Sra. Helena está consciente, mas parece confusa e ansiosa.",
+    "tarefasPrincipais": [
+      "Acolhimento e Anamnese: Acolha a paciente e seu acompanhante. Realize uma anamnese direcionada, investigando o início dos sintomas, características, fatores de melhora/piora e antecedentes relevantes não mencionados. (Tempo estimado: 2-3 minutos)",
+      "Exame Físico: Realize um exame neurológico focado e direcionado para a suspeita diagnóstica. (Tempo estimado: 3-4 minutos)",
+      "Hipótese Diagnóstica e Conduta Inicial: Formule a principal hipótese diagnóstica. Comunique à paciente (considerando sua dificuldade de fala) e ao acompanhante a suspeita diagnóstica e o plano de investigação e conduta inicial, incluindo a necessidade de exames complementares urgentes e possível transferência. (Tempo estimado: 2-3 minutos)",
+      "Prescrição Inicial: Se julgar necessário, indique as medidas/prescrição iniciais (não é necessário redigir a prescrição completa, apenas citar as condutas prioritárias)."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE SINAIS VITAIS E GLICEMIA CAPILAR SÃO FORNECIDOS PELO EXAMINADOR OU ESTARÃO DISPONÍVEIS NO MONITOR SIMULADO.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS.",
+      "NÃO HÁ EXAMES DE IMAGEM DISPONÍVEIS NA SALA DESTA UPA."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Sra. Helena Silva\nIdade: 68 anos"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Filho da paciente."
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA (RELATO DO FILHO)",
+        "informacao": "Minha mãe apresentou fraqueza súbita no lado direito do corpo e dificuldade para falar há cerca de 1 hora, enquanto assistia televisão. Nego trauma ou outros sintomas agudos recentes."
+      },
+      {
+        "contextoOuPerguntaChave": "ESTADO DA PACIENTE (SRA. HELENA)",
+        "informacao": "Consciente, mas parece confusa e ansiosa. Apresenta afasia de expressão moderada (dificuldade em encontrar palavras, frases curtas, fala hesitante). Compreende ordens simples, mas pode demorar a processar. Pode tentar se comunicar por gestos. Demonstra frustração com a dificuldade de falar. Confirma o relato do filho sobre o início súbito dos sintomas. Queixa-se de 'não sentir o lado direito' e 'boca torta'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS (se perguntado ao filho ou consultado em prontuário simulado)",
+        "informacao": "Hipertensão Arterial Sistêmica (HAS) em uso irregular de Losartana 50mg/dia.\nDiabetes Mellitus tipo 2 (DM2) em uso de Metformina 850mg 2x/dia, com controle glicêmico irregular.\nDislipidemia.\nNega tabagismo ou etilismo.\nNega cirurgias prévias relevantes.\nNega alergias medicamentosas."
+      },
+      {
+        "contextoOuPerguntaChave": "SINAIS VITAIS NA ADMISSÃO (se solicitado confirmação ou não visualizado no monitor)",
+        "informacao": "Pressão Arterial: 170/100 mmHg\nFrequência Cardíaca: 88 bpm\nFrequência Respiratória: 18 irpm\nSaturação de Oxigênio: 96% em ar ambiente\nTemperatura Axilar: 36,5°C\nGlicemia Capilar (HGT): 190 mg/dL"
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - NÍVEL DE CONSCIÊNCIA (SRA. HELENA)",
+        "informacao": "Glasgow 14 (confusa, mas obedece a comandos simples; abertura ocular espontânea; resposta verbal confusa/palavras inapropriadas devido à afasia)."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - PARES CRANIANOS (SRA. HELENA)",
+        "informacao": "Desvio da comissura labial para a esquerda (paralisia facial central direita). Disartria/afasia. Outros pares cranianos sem alterações evidentes ou difíceis de avaliar pela pouca colaboração."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - FORÇA MUSCULAR (SRA. HELENA)",
+        "informacao": "Hemiparesia direita completa (grau 0/5 em membro superior direito e grau 0/5 em membro inferior direito). Força preservada à esquerda."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - SENSIBILIDADE (SRA. HELENA)",
+        "informacao": "Hipoestesia tátil e dolorosa em todo o dimídio direito."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - COORDENAÇÃO (SRA. HELENA)",
+        "informacao": "Impossível de avaliar à direita devido à paresia. Sem ataxia apendicular à esquerda."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - REFLEXOS (SRA. HELENA)",
+        "informacao": "Reflexos profundos exaltados à direita, Cutâneo-plantar em extensão à direita (Babinski presente). Normais à esquerda."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - FALA (SRA. HELENA)",
+        "informacao": "Afasia de expressão."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ADICIONAIS (SRA. HELENA, se perguntado)",
+        "informacao": "Nega cefaleia intensa, vômitos, crises convulsivas ou dor torácica."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO ACOMPANHANTE (FILHO)",
+        "informacao": "Doutor(a), o que a minha mãe tem? É grave? O que pode ser feito?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_sinaisvitais_hgt",
+        "tituloImpresso": "SINAIS VITAIS E GLICEMIA CAPILAR NA ADMISSÃO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Pressão Arterial", "valor": "170/100 mmHg"},
+                {"chave": "Frequência Cardíaca", "valor": "88 bpm"},
+                {"chave": "Frequência Respiratória", "valor": "18 irpm"},
+                {"chave": "Saturação de Oxigênio", "valor": "96% em ar ambiente"},
+                {"chave": "Temperatura Axilar", "valor": "36,5°C"}
+              ]
+            },
+            {
+              "tituloSecao": "GLICEMIA CAPILAR",
+              "itens": [
+                {"chave": "HGT", "valor": "190 mg/dL"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+        {
+            "personagem": "Filho",
+            "momento": "Após o candidato explicar a suspeita diagnóstica ou durante a explicação da conduta.",
+            "pergunta": "Doutor(a), isso significa que ela vai ficar com sequelas? Ela vai voltar a falar e a mexer o lado direito?"
+        },
+        {
+            "personagem": "Sra. Helena (Paciente, com dificuldade)",
+            "momento": "Durante o exame físico ou ao tentar se comunicar.",
+            "pergunta": "Eu... casa... quando?"
+        }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_AVC_2025V1_001",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 68 anos, com HAS e DM2 mal controlados, é trazida à UPA com quadro súbito de hemiparesia direita e afasia há 1 hora. PA 170/100 mmHg, HGT 190 mg/dL.",
+      "focoPrincipalDetalhado": [
+        "Reconhecimento rápido dos sinais e sintomas de AVC agudo.",
+        "Anamnese direcionada, com ênfase no tempo de início dos sintomas.",
+        "Realização de exame neurológico focado para identificar os déficits.",
+        "Formulação da hipótese diagnóstica de AVC isquêmico.",
+        "Indicação de TC de crânio sem contraste como exame prioritário.",
+        "Manejo inicial da PA e glicemia conforme diretrizes.",
+        "Comunicação clara com paciente e acompanhante sobre a suspeita e plano.",
+        "Reconhecimento da necessidade de transferência para centro de referência em AVC."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01_comunicacao",
+        "itemNumeroOficial": "1.1",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Apresenta-se e estabelece rapport com paciente e acompanhante.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Apresenta-se de forma clara, cumprimenta ambos e estabelece uma comunicação inicial respeitosa e acolhedora.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Apresenta-se, mas falha em estabelecer um rapport adequado ou acolher um dos presentes.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não se apresenta ou não estabelece rapport.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item02_comunicacao",
+        "itemNumeroOficial": "1.2",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Utiliza linguagem clara e adequada, evitando jargões técnicos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunica-se de forma consistentemente clara e acessível para o acompanhante e adapta a comunicação para a paciente com afasia.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Utiliza alguns jargões ou a linguagem não é totalmente clara em alguns momentos.", "pontos": 0.25},
+          "inadequado": {"criterio": "Utiliza predominantemente jargões técnicos ou a comunicação é confusa.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item03_comunicacao",
+        "itemNumeroOficial": "1.3",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Demonstra escuta ativa e empatia.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ouve atentamente as informações do acompanhante e as tentativas de comunicação da paciente, demonstrando compreensão e empatia pela situação.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Demonstra escuta parcial ou pouca empatia.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não demonstra escuta ativa ou empatia.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item04_comunicacao",
+        "itemNumeroOficial": "1.4",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Comunica a suspeita diagnóstica de forma clara e compreensível.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Informa ao acompanhante a suspeita de 'derrame' (AVC) e suas implicações de forma clara. Tenta comunicar à paciente de forma adaptada.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Comunica a suspeita, mas de forma pouco clara ou incompleta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não comunica a suspeita diagnóstica ou o faz de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item05_comunicacao",
+        "itemNumeroOficial": "1.5",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Explica a necessidade de exames e condutas de forma adequada.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Explica claramente ao acompanhante a necessidade de exames urgentes (como tomografia) e as primeiras medidas a serem tomadas, incluindo a possível transferência.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Explica parcialmente ou de forma confusa as necessidades.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não explica a necessidade de exames ou condutas.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item06_anamneseexame",
+        "itemNumeroOficial": "2.1",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Investiga adequadamente o tempo de início dos sintomas ('time is brain').",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta especificamente ao acompanhante quando os sintomas começaram ou qual foi a última vez que a paciente foi vista bem.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Investiga o tempo de forma superficial.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga o tempo de início dos sintomas.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item07_anamneseexame",
+        "itemNumeroOficial": "2.2",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Caracteriza os déficits neurológicos atuais (tipo de fraqueza, características da dificuldade de fala).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Explora com o acompanhante e tenta observar na paciente as características da fraqueza (súbita, em que local do corpo) e da dificuldade de fala (se entende, se consegue formar palavras).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Caracteriza os déficits de forma incompleta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não caracteriza os déficits neurológicos.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item08_anamneseexame",
+        "itemNumeroOficial": "2.3",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Investiga antecedentes pessoais relevantes (HAS, DM, dislipidemia, uso de medicações, adesão).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta ativamente sobre HAS, DM, dislipidemia, medicações em uso e adesão ao tratamento.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Investiga apenas alguns dos antecedentes relevantes ou não explora a adesão.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga os antecedentes pessoais relevantes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item09_anamneseexame",
+        "itemNumeroOficial": "2.4",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Realiza avaliação do nível de consciência (ex: Escala de Coma de Glasgow ou descrição equivalente).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia e descreve corretamente o nível de consciência da paciente (ex: Glasgow 14, ou descreve abertura ocular, resposta verbal e motora).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Avalia o nível de consciência de forma incompleta ou com pequena incorreção.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia o nível de consciência.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item10_anamneseexame",
+        "itemNumeroOficial": "2.5",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Avalia pares cranianos (foco em VII e avaliação da fala/disartria/afasia).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Testa a mímica facial para identificar paralisia facial central e avalia ativamente a fala, caracterizando a afasia/disartria.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Avalia os pares cranianos de forma incompleta (ex: apenas a face, sem detalhar a fala).", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia os pares cranianos relevantes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item11_anamneseexame",
+        "itemNumeroOficial": "2.6",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Avalia força muscular global e pesquisa de déficits motores focais (hemiparesia).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Testa a força nos quatro membros, identificando e graduando a hemiparesia direita.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Testa a força, mas de forma incompleta ou não gradua o déficit.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia a força muscular.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item12_anamneseexame",
+        "itemNumeroOficial": "2.7",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Avalia sensibilidade superficial (tátil e dolorosa).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Testa a sensibilidade tátil e dolorosa comparativamente nos dimídios, identificando a hipoestesia à direita.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Testa a sensibilidade de forma incompleta (ex: só tátil ou só em alguns segmentos).", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia a sensibilidade.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item13_anamneseexame",
+        "itemNumeroOficial": "2.8",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Pesquisa reflexos profundos e cutâneo-plantar.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Testa os reflexos profundos bilateralmente (ex: bicipital, patelar) e o reflexo cutâneo-plantar, identificando a exaltação e o Babinski à direita.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Testa os reflexos de forma incompleta ou não identifica as alterações.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não pesquisa os reflexos.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item14_raciocinioconduta",
+        "itemNumeroOficial": "3.1",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Formula hipótese diagnóstica principal de AVC isquêmico agudo.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza claramente a suspeita de AVC isquêmico agudo como principal hipótese.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Sugere AVC, mas de forma vaga ou considera outras hipóteses menos prováveis como principais.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não formula a hipótese de AVC isquêmico ou formula hipótese incorreta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item15_raciocinioconduta",
+        "itemNumeroOficial": "3.2",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Menciona a importância da Tomografia Computadorizada (TC) de crânio sem contraste como exame inicial prioritário.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica a necessidade urgente de uma TC de crânio sem contraste para diferenciar AVC isquêmico de hemorrágico.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Menciona a TC, mas não enfatiza a urgência ou o tipo (sem contraste).", "pontos": 0.25},
+          "inadequado": {"criterio": "Não menciona a necessidade de TC de crânio.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item16_raciocinioconduta",
+        "itemNumeroOficial": "3.3",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Considera a janela terapêutica para trombólise (mesmo que não a indique na UPA, mas demonstra conhecimento).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza a importância do tempo para possível trombólise e que o paciente está dentro de uma janela inicial, reforçando a urgência da TC e transferência.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Menciona a trombólise, mas sem clara conexão com a janela de tempo ou urgência.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não considera a janela terapêutica para trombólise.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item17_raciocinioconduta",
+        "itemNumeroOficial": "3.4",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Indica monitorização cardíaca e oximetria de pulso contínuas.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Prescreve ou verbaliza a necessidade de manter a paciente monitorizada (ECG, oximetria).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Indica apenas uma das monitorizações.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não indica monitorização.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item18_raciocinioconduta",
+        "itemNumeroOficial": "3.5",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Verifica e registra glicemia capilar (valoriza o dado já fornecido e considera o controle).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Confirma o valor da glicemia capilar, considera-o no contexto e menciona a necessidade de controle glicêmico.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Apenas constata o valor da glicemia sem associar à conduta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não valoriza ou não menciona a glicemia capilar.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item19_raciocinioconduta",
+        "itemNumeroOficial": "3.6",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Indica manutenção de vias aéreas pérvias e ventilação adequada (ex: cabeceira elevada, se necessário avaliar deglutição antes de ofertar líquidos/dieta).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Preocupa-se com a perviedade das vias aéreas, posicionamento adequado (cabeceira elevada) e considera o risco de broncoaspiração.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Menciona apenas um aspecto (ex: só cabeceira elevada) sem justificativa completa.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não aborda os cuidados com vias aéreas/ventilação.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item20_raciocinioconduta",
+        "itemNumeroOficial": "3.7",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Menciona a necessidade de acionar o serviço de referência para AVC e organizar transferência segura e rápida.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza claramente a necessidade de contactar a regulação ou o centro de referência em AVC para transferência imediata e segura da paciente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Menciona a transferência, mas sem detalhar a urgência ou o acionamento do serviço especializado.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não menciona a necessidade de transferência para centro de referência.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "referencias": [
+        "Diretrizes Brasileiras para Terapêutica Trombolítica no Acidente Vascular Cerebral Isquêmico Agudo. Departamento de Doenças Cerebrovasculares da Academia Brasileira de Neurologia.",
+        "Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) do Ministério da Saúde para Acidente Vascular Cerebral.",
+        "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke.",
+        "Abordagem do Acidente Vascular Cerebral (AVC) em Medicina de Urgência e Emergência – AMB/CFM."
+    ]
+  }
+}

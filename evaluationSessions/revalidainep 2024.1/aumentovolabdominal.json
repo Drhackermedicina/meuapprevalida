@@ -1,0 +1,250 @@
+{
+  "idEstacao": "REVALIDA_EST1_CLIMED_2024V1_NUM1",
+  "tituloEstacao": "ESTAÇÃO 1 INEP 2024.1: CLÍNICA MÉDICA - Aumento do Volume Abdominal",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Aumento abdominal, Ascite, Hipertensão portal, Síndrome de Budd-Chiari, Hepatomegalia",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "ambulatório de atenção primária à saúde - UBS",
+      "tipoAtendimento": "Consulta ambulatorial",
+      "infraestruturaUnidade": [
+        "Laboratório de Exames Clínicos e Unidade de Radiologia."
+      ]
+    },
+    "descricaoCasoCompleta": "Você é médico(a) de uma Unidade Básica de Saúde (UBS). Vai atender a paciente Eliana, 26 anos de idade, costureira, com queixa de aumento do volume abdominal.",
+    "tarefasPrincipais": [
+      "realizar a anamnese;",
+      "solicitar o exame físico;",
+      "realizar o exame do abdome no manequim (PALPAÇÃO E PERCUSSÃO), nomeando e descrevendo as manobras realizadas;",
+      "interpretar os achados do exame físico do abdome;",
+      "relacionar os resultados dos exames às hipóteses diagnósticas;",
+      "estabelecer hipótese diagnóstica e definir plano de seguimento."
+    ],
+    "avisosImportantes": [
+      "CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+      "A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Eliana\nIdade: 26 anos\nEstado Civil: Casada\nOcupação: Costureira (trabalha em casa)"
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL (QP)",
+        "informacao": "Há 3 meses, percebi um inchaço em minha barriga que está aumentando progressivamente."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL (HDA) - AUMENTO ABDOMINAL",
+        "informacao": "Início: Há 3 meses, progressivo.\nLocalização: Abdome.\nSintomas Associados: Leve desconforto em hipocôndrio direito.\nFatores de Melhora: Desconforto cede com dipirona.\nFatores de Piora: Nega.\nInvestigações Prévias: Realizou dois testes de gravidez que resultaram negativo. Realizou uma ultrassonografia na semana anterior.\nOutros: A princípio atribuiu o inchaço a uma possível gravidez, mas usa contraceptivo oral."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Nega comorbidades.\nMedicamentos de Uso Contínuo: Anticoncepcional oral (única medicação).\nGestações: Nega gestações prévias.\nCirurgias: Nega.\nAlergias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: Nega.\nFumo: Nega.\nDrogas Ilícitas: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR",
+        "informacao": "Pai hipertenso. Desconhece outros antecedentes mórbidos familiares."
+      },
+      {
+        "contextoOuPerguntaChave": "INFORMAÇÃO ADICIONAL (SE NÃO PERGUNTADO SOBRE AVALIAÇÕES PRÉVIAS)",
+        "informacao": "Que realizou uma ultrassonografia e perguntaria se o(a) participante queria olhar o exame."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_exame_fisico_geral",
+        "tituloImpresso": "IMPRESSO – EXAME FÍSICO GERAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS GERAIS",
+              "itens": [
+                {"chave": "Frequência cardíaca", "valor": "68 bpm."},
+                {"chave": "Pressão arterial", "valor": "115x65 mmHg."},
+                {"chave": "Frequência respiratória", "valor": "16 irpm."},
+                {"chave": "Temperatura axilar", "valor": "36,2°C."},
+                {"chave": "Saturação de oxigênio", "valor": "97% em ar ambiente."},
+                {"chave": "IMC", "valor": "24 kg/m²."},
+                {"chave": "Estado geral", "valor": "Paciente em bom estado geral, afebril, corada, acianótica, anictérica e hidratada; alerta, orientada no tempo e espaço."},
+                {"chave": "Pescoço", "valor": "Ausência de estase jugular (tronco entre 30° e 45°)."},
+                {"chave": "Ausculta respiratória", "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."},
+                {"chave": "Aparelho cardiovascular", "valor": "Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros."},
+                {"chave": "Extremidades", "valor": "Bem perfundidas, sem edemas."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_exame_fisico_figado",
+        "tituloImpresso": "IMPRESSO – EXAME FÍSICO DO FÍGADO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FÍGADO",
+              "itens": [
+                {"chave": "PERCUSSÃO", "valor": "Fígado com bordo superior ao nível do 6º espaço intercostal direito e inferior 2 cm abaixo do rebordo costal direito."},
+                {"chave": "PALPAÇÃO", "valor": "Fígado palpável 2 cm abaixo do rebordo costal direito, bordos regulares e lisos, levemente doloroso à palpação."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_exame_fisico_baco",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO DO BAÇO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BAÇO",
+              "itens": [
+                {"chave": "PERCUSSÃO", "valor": "Espaço de Traube maciço."},
+                {"chave": "PALPAÇÃO", "valor": "Baço não palpável."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_exame_fisico_ascite",
+        "tituloImpresso": "IMPRESSO – EXAME FÍSICO DA ASCITE",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ASCITE",
+              "itens": [
+                {"chave": "SEMICÍRCULO DE SKODA", "valor": "POSITIVO"},
+                {"chave": "MACICEZ MÓVEL", "valor": "POSITIVO"},
+                {"chave": "PIPAROTE", "valor": "NEGATIVO"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_usg_abdome",
+        "tituloImpresso": "IMPRESSO – ULTRASSONOGRAFIA DE ABDOME",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagem de ultrassonografia de abdome.",
+          "caminhoImagem": "IMAGEM_ULTRASSONOGRAFIA_ABDOME_EST1_PAG6_PROVA.JPG (Referência à imagem na página 6 do PDF da prova)",
+          "laudo": "Fígado com padrão ecogênico levemente irregular, com aumento do lobo caudado. Irregularidade e difícil identificação das veias hepáticas. Impossibilidade de visibilização da junção com a veia cava inferior. Baço medindo 15 cm com dilatação da veia esplênica, veia esplênica com calibre de 23 mm (valor normal de 3 a 21 mm). Visualização de varizes perigástricas. Presença de ascite."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+        {
+            "gatilho": "Participante não interroga sobre avaliações prévias relacionadas à queixa.",
+            "pergunta": "Doutor(a), eu realizei uma ultrassonografia, você queria olhar o exame?"
+        }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CLIMED_2024V1_NUM1",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "A Estação aborda o caso de uma mulher de 26 anos, casada e costureira, que vai a uma consulta ambulatorial em UBS com queixa de aumento progressivo do volume abdominal há 3 meses, e com leve desconforto em hipocôndrio direito que cede ao uso de dipirona, sem outros sintomas associados. A paciente nega comorbidades e está em uso de anticoncepcional oral. Traz ultrassonografia de abdome com alterações sugestivas de Síndrome de Budd-Chiari, com baço de tamanho limítrofe e ascite moderada.",
+      "focoPrincipalDetalhado": [
+        "habilidade psicomotora: realização das manobras de percussão e de palpação de fígado e baço, além das manobras de pesquisa de ascite;",
+        "raciocínio clínico: interpretação do resultado dos exames físicos e da ultrassonografia de abdome;",
+        "formulação de hipótese diagnóstica: hipertensão portal com ascite.",
+        "proposição de condutas: reconhecimento da necessidade de ampliação da avaliação etiológica e/ou de encaminhamento da paciente ao especialista."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) identifica-se; e,\n(2) cumprimenta a paciente simulado e pergunta seu nome.",
+        "pontuacoes": {
+          "adequado": {"criterio": "realiza as duas ações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "realiza uma ação.", "pontos": 0.25},
+          "inadequado": {"criterio": "não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:\n(1) dor;\n(2) náuseas;\n(3) vômitos;\n(4) diarreia OU alterações das fezes OU alterações do hábito intestinal OU mudança no cocô OU presença de sangue vivo ou escuro nas fezes;\n(5) disúria OU dor ao urinar OU ardência ao urinar OU oligúria;\n(6) febre OU sudorese OU calafrios;\n(7) icterícia OU pele amarela OU alterações da pele OU mudança da cor da pele OU prurido;\n(8) alteração na cor das fezes OU acolia OU fezes/cocô esbranquiçado; e,\n(9) alteração na cor do xixi OU colúria OU urina escurecida.",
+        "pontuacoes": {
+          "adequado": {"criterio": "investiga seis ou mais itens.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "investiga de um a cinco itens.", "pontos": 0.5},
+          "inadequado": {"criterio": "não investiga item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Pergunta sobre:\n(1) fatores de melhora ou atenuantes; e,\n(2) fatores de piora ou agravantes.",
+        "pontuacoes": {
+          "adequado": {"criterio": "pergunta os dois itens.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "pergunta apenas um item.", "pontos": 0.5},
+          "inadequado": {"criterio": "não pergunta item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza o exame no fígado:\n(1) palpação; e,\n(2) percussão.\nCONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO FÍGADO:\n(1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, de frente para o paciente/modelo ou voltado para a direção do tórax do paciente/modelo. Palpar o hipocôndrio direito, flanco direito e epigástrio, partindo do mesogastro até o rebordo costal. Em seguida, palpar junto ao rebordo costal direito coordenando com os movimentos respiratórios. Pode-se colocar a mão esquerda em loja renal direita do paciente, forçando-a para cima\nOU\n(2) Paciente/modelo em decúbito dorsal ou decúbito semi lateral esquerdo. Participante no lado direito do paciente/modelo, voltado para a direção da pelve do paciente/modelo. Com os dedos em garra, o participante palpa o flanco/hipocôndrio direito da altura da cicatriz umbilical até o rebordo costal direito Manobra de Mathieu.\nCONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO FÍGADO:\n(1) Com paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, posicionado de frente ao paciente/modelo ou em direção ao seu tórax. Percute-se hemitórax direito, na direção da linha hemiclavicular, desde la clavícula, passando pelos espaços intercostais inferiores, até identificar a borda superior do fígado pela mudança do som de claro pulmonar para maciço/submaciço. A partir daí, progride-se distal e medialmente até identificação do bordo inferior do fígado.",
+        "pontuacoes": {
+          "adequado": {"criterio": "realiza os dois itens.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "realiza apenas um item.", "pontos": 0.75},
+          "inadequado": {"criterio": "não realiza item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza:\n(1) palpação esplênica; e,\n(2) percussão esplênica.\nCONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO BAÇO:\n(1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, voltado para o paciente/modelo ou para a direção do tórax do paciente/modelo. Palpar do hipocôndrio esquerdo e flanco esquerdo, partindo do umbigo até o rebordo costal. Em seguida, palpar junto ao rebordo costal esquerdo coordenando com os movimentos respiratórios. Pode-se colocar a mão esquerda em loja renal esquerda do paciente, forçando-a para cima.\nOU\n(2) Paciente/modelo em decúbito lateral direito, perna direita estendida, coxa esquerda fletida a 90 graus sobre o abdome e braço esquerdo sobre a cabeça, com o ombro esquerdo elevado. Participante do lado direito do paciente/modelo, posicionado de frente para o paciente/modelo. Posiciona-se a mão esquerda na área de projeção do baço, deslocando-o em direção à maca. Com a mão direita, palpa-se do mesogástrio em direção ao rebordo costal esquerdo, coordenando com a respiração.\nCONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO BAÇO:\n(1) Percussão do espaço de Traube, localizado entre 5º e 6º espaço intercostal esquerdo e se estende até a linha axilar anterior, no nível do 9º espaço intercostal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "realiza uma técnica de percussão esplênica e realiza uma técnica de palpação esplênica.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "realiza apenas a palpação esplênica OU realiza apenas a percussão esplênica.", "pontos": 0.75},
+          "inadequado": {"criterio": "não realiza a palpação nem realiza a percussão esplênica.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza pesquisa de ascite por pelo menos duas técnicas:\n- Considerar técnica correta: (1) macicez móvel - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo. Após, posiciona o paciente em decúbito lateral (direito e/ou esquerdo) e percute do flanco oposto ao lado do decúbito (o que está posicionado sem contato com a maca), em direção ao flanco em contato com a maca.\n(2) semicirculo de Skoda - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo, fossa ilíaca direita e esquerda, e hipogástrio (não precise manter essa sequência).\n(3) piparote - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, solicita que paciente posicione a borda medial da sua mão em mesogástrio. Participante posiciona a palma sua mão no flanco esquerdo do paciente e, com a outra, mão golpea o flanco direito do paciente/modelo com dedo indicador ou médio.\n(4) sinal da poça - Paciente/modelo com o tronco fletido para frente (posição genupalmar), percute-se o abdome da região mais distal de hipogastro de forma ascendente, em direção à região umbilical.",
+        "pontuacoes": {
+          "adequado": {"criterio": "realiza duas técnicas de pesquisa de ascite.", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "realiza apenas uma técnica de pesquisa de ascite.", "pontos": 1.0},
+          "inadequado": {"criterio": "não realiza nenhuma técnica de pesquisa de ascite.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Formula hipótese diagnóstica de:\n(1) ascite;\n(2) por hipertensão portal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "formula o diagnóstico citando os dois itens.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "formula o diagnóstico citando um item.", "pontos": 0.75},
+          "inadequado": {"criterio": "não formula diagnóstico OU formula diagnóstico não citando item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Elabora plano de seguimento da paciente:\n(1) solicita pelo menos um exame complementar dentre os seguintes: ultrassonografia/ultrassom com Doppler, ultrassonografia/ultrassom, ultrassonografia/ultrassom de abdome, ressonância magnética, tomografia, provas de função hepática (proteínas/albumina, coagulograma/INR, bilirrubinas), sorologias para hepatites virais, autoanticorpos, AST, ALT, perfil de ferro, dosagem de cobre sérico ou urinário, ceruloplasmina, paracentese, cálculo do GASA; e\n(2) encaminhamento para seguimento em avaliação terciária com gastroenterologia ou com hepatologista.",
+        "pontuacoes": {
+          "adequado": {"criterio": "elabora plano de seguimento contendo o encaminhamento da paciente (2) e solicita pelo menos um dos exames relacionados (1).", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "apenas solicita exame (1) OU apenas encaminha ao especialista (2)", "pontos": 0.5},
+          "inadequado": {"criterio": "não encaminha a paciente na forma do item (2) nem solicita algum dos exames listados no item (1).", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

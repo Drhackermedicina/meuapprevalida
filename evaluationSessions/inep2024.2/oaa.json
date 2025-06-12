@@ -1,0 +1,332 @@
+{
+  "idEstacao": "REVALIDA_EST2_CIRURGIA_GERAL_2024V_NUM1",
+  "tituloEstacao": "ESTAÇÃO 2 INEP 2024.2: CIRURGIA GERAL - OCLUSÃO ARTERIAL AGUDA",
+  "numeroDaEstacao": 2,
+  "especialidade": "CIRURGIA GERAL",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "cirurgia geral, oclusão arterial aguda, dor em membro, isquemia, embolia, trombose, fibrilação atrial",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde - hospitalar.",
+      "tipoAtendimento": "Urgência e emergência.",
+      "infraestruturaUnidade": [
+        "Ultrassonografia, eletrocardiograma",
+        "Laboratório de análises clínicas",
+        "Centro cirúrgico"
+      ]
+    },
+    "descricaoCasoCompleta": "Você vai atender um homem com 50 anos de idade que procura o serviço de emergência por apresentar dor na perna esquerda.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese;",
+      "Solicitar e interpretar os exames físicos geral e específico;",
+      "Solicitar e interpretar os exames laboratoriais específicos;",
+      "Solicitar e interpretar os exames complementares específicos;",
+      "Identificar a causa do problema;",
+      "Orientar a conduta inicial mais indicada ao quadro clínico."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Meu nome é Antônio.\nTenho 50 anos.\nSou viúvo.\nTrabalho como porteiro."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL (QP)",
+        "informacao": "Estou com uma dor muito forte na perna esquerda."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL (HDA) - DOR NA PERNA ESQUERDA",
+        "informacao": "Início: A dor começou repentinamente, há cerca de 2 horas.\nIntensidade: É a pior dor que já senti na vida, uma dor nota 10.\nTipo/Característica: Sinto como se algo apertasse e queimasse minha pele ao mesmo tempo, é constante.\nLocalização: A dor é na minha perna esquerda inteira.\nFatores de Piora: A dor piora quando eu levanto a perna.\nFatores de Melhora: Não identifiquei nada que melhore.\nEpisódios Prévios: Nunca tive esses sintomas antes."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - SINTOMAS ASSOCIADOS NA PERNA ESQUERDA",
+        "informacao": "Alteração de Temperatura: Sinto que minha perna esquerda está mais fria.\nAlteração de Cor: Sinto ela pálida.\nAlteração de Sensibilidade: Sinto formigar um pouco.\nDor à Palpação: Sim, dói quando toco nela."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - MOBILIDADE DO MEMBRO ACOMETIDO",
+        "informacao": "Consigo mexer meu pé."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - SINTOMAS SISTÊMICOS ASSOCIADOS",
+        "informacao": "Palpitações: Ontem eu tive algumas palpitações.\nOutros sintomas atuais: No momento, não tenho outros sintomas além dos que relatei."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - HISTÓRICO DE TRAUMA/LESÕES NA PERNA",
+        "informacao": "Trauma/Lesões: Não machuquei minha perna, nem sofri traumas ou lesões.\nFeridas/Úlceras/Varizes: Nunca tive feridas, úlceras ou varizes na perna."
+      },
+      {
+        "contextoOuPerguntaChave": "HDA - ESTADO DA PERNA DIREITA",
+        "informacao": "Minha perna direita está normal."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Comorbidades: Tenho pressão alta e fibrilação atrial há alguns anos.\nMedicações em Uso: Mas não tomo nenhuma medicação para elas.\nHistórico de Claudicação: Nunca senti dor ao caminhar antes."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Fumo: Não fumo.\nÁlcool: Não bebo.\nAtividade Física: Não pratico atividade física regularmente.\nAlimentação: Tenho uma alimentação saudável."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE (Após análise do IMPRESSO EXAME DE MEMBROS INFERIORES)",
+        "informacao": "Doutor(a), o que isso significa? O que eu tenho?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE (Após análise do IMPRESSO - EXAME DE IMAGEM)",
+        "informacao": "Doutor(a), o que causou esse problema? O que precisa ser feito agora?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est2_exame_fisico_geral",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO GERAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Pressão Arterial", "valor": "160x90 mmHg"},
+                {"chave": "Frequência Cardíaca", "valor": "110 batimentos por minuto"},
+                {"chave": "Frequência Respiratória", "valor": "20 incursões respiratórias por minuto"},
+                {"chave": "Saturação de O₂", "valor": "96% em ar ambiente"},
+                {"chave": "Temperatura axilar", "valor": "37°C"},
+                {"chave": "IMC", "valor": "24 kg/m²"}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME CLÍNICO",
+              "itens": [
+                {"chave": "Exame Geral", "valor": "Regular estado geral, corado, hidratado, afebril, anictérico, acianótico."},
+                {"chave": "Exame de Tórax", "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Ritmo cardíaco irregular, sem sopros."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est2_exame_membros_inferiores",
+        "tituloImpresso": "IMPRESSO - EXAME DE MEMBROS INFERIORES",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Membro inferior esquerdo",
+              "itens": [
+                {"chave": "Aspecto", "valor": "Pálido, frio ao toque, com diminuição do turgor cutâneo."},
+                {"chave": "Pulsos", "valor": "Ausência de pulsos palpáveis nas artérias femoral, poplítea e pediosa."},
+                {"chave": "Sensibilidade", "valor": "Sensibilidade tátil e dolorosa preservada."},
+                {"chave": "Força muscular", "valor": "Diminuída no pé (4/5)."}
+              ]
+            },
+            {
+              "tituloSecao": "Membro inferior direito",
+              "itens": [
+                {"chave": "Avaliação", "valor": "Sem alterações. Pulsos arteriais palpáveis."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est2_exames_laboratoriais",
+        "tituloImpresso": "IMPRESSO - EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Resultados (Ref.)",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "13,5 g/dL (13,0-17,0 g/dL)"},
+                {"chave": "Hematócrito (Hct)", "valor": "40,2 % (40-50%)"},
+                {"chave": "Leucócitos", "valor": "10.500 /mm³ (4.000-11.000/mm³)"},
+                {"chave": "Plaquetas", "valor": "240.000 /mm³ (150.000-450.000/mm³)"},
+                {"chave": "Tempo de Protrombina (TP)", "valor": "13,2 segundos (11-14,5 segundos)"},
+                {"chave": "INR", "valor": "1,1 (0,8-1,2)"},
+                {"chave": "Tempo de Tromboplastina Parcial Ativada (TTPA)", "valor": "32,5 segundos (25-35 segundos)"},
+                {"chave": "Fibrinogênio", "valor": "450 mg/dL (200-400 mg/dL)"},
+                {"chave": "Creatinina", "valor": "1,1 mg/dL (0,7-1,3 mg/dL)"},
+                {"chave": "Ureia", "valor": "38 mg/dL (10-40 mg/dL)"},
+                {"chave": "CPK (Creatina Fosfoquinase)", "valor": "230 U/L (30-200 U/L)"},
+                {"chave": "LDH (Lactato Desidrogenase)", "valor": "280 U/L (100-190 U/L)"},
+                {"chave": "Glicose", "valor": "105 mg/mL (70-99 mg/dL)"},
+                {"chave": "Dímero D", "valor": "250 ng/mL (<500 ng/mL)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est2_ecg",
+        "tituloImpresso": "IMPRESSO - ECG",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Lead II. 25 mm/sec 10 mm/mV.",
+          "caminhoImagem": "REFERENCIA_IMAGEM_ECG_EST2",
+          "laudo": "Ausência de ondas P. Complexos QRS normais, com intervalos R-R irregulares, sem padrão rítmico previsível.\nFrequência ventricular de 120 batimentos por minuto.\nNão há evidência de bloqueio de ramo ou outras anormalidades significativas nos complexos QRS."
+        }
+      },
+      {
+        "idImpresso": "est2_exame_imagem_doppler",
+        "tituloImpresso": "IMPRESSO - EXAME DE IMAGEM",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ULTRASSOM DOPPLER DE MEMBROS INFERIORES - ACHADOS",
+              "itens": [
+                {"chave": "Artéria Femoral Comum (Esquerda)", "valor": "Artéria com paredes lisas e presença de obstrução no seu terço distal."},
+                {"chave": "Artéria femoral Profunda (Esquerda)", "valor": "Com fluxo lentificado."},
+                {"chave": "Artéria Femoral Superficial, poplítea, tibial anterior e posterior (Esquerda)", "valor": "Ausência de fluxo ao Doppler."},
+                {"chave": "Artérias do Membro Inferior Direito", "valor": "Fluxo normal em todas as artérias examinadas."}
+              ]
+            },
+            {
+              "tituloSecao": "IMPRESSÃO DIAGNÓSTICA",
+              "itens": [
+                {"chave": "Conclusão", "valor": "Ausência de fluxo distal na perna esquerda. Membro inferior direito sem alterações."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST2_CIRURGIA_GERAL_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Homem de 50 anos, com dor intensa súbita e constante na perna esquerda há 2 horas, associada a palidez, frieza e parestesia. Histórico de hipertensão e fibrilação atrial não tratadas. Diagnóstico de oclusão arterial aguda em membro inferior esquerdo, provavelmente por embolia cardíaca.",
+      "focoPrincipalDetalhado": [
+        "Anamnese focada em dor isquêmica aguda e fatores de risco cardiovasculares.",
+        "Exame físico detalhado dos membros inferiores, incluindo pulsos, perfusão, sensibilidade e motricidade.",
+        "Diagnóstico de oclusão arterial aguda e identificação da provável etiologia embólica.",
+        "Solicitação de exames complementares pertinentes (laboratoriais, ECG, exame de imagem vascular).",
+        "Proposta terapêutica emergencial: anticoagulação, analgesia, proteção do membro e encaminhamento urgente para cirurgia vascular."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est2_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresenta-se:\n(1) identifica-se; e,\n(2) pergunta o nome e cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as duas ações.", "pontos": 0.2},
+          "parcialmenteAdequado": {"criterio": "Realiza uma ação.", "pontos": 0.1},
+          "inadequado": {"criterio": "Não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Pergunta características da dor.\n(1) início e/ou duração;\n(2) tipo/característica;\n(3) localização e irradiação;\n(4) intensidade;\n(5) fatores agravantes / de piora;\n(6) fatores atenuantes/de melhora;\n(7) episódios prévios de dor no membro acometido.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta as cinco ou mais características.", "pontos": 0.7},
+          "parcialmenteAdequado": {"criterio": "Pergunta três ou quatro características.", "pontos": 0.35},
+          "inadequado": {"criterio": "Pergunta uma ou duas características OU não pergunta característica alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Questiona a presença dos seguintes sintomas associados no MIE:\n(1) palidez OU alteração da cor do membro;\n(2) frialdade (poiquilotermia) ou alteração de temperatura;\n(3) parestesia / formigamento/ alteração da sensibilidade;\n(4) alteração de mobilidade OU dificuldade para caminhar;\n(5) edema.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga quatro ou mais sintomas.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga dois ou três sintomas.", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga apenas um sintoma OU não investiga sintoma algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Pergunta sobre antecedentes e queixas prévias:\n(1) palpitações OU doenças cardíacas;\n(2) histórico de trauma e/ou lesão em pele;\n(3) histórico de claudicação;\n(4) doenças prévias (comorbidades) e uso de medicamentos;\n(5) hábitos de vida (uso de drogas lícitas e ilícitas, atividade física).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga quatro ou mais antecedentes.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Investiga três antecedentes.", "pontos": 0.5},
+          "inadequado": {"criterio": "Investiga dois ou menos OU não investiga antecedente algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Verbaliza hipótese diagnóstica de oclusão/obstrução ou interrupção arterial aguda.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não verbaliza.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita os exames laboratoriais:\n(1) hemograma completo;\n(2) coagulograma completo ou fatores de coagulação;\n(3) função renal (creatinina e ureia);\n(4) marcadores de lesão celular (CPK e/ou mioglobina).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita três exames ou mais.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Solicita dois exames.", "pontos": 0.5},
+          "inadequado": {"criterio": "Solicita um exame OU não solicita exame algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita ECG e/ou ecocardiograma.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita algum dos seguintes exames de imagem de MI:\n(1) arteriografia;\n(2) angiotomografia;\n(3) USG Doppler;\n(4) angiorressonância magnética.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita qualquer um dos exames listados.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não solicita nenhum dos exames citados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Identifica corretamente a causa (etiologia) como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Identifica como sendo por uma embolia arterial (sem especificar o coração/Fibrilação atrial) OU devido Fibrilação atrial (sem especificar a embolia).", "pontos": 0.5},
+          "inadequado": {"criterio": "Não identifica a causa (etiologia) ou identifica de forma incorreta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Indica o uso imediato de terapia anticoagulante / anticoagulação:\n(1) com heparina;\n(2) por via endovenosa;\n(3) com início imediato após o diagnóstico.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica os três itens.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Indica dois itens, obrigatoriamente incluindo o item 1.", "pontos": 0.5},
+          "inadequado": {"criterio": "Indica somente 1 item ou não indica nenhum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Orienta o manejo adequado do membro afetado:\n(1) evitar a elevação do membro (manter em declive) OU manter repouso;\n(2) proteção térmica do membro (\"aquecer\" o membro com faixa e algodão ortopédico); e\n(3) controle da dor.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta os três manejos.", "pontos": 0.8},
+          "parcialmenteAdequado": {"criterio": "Orienta dois manejos.", "pontos": 0.4},
+          "inadequado": {"criterio": "Orienta apenas um manejo OU não orienta manejo algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est2_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orienta encaminhamento imediato OU urgente para cirurgia vascular / angiologista ou para intervenção endovascular hemodinâmica.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta o encaminhamento.", "pontos": 0.8},
+          "inadequado": {"criterio": "Não orienta o encaminhamento.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

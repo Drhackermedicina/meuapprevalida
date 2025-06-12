@@ -1,0 +1,388 @@
+{
+  "idEstacao": "REVALIDA FÁCIL",
+  "tituloEstacao": "PNEUMONIA ADQUIRIDA NA COMUNIDADE",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "PAC, Dispneia, Tosse Produtiva, Febre, Confusão Mental, CURB-65, DPOC",
+  "nivelDificuldade": "Médio",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária (Unidade de Pronto Atendimento - UPA)",
+      "tipoAtendimento": "Atendimento de Urgência/Emergência",
+      "infraestruturaUnidade": [
+        "Maca com lençol",
+        "Esfigmomanômetro e estetoscópio",
+        "Oxímetro de pulso",
+        "Termômetro",
+        "Glicosímetro com lancetas e fitas",
+        "Fonte de oxigênio com cateter nasal",
+        "Prancheta com papel e caneta para anotações do candidato",
+        "Telefone (simulado)",
+        "Não há exames de imagem ou laboratoriais (além do HGT) disponíveis na sala inicialmente."
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na Unidade de Pronto Atendimento (UPA) quando o Sr. João Batista, 72 anos, é trazido pela sua filha. Ele apresenta tosse produtiva com expectoração amarelada há 5 dias, febre não aferida, calafrios e dispneia progressiva que piorou significativamente nas últimas 24 horas, sentindo-se muito cansado. A filha refere que ele está mais sonolento e confuso hoje.",
+    "tarefasPrincipais": [
+      "Acolhimento e Anamnese: Acolha o paciente e sua acompanhante. Realize uma anamnese direcionada, investigando o início e progressão dos sintomas, características da tosse e expectoração, sintomas associados, e antecedentes relevantes não mencionados. (Tempo estimado: 2-3 minutos)",
+      "Exame Físico: Realize um exame físico focado, com ênfase no aparelho respiratório e avaliação do estado geral e de hidratação. (Tempo estimado: 3-4 minutos)",
+      "Hipótese Diagnóstica, Avaliação de Gravidade e Conduta Inicial: Formule a principal hipótese diagnóstica. Avalie a gravidade do quadro (ex: utilizando o CURB-65 ou CRB-65). Comunique à acompanhante a suspeita diagnóstica, a gravidade e o plano de investigação e conduta inicial, incluindo a necessidade de exames complementares e possível internação. (Tempo estimado: 2-3 minutos)",
+      "Prescrição Inicial: Indique as medidas/prescrição iniciais prioritárias, incluindo antibioticoterapia empírica apropriada. (Não é necessário redigir a prescrição completa, apenas citar as condutas)."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE SINAIS VITAIS E GLICEMIA CAPILAR SÃO FORNECIDOS PELO EXAMINADOR OU ESTARÃO DISPONÍVEIS NO MONITOR SIMULADO.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO E CONDUTAS.",
+      "NÃO HÁ EXAMES DE IMAGEM OU LABORATORIAIS (ALÉM DO HGT) DISPONÍVEIS NA SALA INICIALMENTE."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Sr. João Batista\nIdade: 72 anos"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Filha do paciente."
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA (RELATO DA FILHA)",
+        "informacao": "Meu pai apresenta tosse produtiva com expectoração amarelada há 5 dias, febre não aferida, calafrios e dispneia progressiva que piorou significativamente nas últimas 24 horas, sentindo-se muito cansado. Ele está mais sonolento e confuso hoje."
+      },
+      {
+        "contextoOuPerguntaChave": "ESTADO DO PACIENTE (SR. JOÃO BATISTA - APARÊNCIA, COMPORTAMENTO, COMUNICAÇÃO)",
+        "informacao": "Aparência: Homem de 72 anos, aparentando regular estado geral, sonolento, confuso, com fácies de sofrimento agudo, sudoreico. Apresenta tosse produtiva durante a avaliação.\nComportamento Geral: Colaborativo quando desperto, mas tende a cochilar. Confuso (desorientado no tempo e espaço, mas reconhece a filha).\nComunicação: Responde lentamente às perguntas, com frases curtas. Tosse frequentemente."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA (SR. JOÃO BATISTA, se perguntado e capaz de responder)",
+        "informacao": "Confirma os sintomas relatados pela filha. Queixa-se de 'muita falta de ar', 'cansaço' e 'dor no peito ao respirar fundo do lado direito'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS (se perguntado à filha ou consultado em prontuário simulado)",
+        "informacao": "Hipertensão Arterial Sistêmica (HAS) em uso de Enalapril 20mg/dia.\nDiabetes Mellitus tipo 2 (DM2) em uso de Metformina 850mg 2x/dia e Gliclazida 30mg/dia, com controle irregular.\nDoença Pulmonar Obstrutiva Crónica (DPOC) leve, ex-tabagista (parou há 10 anos, fumou 20 maços/ano). Usa Salbutamol spray apenas quando sente falta de ar.\nVacinado para Influenza há 2 meses. Nega vacinação para pneumococo.\nNega alergias medicamentosas.\nÚltima internação há 2 anos por pneumonia."
+      },
+      {
+        "contextoOuPerguntaChave": "SINAIS VITAIS NA ADMISSÃO (se solicitado confirmação ou não visualizado no monitor)",
+        "informacao": "Pressão Arterial: 100/60 mmHg\nFrequência Cardíaca: 110 bpm\nFrequência Respiratória: 28 irpm\nSaturação de Oxigênio: 88% em ar ambiente (melhora para 93% com cateter nasal de O2 a 2L/min)\nTemperatura Axilar: 38,5°C\nGlicemia Capilar (HGT): 210 mg/dL\nEscala de Coma de Glasgow: 14 (confusão mental – desorientado no tempo, mas obedece a comandos; abertura ocular espontânea; resposta verbal confusa)"
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - GERAL (SR. JOÃO BATISTA)",
+        "informacao": "Regular estado geral, hidratado (mucosas úmidas, turgor discretamente diminuído), hipocorado (+/4+), acianótico, taquidispneico com uso de musculatura acessória. Confusão mental."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - APARELHO RESPIRATÓRIO (SR. JOÃO BATISTA)",
+        "informacao": "Inspeção: Expansibilidade diminuída à direita. Tiragem intercostal leve.\nPalpação: Frêmito tóraco-vocal aumentado na base do hemitórax direito.\nPercussão: Submacicez na base do hemitórax direito.\nAusculta: Murmúrio vesicular diminuído na base direita, com presença de estertores crepitantes finos na mesma região. Sibilos expiratórios esparsos bilateralmente."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - APARELHO CARDIOVASCULAR (SR. JOÃO BATISTA)",
+        "informacao": "Ritmo cardíaco regular, taquicárdico, 2 tempos, bulhas normofonéticas, sem sopros."
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME FÍSICO - EXTREMIDADES (SR. JOÃO BATISTA)",
+        "informacao": "Perfusão periférica lentificada (enchimento capilar > 2 segundos). Sem edema."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ADICIONAIS (SR. JOÃO BATISTA, se perguntado)",
+        "informacao": "Refere dor pleurítica à direita. Nega hemoptise."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA ACOMPANHANTE (FILHA)",
+        "informacao": "Doutor(a), o que meu pai tem? É muito grave? Ele vai precisar ficar internado de novo? Qual o tratamento?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "estPAC_impresso_sinaisvitais_hgt_glasgow",
+        "tituloImpresso": "SINAIS VITAIS, GLICEMIA CAPILAR E GLASGOW NA ADMISSÃO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Pressão Arterial", "valor": "100/60 mmHg"},
+                {"chave": "Frequência Cardíaca", "valor": "110 bpm"},
+                {"chave": "Frequência Respiratória", "valor": "28 irpm"},
+                {"chave": "Saturação de Oxigênio (Ar Ambiente)", "valor": "88%"},
+                {"chave": "Saturação de Oxigênio (O2 2L/min)", "valor": "93%"},
+                {"chave": "Temperatura Axilar", "valor": "38,5°C"}
+              ]
+            },
+            {
+              "tituloSecao": "GLICEMIA CAPILAR",
+              "itens": [
+                {"chave": "HGT", "valor": "210 mg/dL"}
+              ]
+            },
+            {
+                "tituloSecao": "ESCALA DE COMA DE GLASGOW",
+                "itens": [
+                  {"chave": "Glasgow", "valor": "14 (Confusão Mental)"}
+                ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+        {
+            "personagem": "Filha",
+            "momento": "Após o candidato explicar a suspeita diagnóstica ou durante a explicação da conduta.",
+            "pergunta": "Doutor(a), essa pneumonia é por causa da DPOC dele? Ele vai melhorar só com remédio ou vai precisar de mais alguma coisa?"
+        },
+        {
+            "personagem": "Sr. João Batista (Paciente, com dificuldade)",
+            "momento": "Durante o exame físico ou ao tentar se comunicar, demonstrando cansaço.",
+            "pergunta": "Falta... ar... muito."
+        }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_PAC_2025V1_002",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 72 anos, com HAS, DM2 e DPOC, é trazido à UPA com tosse produtiva, febre, dispneia progressiva há 5 dias, e piora da dispneia, sonolência e confusão mental nas últimas 24h. PA 100/60 mmHg, FC 110 bpm, FR 28 irpm, SatO2 88% (aa), Tax 38,5°C, HGT 210 mg/dL, Glasgow 14. Exame físico compatível com consolidação pulmonar à direita.",
+      "focoPrincipalDetalhado": [
+        "Reconhecimento dos sinais e sintomas de Pneumonia Adquirida na Comunidade (PAC).",
+        "Anamnese direcionada, incluindo comorbidades e vacinação.",
+        "Realização de exame físico focado, com ênfase no aparelho respiratório.",
+        "Avaliação da gravidade da PAC utilizando critérios como CURB-65 ou CRB-65.",
+        "Formulação da hipótese diagnóstica de PAC grave.",
+        "Indicação de exames complementares urgentes (Raio-X de tórax, exames laboratoriais).",
+        "Indicação de oxigenoterapia e antibioticoterapia empírica intravenosa apropriada.",
+        "Comunicação clara com a acompanhante sobre diagnóstico, gravidade e necessidade de internação.",
+        "Considerar controle glicêmico e hidratação."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_estPAC_item01_comunicacao",
+        "itemNumeroOficial": "1.1",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Apresenta-se e estabelece rapport com paciente e acompanhante.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Apresenta-se de forma clara, cumprimenta ambos e estabelece uma comunicação inicial respeitosa e acolhedora, considerando o estado do paciente.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Apresenta-se, mas falha em estabelecer um rapport adequado ou acolher um dos presentes de forma satisfatória.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não se apresenta ou não estabelece rapport.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item02_comunicacao",
+        "itemNumeroOficial": "1.2",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Utiliza linguagem clara e adequada, explicando termos se necessário.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunica-se de forma consistentemente clara e acessível para a acompanhante, explicando termos médicos de forma simples.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Utiliza alguns jargões ou a linguagem não é totalmente clara em alguns momentos.", "pontos": 0.25},
+          "inadequado": {"criterio": "Utiliza predominantemente jargões técnicos ou a comunicação é confusa.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item03_comunicacao",
+        "itemNumeroOficial": "1.3",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Demonstra escuta ativa e empatia com a preocupação da filha.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Ouve atentamente as informações e preocupações da filha, demonstrando compreensão e empatia pela situação.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Demonstra escuta parcial ou pouca empatia.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não demonstra escuta ativa ou empatia.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item04_comunicacao",
+        "itemNumeroOficial": "1.4",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Comunica a suspeita diagnóstica e a gravidade de forma clara.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Informa à acompanhante a suspeita de 'pneumonia grave' e suas implicações de forma clara e compreensível.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Comunica a suspeita, mas de forma pouco clara, incompleta ou sem abordar a gravidade.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não comunica a suspeita diagnóstica ou a gravidade, ou o faz de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item05_comunicacao",
+        "itemNumeroOficial": "1.5",
+        "dominio": "Habilidades de Comunicação",
+        "descricaoItem": "Explica a necessidade de exames, internação e tratamento.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Explica claramente à acompanhante a necessidade de exames (como Raio-X), internação hospitalar e o início do tratamento com antibióticos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Explica parcialmente ou de forma confusa as necessidades.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não explica a necessidade de exames, internação ou tratamento.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item06_anamneseexame",
+        "itemNumeroOficial": "2.1",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Investiga adequadamente o início, duração e progressão dos sintomas.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta sobre o início, duração e como os sintomas (tosse, febre, dispneia, confusão) evoluíram ao longo dos dias.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Investiga os aspectos temporais dos sintomas de forma superficial ou incompleta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga o início, duração ou progressão dos sintomas.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item07_anamneseexame",
+        "itemNumeroOficial": "2.2",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Caracteriza a tosse, expectoração, dispneia e febre.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Explora as características da tosse (produtiva), expectoração (amarelada), dispneia (progressiva, piora recente) e febre/calafrios.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Caracteriza os sintomas de forma incompleta (ex: não pergunta sobre cor do escarro ou tipo de dispneia).", "pontos": 0.25},
+          "inadequado": {"criterio": "Não caracteriza os principais sintomas respiratórios.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item08_anamneseexame",
+        "itemNumeroOficial": "2.3",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Investiga antecedentes relevantes (DPOC, DM, HAS, tabagismo, vacinação, internações prévias por pneumonia).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta ativamente sobre DPOC, DM, HAS, história de tabagismo, estado vacinal (pneumococo, influenza) e internações anteriores por pneumonia.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Investiga apenas alguns dos antecedentes relevantes.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga os antecedentes pessoais relevantes para o caso.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item09_anamneseexame",
+        "itemNumeroOficial": "2.4",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Avalia o nível de consciência e pesquisa confusão mental.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia e descreve corretamente o nível de consciência (Glasgow 14) e a presença de confusão mental (desorientação).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Avalia o nível de consciência de forma incompleta ou não caracteriza bem a confusão.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia o nível de consciência ou a confusão mental.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item10_anamneseexame",
+        "itemNumeroOficial": "2.5",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Realiza inspeção e palpação torácica adequadas.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza a inspeção (expansibilidade, tiragem) e palpação (frêmito tóraco-vocal) do tórax de forma correta e identifica as alterações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza inspeção ou palpação de forma incompleta ou não identifica todos os achados.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza inspeção ou palpação torácica.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item11_anamneseexame",
+        "itemNumeroOficial": "2.6",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Realiza percussão torácica adequada.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza a percussão torácica comparativa e identifica a submacicez na base direita.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza a percussão de forma incompleta ou não identifica a alteração.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza percussão torácica.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item12_anamneseexame",
+        "itemNumeroOficial": "2.7",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Realiza ausculta pulmonar completa e identifica achados anormais (estertores, MV diminuído, sibilos).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza ausculta pulmonar em todos os campos, identificando murmúrio vesicular diminuído e estertores crepitantes na base direita, além de sibilos esparsos.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza ausculta incompleta ou não identifica todos os ruídos adventícios presentes.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza ausculta pulmonar ou não identifica achados anormais.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item13_anamneseexame",
+        "itemNumeroOficial": "2.8",
+        "dominio": "Anamnese e Exame Físico",
+        "descricaoItem": "Avalia sinais vitais e estado de hidratação.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verifica/confirma todos os sinais vitais fornecidos e avalia o estado de hidratação do paciente (mucosas, turgor).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Avalia os sinais vitais ou o estado de hidratação de forma incompleta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia os sinais vitais ou o estado de hidratação.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item14_raciocinioconduta",
+        "itemNumeroOficial": "3.1",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Formula hipótese diagnóstica principal de Pneumonia Adquirida na Comunidade (PAC).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza claramente a suspeita de Pneumonia Adquirida na Comunidade como principal hipótese.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Sugere infecção respiratória/pneumonia, mas de forma vaga.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não formula a hipótese de PAC ou formula hipótese incorreta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item15_raciocinioconduta",
+        "itemNumeroOficial": "3.2",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Aplica ou menciona critérios de gravidade (CURB-65 ou CRB-65) e classifica o paciente corretamente (PAC grave ou de alto risco).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Menciona o CURB-65 (ou CRB-65), calcula ou estima a pontuação (CURB-65 ≥3 ou CRB-65 ≥2) e classifica como PAC grave/alto risco.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Menciona o critério de gravidade, mas não o aplica corretamente ou não classifica a gravidade.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não utiliza ou menciona critérios de gravidade.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item16_raciocinioconduta",
+        "itemNumeroOficial": "3.3",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Indica exames complementares prioritários (Raio-X de tórax, hemograma, função renal, eletrólitos, PCR, hemoculturas, gasometria arterial se SpO2<90% ou gravidade).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita Raio-X de tórax e pelo menos 3 outros exames laboratoriais pertinentes (ex: hemograma, ureia/creatinina, PCR, hemoculturas). Considera gasometria.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Solicita Raio-X de tórax e 1-2 outros exames, ou esquece o Raio-X mas pede laboratoriais.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não solicita Raio-X de tórax ou solicita exames insuficientes/inadequados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item17_raciocinioconduta",
+        "itemNumeroOficial": "3.4",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Indica oxigenoterapia para manter SpO2 alvo (ex: ≥ 92-94%, ou 88-92% se DPOC grave conhecido, mas aqui é leve).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica o uso de oxigênio suplementar (já em uso) e verbaliza a meta de saturação (ex: ≥92% ou 94%).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Mantém o oxigênio, mas não verbaliza a meta de saturação ou a justifica de forma incompleta.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não indica ou suspende o oxigênio inadequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item18_raciocinioconduta",
+        "itemNumeroOficial": "3.5",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Prescreve antibioticoterapia empírica intravenosa apropriada para PAC grave (ex: Ceftriaxona + Macrolídeo OU Quinolona respiratória isolada).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica esquema antibiótico intravenoso apropriado para PAC grave em paciente com comorbidades (ex: beta-lactâmico + macrolídeo, ou quinolona respiratória em monoterapia).", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Indica antibiótico, mas a via é inadequada (oral) ou o espectro é insuficiente para a gravidade/comorbidades.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não indica antibioticoterapia ou indica esquema claramente inadequado.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item19_raciocinioconduta",
+        "itemNumeroOficial": "3.6",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Considera hidratação venosa e controle glicêmico.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica a necessidade de hidratação venosa e monitorização/controle da glicemia.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Considera apenas hidratação ou apenas controle glicêmico.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não considera hidratação ou controle glicêmico.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estPAC_item20_raciocinioconduta",
+        "itemNumeroOficial": "3.7",
+        "dominio": "Raciocínio Clínico e Conduta",
+        "descricaoItem": "Define a necessidade de internação hospitalar (enfermaria ou UTI, dependendo da avaliação completa e disponibilidade).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza claramente a necessidade de internação hospitalar devido à gravidade (CURB-65 alto), indicando enfermaria ou UTI conforme avaliação.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Indica internação, mas sem justificativa clara pela gravidade ou sem definir o nível de cuidado.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não indica internação hospitalar ou sugere tratamento ambulatorial.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "referencias": [
+        "Diretrizes Brasileiras para Pneumonia Adquirida na Comunidade em Adultos Imunocompetentes – Sociedade Brasileira de Pneumologia e Tisiologia (SBPT).",
+        "IDSA/ATS Guidelines for the Diagnosis and Treatment of Adults with Community-acquired Pneumonia.",
+        "Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) do Ministério da Saúde (se houver específico para PAC ou abordagem sindrômica).",
+        "UpToDate, Dynamed – Artigos de revisão sobre Pneumonia Adquirida na Comunidade."
+    ]
+  }
+}

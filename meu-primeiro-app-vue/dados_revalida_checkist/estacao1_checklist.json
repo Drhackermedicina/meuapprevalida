@@ -1,0 +1,148 @@
+{
+  "stationTitle": "Estação 1: Dengue (Revalida 2024/2)",
+  "area": "Clínica Médica",
+  "totalScore": 10,
+  "documentId": "revalida_2024_2_estacao_1_pep",
+  "items": [
+    {
+      "itemNumber": 1,
+      "description": "Apresentação: (1) identifica-se; e, (2) cumprimenta o paciente simulado e pergunta seu nome.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.25,
+        "adequado": 0.5
+      },
+      "scoringNotes": "Adequado: realiza as duas ações. Parcialmente adequado: realiza uma ação. Inadequado: não realiza ação alguma."
+    },
+    {
+      "itemNumber": 2,
+      "description": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1) sintomas gripais (tosse, expectoração, coriza, obstrução nasal); (2) mialgia (OU dor muscular OU dor nos músculos); (3) artralgia (OU dor articular); (4) diarreia (OU alteração no aspecto das fezes); (5) náuseas; (6) queixas oftalmológicas (hiperemia OU conjuntivite OU olho vermelho); e, (7) icterícia (OU olho amarelo OU pele amarela).",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.4,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: investiga quatro ou mais itens. Parcialmente adequado: investiga de um a três itens. Inadequado: não investiga item algum."
+    },
+    {
+      "itemNumber": 3,
+      "description": "Pergunta sobre: (1) fatores de melhora; e, (2) fatores de piora.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.25,
+        "adequado": 0.5
+      },
+      "scoringNotes": "Adequado: pergunta os dois itens. Parcialmente adequado: pergunta apenas um item. Inadequado: não pergunta item algum."
+    },
+    {
+      "itemNumber": 4,
+      "description": "Pergunta sobre a história patológica pregressa: (1) comorbidades; (2) medicações; e, (3) alergias.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.4,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: pergunta os três itens. Parcialmente adequado: pergunta um ou dois itens. Inadequado: não pergunta item algum."
+    },
+    {
+      "itemNumber": 5,
+      "description": "Investiga sinais de alarme ou choque: (1) dor abdominal; (2) vômitos; (3) rebaixamento de sensório; (4) lipotimia; (5) irritabilidade; (6) acúmulo de líquido em cavidades; (7) sangramentos ou manchas na pele; e, (8) hipotensão.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.4,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: pergunta quatro ou mais sintomas. Parcialmente adequado: pergunta dois ou três sintomas. Inadequado: pergunta um sintoma ou não pergunta sintoma algum."
+    },
+    {
+      "itemNumber": 6,
+      "description": "Investiga história epidemiológica: (1) viagens recentes; (2) contato com água de enchente (OU água parada OU foco de água parada); (3) contato com rato OU capivara OU carrapato; (4) mosquitos nos ambientes que frequenta; (5) familiares e ou vizinhos com os mesmos sintomas.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.4,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: investiga três ou mais itens. Parcialmente adequado: investiga um ou dois itens. Inadequado: não investiga item algum."
+    },
+    {
+      "itemNumber": 7,
+      "description": "Solicita hemograma.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": null,
+        "adequado": 0.5
+      },
+      "scoringNotes": "Adequado: solicita. Inadequado: não solicita."
+    },
+     {
+      "itemNumber": 8,
+      "description": "Realiza a prova do laço, obedecendo as etapas a seguir: (1) coloca o manguito do tensiômetro no braço do ator; (2) descreve a insuflação do manguito até o valor médio da PA (PAS+PAD)/2; (3) descreve que deixará o manguito insuflado por 5 minutos; e (4) descreve que desenha um quadrado de 2,5 cm de lado no antebraço e conta o número de petéquias na área.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": null,
+        "adequado": 1.0
+      },
+      "scoringNotes": "Adequado: realiza a prova, seguindo todas as etapas. Inadequado: não realiza ou não segue todas as etapas."
+    },
+    {
+      "itemNumber": 9,
+      "description": "Verbaliza o diagnóstico de dengue sem sinais de alarme (OU Grupo A).",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.5,
+        "adequado": 1.0
+      },
+      "scoringNotes": "Adequado: verbaliza o diagnóstico e a gravidade. Parcialmente adequado: verbaliza o diagnóstico de dengue, sem especificar gravidade. Inadequado: não verbaliza o diagnóstico de dengue ou verbaliza, mas com gravidade diferente do grupo A."
+    },
+    {
+      "itemNumber": 10,
+      "description": "Orienta repouso e hidratação oral (com ou sem menção ao volume e composição adequados dos líquidos para reposição).",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.25,
+        "adequado": 0.5
+      },
+      "scoringNotes": "Adequado: orienta as duas condutas. Parcialmente adequado: orienta apenas uma conduta. Inadequado: não orienta conduta alguma."
+    },
+     {
+      "itemNumber": 11,
+      "description": "Orienta uso de paracetamol e/ou dipirona para dor e febre.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": null,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: orienta. Inadequado: não orienta."
+    },
+     {
+      "itemNumber": 12,
+      "description": "Orienta a não utilizar anti-inflamatórios não esteroidais (AINES) ou AAS.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": null,
+        "adequado": 0.75
+      },
+      "scoringNotes": "Adequado: orienta ao menos uma medicação. Inadequado: não orienta nenhuma medicação."
+    },
+    {
+      "itemNumber": 13,
+      "description": "Orienta sobre sinais de alarme: (1) dor abdominal; (2) vômitos; (3) alteração de consciência; e, (4) sangramentos",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": 0.5,
+        "adequado": 1.0
+      },
+      "scoringNotes": "Adequado: orienta os quatro sinais. Parcialmente adequado: orienta dois ou três sinais. Inadequado: orienta um sinal ou não orienta sinal algum."
+    },
+    {
+      "itemNumber": 14,
+      "description": "Verbaliza a necessidade de notificação do caso no SINAN.",
+      "scoringCriteria": {
+        "inadequado": 0.0,
+        "parcialmenteAdequado": null,
+        "adequado": 0.5
+      },
+      "scoringNotes": "Adequado: verbaliza. Inadequado: não verbaliza."
+    }
+  ]
+}

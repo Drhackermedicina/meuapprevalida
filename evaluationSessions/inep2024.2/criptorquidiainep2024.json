@@ -1,0 +1,231 @@
+{
+  "idEstacao": "REVALIDA_EST3_PEDIATRIA_2024V_NUM1",
+  "tituloEstacao": "ESTAÇÃO 3 INEP 2024.2: PEDIATRIA - CRIPTORQUIDIA E FIMOSE FISIOLÓGICA",
+  "numeroDaEstacao": 3,
+  "especialidade": "PEDIATRIA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "pediatria, criptorquidia, distopia testicular, fimose fisiológica, lactente, atenção primária",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde.",
+      "tipoAtendimento": "Ambulatorial - unidade básica de saúde.",
+      "infraestruturaUnidade": [
+        "Consultórios"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está no consultório de unidade básica de saúde e vai atender um menino com 6 meses de idade, levado pela mãe à consulta de rotina.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao relato da mãe do paciente.",
+      "Interpretar o exame físico e explicar à mãe os diagnósticos e as diferentes formas de apresentação anatomopatológicas relativos ao relato materno.",
+      "Interpretar o exame físico e explicar à mãe o diagnóstico e conduta quanto à fimose.",
+      "Elencar as possíveis complicações para a(s) condição(ões) encontrada(s) no paciente.",
+      "Estabelecer a conduta adequada para o caso e justificar seu encaminhamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO (Mãe e Paciente)",
+        "informacao": "Meu nome é Maria, tenho 22 anos de idade, sou casada. Meu filho se chama Eduardo e tem 6 meses de idade."
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DA CONSULTA E ESTADO GERAL",
+        "informacao": "Eu o trouxe para uma consulta de rotina. Ele está em bom estado geral."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL (Percepção da Mãe sobre os testículos)",
+        "informacao": "Desde que o Eduardo nasceu, a bolsa escrotal dele parece vazia. Em consultas anteriores, me disseram para aguardar até os seis meses de idade, que os testículos dele desceriam sozinhos e não seria necessário tomar outra atitude."
+      },
+      {
+        "contextoOuPerguntaChave": "PERCEPÇÃO DA MÃE SOBRE FIMOSE",
+        "informacao": "Em consultas anteriores, me informaram que a fimose dele era normal e que, com o tempo, isto se solucionaria naturalmente."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRICO GESTACIONAL E DE NASCIMENTO (Eduardo)",
+        "informacao": "Minha gestação foi tranquila.\nEle nasceu a termo, de parto normal, e o parto transcorreu sem intercorrências.\nEle nasceu com peso adequado.\nNós permanecemos dois dias na maternidade após o parto, ocasião na qual ele fez os exames de rotina e recebeu as primeiras vacinas."
+      },
+      {
+        "contextoOuPerguntaChave": "ALIMENTAÇÃO E DESENVOLVIMENTO (Eduardo)",
+        "informacao": "Eu o amamentei de maneira exclusiva por seis meses.\nEle come bem e se desenvolve bem.\nNão tenho nenhuma queixa quanto à saúde dele."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRICO DE SAÚDE DA CRIANÇA (Eduardo)",
+        "informacao": "Ele ficou levemente gripado em dois momentos desde o seu nascimento, mas curou-se rapidamente e não houveram complicações.\nEle recebeu todas as vacinas adequadas à sua idade."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA MÃE: Sobre necessidade de tratamento",
+        "informacao": "Doutor(a), meu filho vai precisar fazer algum tratamento?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA MÃE: Sobre problemas futuros da condição",
+        "informacao": "Quais problemas de saúde esta patologia (a ausência dos testículos) poderia acarretar ao meu filho no futuro?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA MÃE: Sobre o que fazer em relação à ausência dos testículos",
+        "informacao": "O que eu poderia fazer sobre a ausência dos testículos dele?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA MÃE: Sobre seguimento com especialista (se encaminhado)",
+        "informacao": "Caso haja encaminhamento a um especialista, a partir deste momento todas as consultas da criança seriam com esse especialista?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est3_caderneta_saude",
+        "tituloImpresso": "IMPRESSO – CADERNETA DE SAÚDE DA CRIANÇA",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "IDENTIFICAÇÃO E NASCIMENTO",
+              "itens": [
+                {"chave": "Nome", "valor": "Eduardo Mateus."},
+                {"chave": "Sexo", "valor": "Masculino."},
+                {"chave": "Via de Parto / Idade Gestacional", "valor": "Vaginal / 37 semanas e 5 dias."},
+                {"chave": "Peso de nascimento", "valor": "3.000 gramas."},
+                {"chave": "Comprimento ao nascer", "valor": "49 centímetros."},
+                {"chave": "Perímetro cefálico ao nascer", "valor": "34,5 centímetros."},
+                {"chave": "Apgar", "valor": "9/10."},
+                {"chave": "Tipo Sanguíneo mãe / RN", "valor": "A+ / A+"}
+              ]
+            },
+            {
+              "tituloSecao": "ACOMPANHAMENTO",
+              "itens": [
+                {"chave": "Vacinação", "valor": "Atualizada até os 6 meses segundo Programa Nacional de Vacinação."},
+                {"chave": "Suplementação", "valor": "Uso regular de vitamina D e Sulfato Ferroso."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est3_exame_fisico",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "INFORMAÇÕES GERAIS",
+              "itens": [
+                {"chave": "Nome", "valor": "Eduardo Mateus."},
+                {"chave": "Idade", "valor": "6 meses."}
+              ]
+            },
+            {
+              "tituloSecao": "AVALIAÇÃO GERAL",
+              "itens": [
+                {"chave": "Dados antropométricos", "valor": "Adequados para a idade e sexo."},
+                {"chave": "Estado Geral", "valor": "Bom estado geral, eupneico, hidratado e afebril."}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO SEGMENTAR",
+              "itens": [
+                {"chave": "Observações", "valor": "Sem alterações, exceto bolsa escrotal vazia e testículos impalpáveis."},
+                {"chave": "Genitália", "valor": "Prepúcio recobrindo a glande, não redutível, sem estenose prepucial."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST3_PEDIATRIA_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Lactente de 6 meses com bolsa escrotal vazia desde o nascimento (criptorquidia) e fimose fisiológica, em consulta de rotina na UBS.",
+      "focoPrincipalDetalhado": [
+        "Diagnosticar com base na história e exame físico a forma anatomopatológica de distopia testicular ou criptorquidia.",
+        "Diagnosticar a fimose fisiológica e orientar a conduta adequada.",
+        "Orientar a conduta adequada para as diferentes formas de distopia testicular.",
+        "Encaminhar para atenção especializada para diagnóstico diferencial de Distúrbio do Desenvolvimento Sexual (DDS) e oportunidade de tratamento cirúrgico."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est3_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresenta-se:\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as quatro ações.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Realiza duas ou três ações.", "pontos": 0.5},
+          "inadequado": {"criterio": "Realiza uma ação OU não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Sobre o diagnóstico da distopia testicular e/ou criptorquidia:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso E explica a possível posição intra abdominal ou inguinal.", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular, MAS não explica a posição do testículo.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular ou apenas cita que a bolsa escrotal está vazia.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Cita possíveis complicações da criptorquidia:\n(1) infertilidade;\n(2) torção testicular;\n(3) atrofia testicular / diminuição do volume testicular;\n(4) malignidade (câncer) / tumor / neoplasia;\n(5) persistência do conduto peritoneovaginal que pode gerar hidrocele, hidrocele comunicante, hérnia inguinal, hérnia inguinal indireta;\n(6) insuficiência de produção de andrógenos, déficit na produção de testosterona, atraso puberal, disfunção hormonal e necessidade de reposição hormonal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cita duas ou mais complicações.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Cita uma complicação.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não cita complicação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Indicação de exame de imagem: ultrassonografia abdominal /ultrassonografia de região inguino-escrotal/tomografia de abdome/ressonância magnética de abdome:\nObs.: não é indicada a realização de exames de imagem do tipo ultrassonografia, tomografia ou ressonância magnética antes do encaminhamento para avaliação com cirurgião pediatra.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Não indica.", "pontos": 1.0},
+          "inadequado": {"criterio": "Indica.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Elenca possíveis complicações / fatores de risco que possam indicar tratamento intervencionista para Fimose:\n(1) infecção do trato urinário / pielonefrite;\n(2) balanite / balanopostite / inflamação peniana;\n(3) malformação do trato urinário associada.\n(4) parafimose/ estrangulamento de glande,\n(5) obstrução ao fluxo urinário causada pela presença de um prepúcio punctiforme e obstrutivo/ balonamento;\n(6) não resolução espontânea da fimose após os 3 anos de idade.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Elenca 3 complicações.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Elenca 1 ou 2 complicações.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não elenca complicações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Sobre a conduta para fimose fisiológica e a impossibilidade de exposição da glande:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta apenas sobre cuidados locais de higiene.", "pontos": 1.0},
+          "inadequado": {"criterio": "Orienta a realização de \"massagens\" ou uso de pomada ou redução do prepúcio ou ainda o tratamento cirúrgico.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Sobre a conduta a ser adotada para criptorquidia:\n(1) Explica a mãe sobre o diagnóstico.\n(2) Encaminha para atendimento especializado (cirurgia pediátrica, endocrinologia pediátrica ou geneticista ou urologia pediátrica).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Executa duas condutas.", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Executa apenas uma conduta.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não executa conduta alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est3_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Indica manutenção do seguimento na UBS: marcação de retorno, retornar com o médico na unidade, segue com consultas de puericultura.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não indica.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

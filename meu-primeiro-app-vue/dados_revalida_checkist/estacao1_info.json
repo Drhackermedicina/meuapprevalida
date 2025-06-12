@@ -1,0 +1,56 @@
+{
+    "title": "Estação 1: Dengue (Revalida 2024/2)",
+    "area": "Clínica Médica",
+    "examSource": "Revalida INEP 2024/2",
+    "setting": "Pronto Atendimento/Emergência (Inferido)",
+    "caseSummary": "Homem de 21 anos com queixa de febre e cefaleia há 4 dias, em um quadro de dengue sem sinais de alarme e sem condições especiais (grupo A).",
+    "candidateTasks": [
+      "Realizar atendimento adequado de um paciente com sintomas de dengue, identificando, a partir de anamnese direcionada, os exames físicos e laboratoriais necessários à definição do diagnóstico e à avaliação da gravidade do caso",
+      "Realizar exame físico específico, prova do laço, posicionando o esfigmomanômetro no braço do paciente e, sem insuflá-lo, descrevendo as etapas necessárias à realização do exame",
+      "Interpretar os achados do exame físico e laboratorial adequadamente, diagnosticando a patologia como dengue e orientando o tratamento e os sinais de alarme que deverão ser observados pelo paciente"
+    ],
+    "actorScriptHints": [
+      "Se chama Marcos, tem 21 anos, é solteiro e estudante universitário",
+      "Está com febre há 4 dias, aferida em casa em até 39,5°C",
+      "Sente dor de cabeça intensa no fundo dos olhos, sente dor no corpo, fraqueza, cansaço e falta de apetite",
+      "Ingeriu paracetamol para alívio da dor e febre, mas os efeitos foram passageiros",
+      "Não tem outros sintomas, nem doenças prévias ou alergias e nunca foi operado",
+      "Não faz uso de medicamentos de uso contínuo nem de vitaminas",
+      "Não fuma ou usa drogas, e que costuma, apenas, beber duas latas de cerveja aos domingos",
+      "Não viajou recentemente e nem teve contato com água de enchente, rato, capivara ou carrapato",
+      "No local em que trabalha, há muitos mosquitos (pernilongos)",
+      "Sua mãe tem pressão alta sendo este o único histórico mórbido familiar",
+      "Desconhece se outra pessoa de seu convívio apresenta os mesmos sintomas"
+    ],
+    "releasableData": [
+      {
+        "id": "exame_fisico_geral",
+        "name": "Exame Físico Geral",
+        "trigger": "Ao indicar a realização do exame físico",
+        "type": "text",
+        "content": "[CONTEÚDO DO EXAME FÍSICO A SER CRIADO POR VOCÊ - ex: PA 110x70, FC 90, FR 18, T afebril, Corado, Hidratado...]"
+      },
+      {
+        "id": "prova_laco",
+        "name": "Resultado Prova do Laço",
+        "trigger": "Após conclusão do exame (Prova do Laço)",
+        "type": "text",
+        "content": "[RESULTADO DA PROVA DO LAÇO A SER CRIADO POR VOCÊ - ex: Negativa (< 20 petéquias)]"
+      },
+      {
+        "id": "sorologias",
+        "name": "Sorologias Dengue",
+        "trigger": "Ao solicitar sorologias para dengue (NS1 e ou IgM e ou IgG) ou teste rápido",
+        "type": "map",
+        "content": "[RESULTADOS DAS SOROLOGIAS A SEREM CRIADOS POR VOCÊ - ex: {'NS1': 'Reagente', 'IgM': 'Não Reagente', 'IgG': 'Não Reagente'}]"
+      },
+      {
+        "id": "exames_laboratoriais",
+        "name": "Exames Laboratoriais",
+        "trigger": "Ao solicitar outros exames laboratoriais",
+        "type": "map",
+        "content": "[RESULTADOS DO HEMOGRAMA, ETC A SEREM CRIADOS POR VOCÊ - ex: {'Hematocrito': 42, 'Plaquetas': 140000}]"
+      }
+    ],
+    "checklistDocId": "revalida_2024_2_estacao_1_pep"
+  }

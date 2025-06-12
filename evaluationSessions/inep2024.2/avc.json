@@ -1,0 +1,342 @@
+{
+  "idEstacao": "REVALIDA_EST6_CLINICA_MEDICA_AVC_2024V_NUM1",
+  "tituloEstacao": "ESTAÇÃO 6 INEP 2024.2: CLÍNICA MÉDICA - AVC E ESCALA NIHSS",
+  "numeroDaEstacao": 6,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "clínica médica, avc, acidente vascular cerebral, nihss, escala neurológica, emergência",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde.",
+      "tipoAtendimento": "Urgência e emergência.",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Sala de estabilização",
+        "Laboratório de análises clínicas",
+        "Serviço de radiologia com aparelho de radiografia e tomografia computadorizada",
+        "Leitos de internação - enfermaria e terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Você atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes melito e dislipidemia, com suspeita de acidente vascular cerebral por apresentar déficit neurológico (hemiplegia E) e cefaleia, iniciados há cerca de 1 hora. Paciente encontra-se com respiração espontânea, via aérea pérvia, boa saturação de O₂ em ar ambiente e parâmetros hemodinâmicos adequados.",
+    "tarefasPrincipais": [
+      "Aplicar a escala NIHSS ao paciente.",
+      "Totalizar a pontuação da escala NIHSS e VERBALIZAR.",
+      "Solicitar exames complementares necessários à avaliação inicial do caso."
+    ],
+    "avisosImportantes": [
+      "CASO JULGUE NECESSÁRIO TOCAR O PACIENTE SIMULADO, O TOQUE É PERMITIDO APENAS NA PERNA, ABAIXO DOS JOELHOS, E NO BRAÇO, ABAIXO DOS COTOVELOS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE (se perguntado na anamnese inicial)",
+        "informacao": "Meu nome é Anderson.\nTenho 58 anos.\nSou motorista de ônibus."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS (se perguntado na anamnese inicial)",
+        "informacao": "Eu tenho diabetes, arritmia e colesterol alto."
+      },
+      {
+        "contextoOuPerguntaChave": "INÍCIO DOS SINTOMAS (se perguntado na anamnese inicial)",
+        "informacao": "Meus sintomas começaram há pouco mais de 1 hora."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 1b - Nível de Consciência (Perguntas)",
+        "informacao": "Se me perguntarem o mês: \"Estamos no mês de dezembro.\"\nSe me perguntarem minha idade: \"Tenho 58 anos.\""
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 1c - Nível de Consciência (Comandos)",
+        "informacao": "Se me pedirem para abrir e fechar os olhos: (Eu realizo o comando).\nSe me pedirem para abrir e fechar a mão (não parética - direita): (Eu realizo o comando)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 2 - Melhor olhar conjugado",
+        "informacao": "Se me pedirem para olhar para direita/esquerda: (Eu movimento horizontalmente os olhos).\nSe me pedirem para acompanhar o movimento dos dedos: (Eu acompanho com o olhar)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 3 - Campos Visuais",
+        "informacao": "Se testarem meus campos visuais: (Eu enxergo os dedos nos quadrantes testados)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 4 - Paralisia Facial",
+        "informacao": "Se me pedirem para mostrar os dentes ou sorrir: (Eu realizo o comando, observar minha assimetria).\nSe me pedirem para fechar os olhos com força: (Eu realizo o comando, observar minha assimetria)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 5a - Motor Braço Esquerdo",
+        "informacao": "Se me pedirem para levantar meu braço esquerdo: (Eu não consigo mover meu braço esquerdo)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 5b - Motor Braço Direito",
+        "informacao": "Se me pedirem para sustentar meu braço direito a 90° por 10s: (Eu sustento meu braço direito)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 6a - Motor Perna Esquerda",
+        "informacao": "Se me pedirem para levantar minha perna esquerda: (Eu não consigo mover minha perna esquerda)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 6b - Motor Perna Direita",
+        "informacao": "Se me pedirem para sustentar minha perna direita a 30° por 5s: (Eu sustento minha perna direita)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 8 - Sensibilidade",
+        "informacao": "Ao ser tocado ou beliscado nos meus membros do lado esquerdo: (Eu fico inerte).\nAo ser tocado nos meus membros do lado direito: (Eu demonstro sensibilidade e dor)."
+      },
+      {
+        "contextoOuPerguntaChave": "NIHSS 9 - Melhor Linguagem (Descrição de imagem, nomeação, leitura)",
+        "informacao": "Identificação de objetos apontados (da lista NIHSS): (Eu identifico corretamente).\nLeitura de frases do impresso NIHSS: (Eu leio adequadamente).\nIdentificação dos desenhos do impresso NIHSS: (Eu identifico corretamente).\nDescrição do que acontece no desenho do impresso NIHSS: (Eu descrevo corretamente)."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO PARA CHEFE DE ESTAÇÃO (Escala NIHSS)",
+        "informacao": "Ao solicitar a escala NIHSS, o participante será informado que a escala está sobre a mesa (incluindo impressos para itens 9 e 10)."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO PARA CHEFE DE ESTAÇÃO (Exames)",
+        "informacao": "Ao solicitar a realização de exame laboratorial ou de imagem de forma inespecífica, o participante será solicitado para ser mais específico.\nAo solicitar a realização de exames complementares laboratoriais e/ou de imagem de forma específica, o participante será informado(a) para considerar já solicitado."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO PARA CHEFE DE ESTAÇÃO (Conclusão NIHSS)",
+        "informacao": "No decorrer da estação, caso o(a) participante conclua a aplicação da escala NIHSS e não verbalize seu total, o(a) chefe de estação deverá perguntar se ele(a) concluiu a aplicação da escala e, após confirmar o término da aplicação, perguntar ao(à) participante qual foi a pontuação."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est6_nihss_preenchimento_completo",
+        "tituloImpresso": "IMPRESSO NIHSS - PREENCHIMENTO (COMPLETO)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Escala NIHSS completa para preenchimento, detalhando os 11 itens, definições e opções de escore (Documento de 4 páginas conforme PDF '2024_2_prova_habilidades_clinicas (1).pdf', páginas 25-28).",
+          "caminhoImagem": "REFERENCIA_IMAGEM_NIHSS_DOCUMENTO_PAGINAS_1_A_4_EST6",
+          "laudo": ""
+        }
+      },
+      {
+        "idImpresso": "est6_nihss_sentencas_leitura",
+        "tituloImpresso": "IMPRESSO - ESCALA NIHSS (Sentenças para item 9)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Sentenças para Leitura (Item 9. Melhor linguagem)",
+              "itens": [
+                {"chave": "Sentença 1", "valor": "Você sabe como fazer."},
+                {"chave": "Sentença 2", "valor": "De volta pra casa."},
+                {"chave": "Sentença 3", "valor": "Eu cheguei em casa do trabalho."},
+                {"chave": "Sentença 4", "valor": "Próximo da mesa, na sala de jantar."},
+                {"chave": "Sentença 5", "valor": "Eles ouviram o Pelé falar no rádio."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est6_nihss_lista_disartria",
+        "tituloImpresso": "IMPRESSO - ESCALA NIHSS (Lista para item 10)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Lista para Disartria (Item 10)",
+              "itens": [
+                {"chave": "Palavra 1", "valor": "Mamãe"},
+                {"chave": "Palavra 2", "valor": "Tic-Tac"},
+                {"chave": "Palavra 3", "valor": "Paralelo"},
+                {"chave": "Palavra 4", "valor": "Obrigado"},
+                {"chave": "Palavra 5", "valor": "Estrada de ferro"},
+                {"chave": "Palavra 6", "valor": "Jogador de futebol"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est6_nihss_imagens_nomeacao",
+        "tituloImpresso": "IMPRESSO - ESCALA NIHSS (Imagens para nomeação - Item 9)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens para nomeação (Item 9. Melhor linguagem): luva, chave, cadeira, rede, cacto, pena.",
+          "caminhoImagem": "REFERENCIA_IMAGEM_NIHSS_NOMEACAO_EST6",
+          "laudo": ""
+        }
+      },
+      {
+        "idImpresso": "est6_nihss_figura_descricao",
+        "tituloImpresso": "IMPRESSO - ESCALA NIHSS (Figura para descrição - Item 9)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Figura para descrição (Item 9. Melhor linguagem): Cena da cozinha.",
+          "caminhoImagem": "REFERENCIA_IMAGEM_NIHSS_FIGURA_DESCRICAO_EST6",
+          "laudo": ""
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST6_CLINICA_MEDICA_AVC_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Homem de 58 anos com déficit neurológico (hemiplegia E) e cefaleia há cerca de 1 hora. Histórico de diabetes, arritmia e colesterol alto. Suspeita de AVC.",
+      "focoPrincipalDetalhado": [
+        "Atendimento inicial ao paciente com suspeita de AVC.",
+        "Aplicação correta da escala NIHSS.",
+        "Totalização e verbalização da pontuação da NIHSS.",
+        "Solicitação de exames complementares necessários (TC de crânio sem contraste, laboratório)."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est6_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) identifica-se; e,\n(2) cumprimenta o paciente simulado e pergunta seu nome.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as duas ações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza uma ação.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza ação alguma.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza a avaliação 1a do NIHSS:\nAvalia se o paciente está alerta, falando com ele(a).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia se o paciente está alerta, falando com ele(a).", "pontos": 0.5},
+          "inadequado": {"criterio": "Não avalia se o paciente está alerta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza a avaliação 1b do NIHSS. Pergunta:\n(1) idade do paciente; e\n(2) em que mês estamos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta os dois itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Pergunta apenas um item.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não pergunta item algum.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza a avaliação 1c do NIHSS. Solicita que o paciente:\n(1) abra e feche os olhos e\n(2) abra e feche a mão.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as duas solicitações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza apenas uma solicitação.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não solicita nenhuma das duas ações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza a avaliação 2 do NIHSS. Pede que o paciente movimente os olhos horizontalmente para os dois lados (olhar para a direita e para a esquerda).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia a movimentação para os dois lados.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Avalia a movimentação para um lado.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não avalia a movimentação ocular.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza a avaliação 3 do NIHSS. Avalia os campos visuais (superiores e inferiores).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Avalia os quatro quadrantes.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não avalia os quatro quadrantes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza a avaliação 4 do NIHSS. Pede que o paciente sorria (ou mostre os dentes) e feche os olhos com força.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Faz as duas solicitações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Faz apenas uma solicitação.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não faz nenhuma dessas solicitações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza a avaliação 5 do NIHSS. Solicita que o paciente sustente os braços a 90°, com as palmas das mãos para baixo.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza com ângulo E posicionamento das mãos adequados.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza com ângulo OU posicionamento das mãos inadequados.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza a pesquisa OU a faz com ângulo E posicionamento das mãos inadequados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Realiza a avaliação 6 do NIHSS. Solicita que o paciente sustente as pernas a 30° em extensão.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza com ângulo E extensão adequados.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza com ângulo OU extensão inadequados.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza a pesquisa OU a faz com ângulo E extensão inadequados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Realiza a avaliação 7 do NIHSS. Solicita que o paciente faça o teste index-nariz OU calcanhar-joelho.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Realiza a avaliação 8 do NIHSS. Testa a sensibilidade do paciente.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Testa.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não testa.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Realiza a avaliação 9 do NIHSS. Solicita que o paciente descreva a imagem.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Realiza a avaliação 10 do NIHSS. Solicita que o paciente leia (ou repita) a lista de palavras.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Totaliza corretamente a escala NIHSS. Verbaliza total de 10 pontos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Totaliza corretamente.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não totaliza ou totaliza com outro valor.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Solicita TC, ou tomografia, ou tomografia computadorizada, ou ressonância, ou ressonância magnética de crânio SEM CONTRASTE.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Solicita COM CONTRASTE.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est6_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Solicita outros exames complementares:\n(1) Eletrocardiograma;\n(2) Glicemia capilar;\n(3) Hemograma;\n(4) Coagulograma (TAP/INR e TTPA);\n(5) Potássio e sódio;\n(6) Ureia e creatinina;\n(7) Troponina.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita ao menos cinco exames.", "pontos": 1.0},
+          "inadequado": {"criterio": "Solicita menos que cinco exames.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

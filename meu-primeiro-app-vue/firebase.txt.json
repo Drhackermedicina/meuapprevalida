@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "southamerica-east1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "target": "revalidafacil-principal",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": { // <<< Adicione este bloco
+    "source": "functions", // Onde o código de suas funções está (ex: pasta 'functions')
+    "runtime": "nodejs18" // Versão do Node.js, use uma versão LTS recente
+  }
+}

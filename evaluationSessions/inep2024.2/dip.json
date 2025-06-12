@@ -1,0 +1,255 @@
+{
+  "idEstacao": "REVALIDA_EST10_MFC_DIP_2024V_NUM1",
+  "tituloEstacao": "ESTAÇÃO 10 INEP 2024.2: MEDICINA DA FAMÍLIA E COMUNIDADE - DOENÇA INFLAMATÓRIA PÉLVICA",
+  "numeroDaEstacao": 10,
+  "especialidade": "MEDICINA DA FAMÍLIA E COMUNIDADE",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "medicina da família e comunidade, doença inflamatória pélvica, dip, dor abdominal, corrimento vaginal, ist",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde.",
+      "tipoAtendimento": "Ambulatorial - unidade básica de saúde.",
+      "infraestruturaUnidade": [
+        "Ambulatórios para atendimento de consultas marcadas e de acolhimento do dia",
+        "Sala para observação, coleta de exames e administração de medicamentos orais ou parenterais."
+      ]
+    },
+    "descricaoCasoCompleta": "Você recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido à dor no hipogastro há uma semana.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada a queixa principal da paciente.",
+      "Interpretar os dados do exame físico.",
+      "Relacionar os achados clínicos às hipóteses diagnósticas.",
+      "Explicar o diagnóstico e responder às perguntas da paciente.",
+      "Indicar o tratamento incluindo medicamentos, orientar coleta de exames e medidas preventivas cabíveis."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "A prescrição, pedidos de exames e orientações devem ser feitas apenas de forma verbal.",
+      "Fale de maneira clara, audível e olhando para a câmera."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DA PACIENTE",
+        "informacao": "Meu nome é Luísa.\nSou casada.\nTenho 21 anos."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXA PRINCIPAL E DURAÇÃO",
+        "informacao": "Estou com fortes dores na parte inferior do abdome, há 1 semana."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS",
+        "informacao": "Corrimento Vaginal: Sim, tenho um corrimento vaginal com odor fétido e aspecto esverdeado.\nSangramento Fora do Período Menstrual: Não.\nDores Durante Relação Sexual (Dispareunia): Sim, sinto dores durante as relações sexuais."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE (Após análise do IMPRESSO - EXAME FÍSICO, se solicitado)",
+        "informacao": "Então Doutor(a), o que é que eu tenho?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE (Se não explicada a causa)",
+        "informacao": "Doutor(a), meu problema é sexualmente transmissível? Meu marido poderia estar me traindo? Que procedimentos, exames ou remédios preciso tomar para resolver? Vou ter que ir para o hospital?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE (Se não mencionados outros cuidados)",
+        "informacao": "Devo ter algum outro cuidado?"
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DA PACIENTE (Se não oferecido atestado)",
+        "informacao": "Doutor(a), na loja onde trabalho fico o dia inteiro de pé. Será que preciso de atestado?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est10_exame_fisico",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS E ESTADO GERAL",
+              "itens": [
+                {"chave": "Pressão Arterial", "valor": "120x70 mmHg"},
+                {"chave": "Temperatura Axilar", "valor": "36,7°C"},
+                {"chave": "Estado Geral", "valor": "Bom estado geral."},
+                {"chave": "Mucosas", "valor": "Coradas e úmidas."}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME ABDOMINAL",
+              "itens": [
+                {"chave": "Palpação", "valor": "Abdome flácido sem defesa, mas com dor a palpação na fossa ilíaca esquerda."}
+              ]
+            },
+            {
+              "tituloSecao": "EXAME PÉLVICO",
+              "itens": [
+                {"chave": "Exame especular", "valor": "Secreção vaginal abundante e esverdeada e colo friável eritema com secreção no orifício cervical."},
+                {"chave": "Toque vaginal", "valor": "Dor a palpação do anexo esquerdo e dor à mobilização do colo."}
+              ]
+            },
+            {
+              "tituloSecao": "OBSERVAÇÃO",
+              "itens": [
+                {"chave": "Demais aspectos do exame físico", "valor": "Normais."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST10_MFC_DIP_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 21 anos com dor abdominal em hipogastro há 1 semana, corrimento vaginal fétido esverdeado e dispareunia. Suspeita de Doença Inflamatória Pélvica (DIP).",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e abordagem da sexualidade com acolhimento.",
+        "Solicitação de exames para ISTs para paciente e parceiro.",
+        "Prescrição de tratamento empírico para DIP (cobrindo gonococo, clamídia, anaeróbios).",
+        "Orientação sobre diagnóstico, tratamento, prevenção de ISTs, repouso, abstinência sexual, retorno e uso de preservativos."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est10_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Posturas gerais com a paciente:\n(1) apresenta-se;\n(2) cumprimenta a paciente (dirige-se a ela pelo nome, pelo menos 1 vez);\n(3) mantém postura empática e interessada (escuta ativamente a fala da paciente, sem interrompê-la); e,\n(4) comunica-se adequadamente (usa linguagem clara e acessível, evitando termos de difícil compreensão).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as quatro ações descritas.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza pelo menos duas ações.", "pontos": 0.25},
+          "inadequado": {"criterio": "Realiza menos de duas ou não realiza nenhuma das ações descritas.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Pergunta sobre sintomas gerais:\n(1) febre;\n(2) mal-estar;\n(3) dores no corpo;\n(4) dor lombar;\n(5) náuseas ou vômitos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta pelo menos dois sintomas.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Pergunta pelo menos um sintoma geral.", "pontos": 0.12},
+          "inadequado": {"criterio": "Não pergunta sobre sintomas gerais.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Pergunta sobre sintomas urinários:\n(1) disúria;\n(2) polaciúria;\n(3) noctúria;\n(4) mal odor na urina;\n(5) hematúria.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta sobre pelo menos três sintomas.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Pergunta sobre pelo menos dois sintomas.", "pontos": 0.12},
+          "inadequado": {"criterio": "Pergunta sobre apenas um ou não pergunta sobre nenhum desses sintomas.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Pergunta sobre características da dor:\n(1) intensidade;\n(2) local;\n(3) característica da dor (tipo);\n(4) irradiação;\n(5) tempo de instalação dos sintomas;\n(6) progressão dos sintomas;\n(7) fatores de melhora;\n(8) fatores de piora.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Pergunta sobre pelo menos seis dessas características.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Pergunta sobre pelo menos quatro dessas características.", "pontos": 0.25},
+          "inadequado": {"criterio": "Pergunta apenas três ou menos do que três dentre essas características.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Questiona sobre a vida sexual e ciclo menstrual:\n(1) início das relações sexuais;\n(2) dor nas relações sexuais;\n(3) uso de preservativo durante a atividade sexual;\n(4) uso de anticoncepcionais;\n(5) data da última menstruação;\n(6) comportamento sexual (parcerias múltiplas e/ou novas parcerias);\n(7) histórico de infecções sexualmente transmissíveis (ISTs).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Questiona sobre pelo menos seis desses itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Questiona sobre apenas cinco desses itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Questiona apenas quatro ou menos itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Questiona sobre a presença de:\n(1) leucorreia;\n(2) sangramento vaginal;\n(3) aspecto da secreção vaginal;\n(4) odor da secreção vaginal.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Questiona sobre os quatro itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Questiona apenas sobre três desses itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Questiona sobre até dois ou não questiona nenhum desses itens.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza o diagnóstico de doença inflamatória pélvica:",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza o diagnóstico completo.", "pontos": 1.0},
+          "inadequado": {"criterio": "Verbaliza o diagnóstico incompleto ou não verbaliza.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Responde/Explica a paciente sobre o contágio sexual:\n(1) responde/explica que a infecção pode ou não ser uma doença sexualmente transmissível;\n(2) explica que o momento da contaminação para algumas bactérias não pode ser precisado;\n(3) acolhe as dúvidas da paciente e estimula o diálogo entre a paciente e o companheiro, sem julgamentos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza as três ações.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Realiza apenas duas dessas ações.", "pontos": 0.5},
+          "inadequado": {"criterio": "Realiza uma ou não realiza nenhuma dessas ações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Indicações/recomendações:\n(1) tratamento ambulatorial;\n(2) recomenda repouso;\n(3) recomenda abstinência sexual;\n(4) fornece atestado;\n(5) marca retorno.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza pelo menos três ações.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza pelo menos duas ações.", "pontos": 0.25},
+          "inadequado": {"criterio": "Realiza uma ou menos ações.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Orienta o tratamento indicando as medicações:\n(1) Ceftriaxone ou cefotaxima ou levofloxacino;\n(2) Metronidazol;\n(3) Doxaciclina ou Azitromicina.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica os três medicamentos (um de cada grupo).", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Indica apenas duas medicações corretas.", "pontos": 1.0},
+          "inadequado": {"criterio": "Indica apenas uma medicação ou esquemas inadequados.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Recomenda analgésicos ou anti-inflamatórios via oral.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza a ação.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não realiza a ação.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Recomenda o tratamento do parceiro com antibióticos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Recomenda.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não recomenda.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Solicita exames para IST, ou teste rápido, para:\n(1) HIV;\n(2) Sifilis;\n(3) Hepatite B;\n(4) Hepatite C.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita os quatro exames.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Solicita pelo menos três exames.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não solicita exames para IST, ou teste rápido.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_est10_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Recomenda o uso de preservativos nas relações sexuais.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Recomenda.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não recomenda.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

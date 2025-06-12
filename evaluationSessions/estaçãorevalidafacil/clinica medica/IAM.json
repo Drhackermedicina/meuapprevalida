@@ -1,0 +1,433 @@
+{
+  "idEstacao": "REVALIDA_ESTCM_CLINMED_IAM_2025_001",
+  "tituloEstacao": "INFARTO AGUDO DO MIOCÁRDIO (IAM)",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Infarto Agudo do Miocárdio, Dor Torácica, Síndrome Coronariana Aguda (SCA), Eletrocardiograma (ECG), Troponina, Reperfusão Coronária.",
+  "nivelDificuldade": "Médio/Difícil",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Urgência/Emergência (Sala de Emergência de um Hospital Secundário / UPA com capacidade para primeiro atendimento de SCA).",
+      "tipoAtendimento": "Pronto Atendimento.",
+      "infraestruturaUnidade": [
+        "Sala de emergência equipada com monitor cardíaco multiparamétrico, fonte de oxigênio, material para acesso venoso periférico, desfibrilador/cardioversor.",
+        "Medicações de emergência para SCA: AAS, clopidogrel (ou ticagrelor), heparina (HNF ou HBPM), nitrato sublingual, morfina, beta-bloqueador oral, antiemético.",
+        "Eletrocardiógrafo disponível para realização imediata de ECG de 12 derivações.",
+        "Laboratório para coleta de marcadores de necrose miocárdica (resultados fornecidos após solicitação e tempo protocolar).",
+        "Prontuário para anotações.",
+        "Observação: Para esta estação, considere que o hospital possui serviço de hemodinâmica para angioplastia primária (ACTP) disponível 24/7, com tempo porta-balão esperado de 60-90 minutos após indicação."
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na sala de emergência quando um homem de 58 anos, previamente hígido exceto por comorbidades em tratamento, é trazido por familiares com queixa de dor torácica de forte intensidade, iniciada subitamente há aproximadamente 1 hora.",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada à queixa principal e antecedentes relevantes.",
+      "Realizar o exame físico geral e específico focado nos sistemas cardiovascular e respiratório.",
+      "Solicitar e interpretar o eletrocardiograma (ECG) de 12 derivações.",
+      "Solicitar marcadores de necrose miocárdica.",
+      "Formular a hipótese diagnóstica principal e sua classificação.",
+      "Instituir o tratamento farmacológico inicial para a condição diagnosticada.",
+      "Indicar e justificar a estratégia de reperfusão coronariana mais adequada para o caso, considerando o cenário apresentado.",
+      "Comunicar o diagnóstico, a gravidade e o plano terapêutico inicial ao paciente (ou acompanhante, se o paciente não tiver condições).",
+      "Orientar sobre os próximos passos, incluindo a necessidade de internação em unidade especializada."
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA OS PROCEDIMENTOS DE EXAME FÍSICO DESCRITOS NAS TAREFAS.",
+      "TODOS OS RESULTADOS DE EXAMES COMPLEMENTARES SOLICITADOS SERÃO FORNECIDOS IMPRESSOS PELO AVALIADOR QUANDO PERTINENTE E APÓS O TEMPO SIMULADO NECESSÁRIO.",
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO CLÍNICO E CONDUTAS DE FORMA CLARA E OBJETIVA.",
+      "O TEMPO É CONTROLADO RIGOROSAMENTE."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE/ACOMPANHANTE",
+        "informacao": "Nome: Sr. José Alves Ferreira\nIdade: 58 anos\nEstado Civil: casado\nOcupação: contador"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "(Com voz embargada e expressão de dor) \"Doutor(a), estou com uma dor horrível aqui no peito... começou de repente, faz mais ou menos uma hora... parece que meu peito vai explodir!\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 1 (Dor Torácica)",
+        "informacao": "Início: \"Começou de repente, há uma hora mais ou menos, eu estava vendo televisão.\"\nLocalização: \"Bem aqui no meio do peito (aponta para região retroesternal), é profunda.\"\nIntensidade: \"Agora está um 9. Começou forte, um 9, e não melhorou nada.\"\nTipo/Característica: \"É um aperto muito forte, uma pressão, parece que tem um elefante sentado em cima de mim.\"\nIrradiação: \"Sinto que ela corre para o meu braço esquerdo e um pouco para o pescoço e mandíbula.\"\nFatores de Piora: \"Quando eu tento respirar fundo ou me mexo um pouco, parece que piora a sensação.\"\nFatores de Melhora: \"Nada que eu fiz melhorou. Tentei ficar quieto, deitar, mas não adianta.\"\nEpisódios Prévios: \"Não tive uma dor igual a essa antes.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL 2 (Dispneia)",
+        "informacao": "Início: Concomitante com a dor\nAferição e Valor: Não aferido diretamente, sintoma referido.\nCaracterísticas Adicionais: \"Sim, estou com um pouco de falta de ar, parece que o ar não entra direito.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS/ACOMPANHANTES",
+        "informacao": "Febre: \"Não, não senti febre.\"\nNáuseas/Vômitos: \"Senti um enjoo forte, cheguei a vomitar uma vez só, logo que a dor começou.\"\nSudorese: \"Sim, estou suando frio, pode ver...\"\nPalpitações: \"Não reparei bem, o coração está acelerado por causa da dor, eu acho.\"\nTosse/Expectoração: \"Não.\"\nSintomas Neurológicos (tontura, síncope, cefaleia): \"Não, só essa dor mesmo e o mal-estar.\"\nSintomas Gastrointestinais (além das náuseas/vômitos): \"Não.\"\nOutros sintomas (se perguntado ativamente): \"Não tenho outros sintomas que eu tenha notado.\""
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÕES DE ALÍVIO USADAS (se houver)",
+        "informacao": "\"Minha esposa me deu um comprimido de AAS infantil (100mg) que a gente tinha em casa, porque achou que podia ser do coração, mas não adiantou nada.\""
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: \"Tenho pressão alta e diabetes tipo 2. Descobri tem uns 10 anos. Sim, tomo os remédios direitinho, não falho.\"\nMedicamentos de Uso Contínuo/Vitaminas: \"Uso Losartana de 50mg de manhã, Hidroclorotiazida de 25mg também de manhã, e Metformina de 850mg duas vezes ao dia, depois do café e depois do jantar.\"\nAlergias: \"Não que eu saiba, doutor(a). Nunca usei contraste que eu lembre.\"\nCirurgias: \"Só de apendicite quando eu era bem novo.\"\nInternações Prévias: \"Nunca fiquei internado por problema do coração. Só quando operei o apêndice.\"\nVacinação: \"Tomei todas as vacinas da COVID e da gripe deste ano. As outras de adulto, acho que sim.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: \"Bebo cerveja nos finais de semana, umas 4-5 latinhas, socialmente com os amigos.\"\nFumo: \"Fumo desde os 20 anos de idade. Um maço de cigarros por dia, mais ou menos. (Carga tabágica: 38 anos-maço).\"\nDrogas Ilícitas: \"Não, nunca usei.\"\nAlimentação: \"Ah, doutor(a), eu como de tudo... gosto de um churrasquinho no fim de semana, uma fritura... minha esposa vive brigando comigo por causa disso.\"\nAtividade Física: \"Não faço exercício nenhum. Meu trabalho é muito sentado, sou contador.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA PSICOSSOCIAL E EPIDEMIOLÓGICA",
+        "informacao": "Ocupação/Trabalho: \"Sou contador, trabalho muito tempo sentado no escritório.\"\nMoradia/Saneamento: \"Moro em casa própria, com água encanada, esgoto, tudo certinho.\"\nViagens Recentes: \"Não viajei ultimamente.\"\nContato com Doentes/Animais: \"Não que eu saiba.\"\nContatos com sintomas similares: \"Que eu saiba, não.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA FAMILIAR",
+        "informacao": "\"Meu pai morreu de infarto, ele tinha uns 60 anos. Minha mãe tem pressão alta também e é viva. Tenho um irmão mais novo, 52 anos, que tem pressão alta também.\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: O que eu tenho? É grave?",
+        "informacao": "\"Doutor(a), o que eu tenho? É grave?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Eu vou morrer?",
+        "informacao": "\"Eu vou morrer?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Essa dor no peito vai passar logo?",
+        "informacao": "\"Essa dor no peito vai passar logo?\""
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE: Vou precisar ficar internado?",
+        "informacao": "\"Vou precisar ficar internado?\""
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Humor/Comportamento",
+        "informacao": "Ansioso, agitado, com fácies de dor. Leva a mão ao peito frequentemente."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Colaboração",
+        "informacao": "Colaborativo, mas pode apresentar dificuldade em completar frases longas devido à dor e leve dispneia. Sudoreico."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Respostas não previstas",
+        "informacao": "Resposta a outras perguntas não previstas no script: \"Não sei informar, doutor(a)\" ou \"Essa dor não melhora, doutor(a)?\"."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Condução de Exames/Procedimentos",
+        "informacao": "Durante o exame físico, demonstrar sensibilidade ou desconforto se pertinente. Simular leve taquipneia."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Aparência",
+        "informacao": "Apresentar-se sudoreico (pode-se usar borrifador de água no rosto/testa antes do início)."
+      },
+      {
+        "contextoOuPerguntaChave": "INSTRUÇÃO AO ATOR: Atuação",
+        "informacao": "Manter contato visual, expressar preocupação e dor de forma convincente."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "REVALIDA_ESTCM_IAM_2025_001_EXFISGERAL",
+        "tituloImpresso": "EXAME FÍSICO GERAL E SINAIS VITAIS (Aferidos na triagem/chegada)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {"chave": "Aparência", "valor": "Paciente agitado psicomotoramente, ansioso, pálido (+/4), sudoreico."},
+                {"chave": "Nível de Consciência", "valor": "Consciente e orientado no tempo e espaço."},
+                {"chave": "Padrão Respiratório", "valor": "Dispneico (taquipneia leve)."},
+                {"chave": "Hidratação/Coloração", "valor": "Acianótico, anictérico."},
+                {"chave": "Temperatura ao toque", "valor": "Afebril ao toque."}
+              ]
+            },
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Frequência Cardíaca (FC)", "valor": "110 bpm (monitor: ritmo sinusal)"},
+                {"chave": "Frequência Respiratória (FR)", "valor": "24 irpm"},
+                {"chave": "Pressão Arterial (PA)", "valor": "155 x 98 mmHg (MMSS Direito, sentado)"},
+                {"chave": "Saturação O₂", "valor": "92% (em ar ambiente)"},
+                {"chave": "Temperatura Axilar (Tax)", "valor": "36.8ºC"},
+                {"chave": "Glicemia Capilar (HGT na chegada)", "valor": "185 mg/dL"}
+              ]
+            },
+            {
+              "tituloSecao": "ANTROPOMETRIA",
+              "itens": [
+                {"chave": "Peso (referido)", "valor": "95 kg"},
+                {"chave": "Altura (referida)", "valor": "1.70 m"},
+                {"chave": "IMC", "valor": "32.8 kg/m² (Obesidade Grau I)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTCM_IAM_2025_001_EXFISESP",
+        "tituloImpresso": "EXAME FÍSICO ESPECÍFICO (Cardiovascular e Respiratório - realizado pelo candidato e verbalizado achados para receber o impresso confirmando/complementando)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "CARDIOVASCULAR",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Tórax sem abaulamentos ou retrações visíveis. Ictus cordis não visível. Estase jugular não observada a 45º."},
+                {"chave": "Palpação", "valor": "Ictus cordis palpável no 5º espaço intercostal esquerdo, na linha hemiclavicular, impulsivo, medindo aproximadamente 2 polpas digitais. Pulsos periféricos (radiais, femorais, pediosos) palpáveis, simétricos, frequência de 110 bpm, amplos. Sem frêmitos palpáveis."},
+                {"chave": "Ausculta", "valor": "Bulhas cardíacas rítmicas, taquicárdicas, normofonéticas em 2 tempos (B1 e B2). Presença de B4 audível em foco mitral e tricúspide. Ausência de sopros, atritos ou B3."}
+              ]
+            },
+            {
+              "tituloSecao": "RESPIRATÓRIO",
+              "itens": [
+                {"chave": "Inspeção", "valor": "Expansibilidade pulmonar simétrica. Discreta tiragem intercostal inferior. Padrão respiratório regular."},
+                {"chave": "Palpação", "valor": "Frêmito tóraco-vocal preservado e simétrico."},
+                {"chave": "Percussão", "valor": "Som claro pulmonar bilateralmente."},
+                {"chave": "Ausculta", "valor": "Murmúrio vesicular universalmente audível, diminuído em bases. Presença de estertores crepitantes finos bibasais (predomínio à esquerda, até terço médio). Ausência de sibilos ou roncos."}
+              ]
+            },
+            {
+              "tituloSecao": "ABDÔMEN",
+              "itens": [
+                {"chave": "Avaliação", "valor": "Levemente distendido, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes e normoativos. Ausência de massas ou visceromegalias palpáveis. Espaço de Traube timpânico."}
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {"chave": "Avaliação", "valor": "Pálidas, quentes, com boa perfusão capilar periférica (tempo de enchimento capilar < 2 segundos). Edema ++/4+ em membros inferiores, bilateral, mole, cacifo positivo."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTCM_IAM_2025_001_ECG",
+        "tituloImpresso": "RESULTADO DE ELETROCARDIOGRAMA (ECG de 12 Derivações - Fornecer após solicitação e simulação de realização)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Eletrocardiograma de 12 derivações com supradesnivelamento de ST em parede anterior extensa.",
+          "caminhoImagem": "REVALIDA_ESTCM_IAM_2025_001_ECG_IMAGEM.png",
+          "laudo": "Ritmo sinusal, Frequência Cardíaca de 110 bpm.\nEixo elétrico de QRS a +30º.\nSupradesnivelamento do segmento ST de 3 mm em V2, V3 e V4; de 2 mm em V1 e V5; e de 1 mm em DI e aVL.\nPresença de ondas Q patológicas em V1 e V2.\nInfradesnivelamento do segmento ST (\"imagem em espelho\") de 1 mm em DIII e aVF.\nOndas T positivas e simétricas nas derivações com supra de ST.\nIntervalo PR normal, QRS com duração de 0,08s."
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTCM_IAM_2025_001_LABMARCADORES",
+        "tituloImpresso": "RESULTADO DE MARCADORES DE NECROSE MIOCÁRDICA (1ª Coleta - Fornecer após solicitação e tempo simulado de ~60 minutos para resultado)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES DE NECROSE MIOCÁRDICA (Coleta na Admissão)",
+              "itens": [
+                {"chave": "Troponina I ultrassensível", "valor": "572.0 ng/L (Valor de Referência: até 14 ng/L)"},
+                {"chave": "CK-MB massa", "valor": "35.0 ng/mL (Valor de Referência: até 5.0 ng/mL)"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "REVALIDA_ESTCM_IAM_2025_001_LABBASAIS",
+        "tituloImpresso": "RESULTADOS DE EXAMES LABORATORIAIS BASAIS (Coletados na admissão, resultado junto com marcadores)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {"chave": "Hemoglobina (Hb)", "valor": "14.8 g/dL (Ref: 13.5-17.5 g/dL)"},
+                {"chave": "Hematócrito (Hct)", "valor": "44% (Ref: 40-52%)"},
+                {"chave": "Leucócitos Totais", "valor": "12.800/mm³ (Ref: 4.000-11.000/mm³)"},
+                {"chave": "Neutrófilos", "valor": "78% (10.000/mm³)"},
+                {"chave": "Linfócitos", "valor": "15% (1.920/mm³)"},
+                {"chave": "Monócitos", "valor": "5% (640/mm³)"},
+                {"chave": "Eosinófilos", "valor": "2% (250/mm³)"},
+                {"chave": "Plaquetas", "valor": "260.000/mm³ (Ref: 150.000-450.000/mm³)"}
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {"chave": "Ureia", "valor": "42 mg/dL (Ref: 15-45 mg/dL)"},
+                {"chave": "Creatinina", "valor": "1.15 mg/dL (Ref: 0.7-1.3 mg/dL) (Calcular Clearance de Creatinina se for considerar HBPM ou contraste)"},
+                {"chave": "Sódio (Na+)", "valor": "140 mEq/L (Ref: 135-145 mEq/L)"},
+                {"chave": "Potássio (K+)", "valor": "4.3 mEq/L (Ref: 3.5-5.1 mEq/L)"}
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA (Resultado Rápido para decisão de reperfusão)",
+              "itens": [
+                {"chave": "Tempo de Protrombina (TP)", "valor": "12 segundos (RNI: 1.0)"},
+                {"chave": "Tempo de Tromboplastina Parcial Ativada (TTPA)", "valor": "28 segundos (Relação: 0.9)"}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST_IAM_CLINMED_2025_001",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 58 anos, com HAS, DM e tabagista, apresenta dor torácica súbita de forte intensidade há 1 hora, irradiando para MSE, pescoço e mandíbula, acompanhada de dispneia, náuseas, vômitos e sudorese. ECG evidencia IAMCSST anterior extenso. Exames laboratoriais confirmam necrose miocárdica.",
+      "focoPrincipalDetalhado": [
+        "Diagnóstico e manejo inicial do Infarto Agudo do Miocárdio com Supradesnivelamento do Segmento ST (IAMCSST).",
+        "Indicação e justificativa da terapia de reperfusão coronariana primária (Angioplastia - ACTP).",
+        "Comunicação eficaz do diagnóstico e plano terapêutico ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_estIAM_item01",
+        "itemNumeroOficial": "1.1",
+        "descricaoItem": "Apresentação e Acolhimento: Identifica-se, cumprimenta o paciente, estabelece um contato inicial adequado.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica-se, cumprimenta o paciente, estabelece um contato inicial adequado.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não se apresenta ou não acolhe adequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item02",
+        "itemNumeroOficial": "1.2",
+        "descricaoItem": "Investigação da Queixa Principal (Dor Torácica): Investiga pelo menos 5 características da dor (início, localização, irradiação, qualidade/tipo, intensidade, duração, fatores de melhora/piora, sintomas associados como dispneia, sudorese, náuseas).",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 5 características + sintomas associados chave.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "3-4 características OU falta de sintomas associados chave.", "pontos": 0.4},
+          "inadequado": {"criterio": "<3 características.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item03",
+        "itemNumeroOficial": "1.3",
+        "descricaoItem": "Investigação de Fatores de Risco Cardiovascular e Antecedentes Relevantes: Pergunta sobre HAS, DM, tabagismo, dislipidemia (pode inferir pela história alimentar/obesidade), história familiar de DAC precoce.",
+        "pontuacoes": {
+          "adequado": {"criterio": "≥ 3 fatores de risco/antecedentes.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "1-2 fatores de risco/antecedentes.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não investiga.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item04",
+        "itemNumeroOficial": "1.4",
+        "descricaoItem": "Investigação de Medicações em Uso, Alergias e Uso Prévio de AAS: Pergunta sobre medicações de uso contínuo, alergias medicamentosas e se utilizou alguma medicação para a dor atual antes de chegar ao serviço (especificamente AAS).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cobre os três itens.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Cobre dois itens.", "pontos": 0.25},
+          "inadequado": {"criterio": "Cobre menos de dois itens ou omite item crucial.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item05",
+        "itemNumeroOficial": "2.1",
+        "descricaoItem": "Solicita/Verbaliza aferição de Sinais Vitais Completos e Avaliação do Estado Geral: Reconhece os dados fornecidos (PA, FC, FR, SatO2, Tax, HGT) e avalia o estado geral (nível de consciência, perfusão, padrão respiratório).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Reconhece os dados e avalia estado geral.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não reconhece ou não avalia adequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item06",
+        "itemNumeroOficial": "2.2",
+        "descricaoItem": "Realiza/Descreve Exame Cardiovascular Direcionado: Verbaliza os passos da inspeção, palpação (ictus) e ausculta cardíaca (BNF, pesquisa de B3, B4, sopros).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza/descreve de forma sistemática e identifica B4.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Realiza/descreve parcialmente ou não identifica B4.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não realiza ou descreve de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item07",
+        "itemNumeroOficial": "2.3",
+        "descricaoItem": "Realiza/Descreve Exame Respiratório Direcionado: Verbaliza os passos da inspeção, palpação, percussão e ausculta pulmonar (MV, pesquisa de ruídos adventícios como estertores).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Realiza/descreve de forma sistemática e identifica estertores.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Realiza/descreve parcialmente ou não identifica estertores.", "pontos": 0.25},
+          "inadequado": {"criterio": "Não realiza ou descreve de forma inadequada.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item08",
+        "itemNumeroOficial": "3.1",
+        "descricaoItem": "Solicita ECG de 12 Derivações Imediatamente: Verbaliza a necessidade urgente do ECG como prioridade.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Verbaliza a necessidade urgente do ECG.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não solicita ECG ou não prioriza.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item09",
+        "itemNumeroOficial": "3.2",
+        "descricaoItem": "Interpreta Corretamente o ECG: Identifica o supradesnivelamento do segmento ST, as derivações acometidas e conclui como IAMCSST de parede anterior extenso.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Identifica supra ST e localização correta.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Identifica supra ST mas erra localização ou é vago.", "pontos": 0.5},
+          "inadequado": {"criterio": "Não identifica supra ST ou interpreta erroneamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item10",
+        "itemNumeroOficial": "3.3",
+        "descricaoItem": "Solicita Marcadores de Necrose Miocárdica e Exames Laboratoriais Básicos: Solicita Troponina e CK-MB, hemograma, coagulograma, função renal, eletrólitos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita marcadores e exames básicos.", "pontos": 0.25},
+          "parcialmenteAdequado": {"criterio": "Não aplicável.", "pontos": 0.0},
+          "inadequado": {"criterio": "Não solicita ou solicita de forma incompleta.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item11",
+        "itemNumeroOficial": "3.4",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Classificação (se aplicável): Verbaliza \"Infarto Agudo do Miocárdio com Supradesnivelamento do Segmento ST (IAMCSST) de parede anterior\". Pode complementar com classificação de Killip (Killip II pelos estertores).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Diagnóstico completo e correto.", "pontos": 0.5},
+          "parcialmenteAdequado": {"criterio": "Diagnóstico incompleto ou apenas \"Infarto\".", "pontos": 0.25},
+          "inadequado": {"criterio": "Diagnóstico incorreto ou ausente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item12",
+        "itemNumeroOficial": "4.1",
+        "descricaoItem": "Institui Medidas Farmacológicas Iniciais para IAMCSST (MONA-BCA + Estatina):\n(1) Oxigênio (se SatO2 < 94%).\n(2) AAS (dose de ataque 150-300mg mastigado; complementar os 100mg já usados).\n(3) Clopidogrel (dose de ataque 300-600mg) ou Ticagrelor (180mg).\n(4) Heparina (HNF ou HBPM em dose de anticoagulação plena).\n(5) Nitrato sublingual (se PA permitir e sem contraindicações).\n(6) Morfina (se dor refratária ao nitrato).\n(7) Betabloqueador oral (se sem contraindicações).\n(8) Estatina de alta potência.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Administra corretamente a maioria dos medicamentos (MONA-BCA + Estatina) considerando doses e indicações.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Esquece 1-2 itens não críticos ou erra dose/indicação de algum.", "pontos": 0.75},
+          "inadequado": {"criterio": "Conduta gravemente inadequada ou omite múltiplos itens críticos.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item13",
+        "itemNumeroOficial": "4.2",
+        "descricaoItem": "Define e Comunica Estratégia de Reperfusão Adequada:\n(1) Verbaliza a necessidade de reperfusão urgente.\n(2) Indica Angioplastia Primária (ACTP) como primeira opção no cenário dado e justifica (tempo porta-balão <90-120 min).\n(3) Verbaliza acionamento da equipe de hemodinâmica.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Indica ACTP, justifica corretamente e verbaliza acionamento da equipe.", "pontos": 1.0},
+          "parcialmenteAdequado": {"criterio": "Menciona reperfusão mas é vago ou hesita na escolha, ou não verbaliza acionamento.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não indica reperfusão ou indica estratégia errada para o cenário.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item14",
+        "itemNumeroOficial": "4.3",
+        "descricaoItem": "Comunicação com o Paciente/Acompanhante: Explica o diagnóstico (infarto), a gravidade, a necessidade de tratamento urgente (angioplastia) e internação de forma clara, empática e em linguagem acessível.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Comunicação clara, empática e informativa.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Falhas na clareza, empatia ou informação.", "pontos": 0.4},
+          "inadequado": {"criterio": "Comunicação inadequada ou ausente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_estIAM_item15",
+        "itemNumeroOficial": "4.4",
+        "descricaoItem": "Orientações Gerais e Encaminhamento: Verbaliza necessidade de monitorização contínua, repouso absoluto, internação em Unidade Coronariana/UTI, e controle de fatores de risco a longo prazo (brevemente).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Cobre todas as orientações e encaminhamento.", "pontos": 0.75},
+          "parcialmenteAdequado": {"criterio": "Omite uma ou duas orientações.", "pontos": 0.4},
+          "inadequado": {"criterio": "Não orienta ou orienta de forma inadequada.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regra para a coleção 'estacoes_clinicas'
+    match /estacoes_clinicas/{stationId} {
+      allow read: if request.auth != null;
+      // Usuários com o custom claim 'editor: true' podem escrever
+      allow write: if request.auth != null && request.auth.token.editor == true;
+    }
+
+    // Regra para a coleção 'checklists'
+    match /checklists/{checklistId} {
+      allow read: if request.auth != null;
+      // Usuários com o custom claim 'editor: true' podem escrever
+      allow write: if request.auth != null && request.auth.token.editor == true;
+    }
+  }
+}

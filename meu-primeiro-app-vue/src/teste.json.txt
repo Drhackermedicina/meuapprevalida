@@ -1,0 +1,279 @@
+{
+  "idEstacao": "revalida2024_2_estacao_1",
+  "tituloEstacao": "ESTAÇÃO 1",
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "atenção primária à saúde" ,
+      "tipoAtendimento": "ambulatorial" ,
+      "infraestruturaUnidade": [
+        "consultórios" ,
+        "laboratório de análises clínicas" ,
+        "leito de observação" ,
+        "ambulância para transporte do paciente" 
+      ],
+      "ambienteDetalhado": null
+    },
+    "descricaoCasoCompleta": "Paciente com 21 anos procura atendimento com queixa de febre e cefaleia há 4 dias." ,
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente." ,
+      "Solicitar / realizar exames físicos necessários à avaliação do caso." ,
+      "Solicitar exames complementares pertinentes ao caso." ,
+      "Relacionar os resultados dos exames às hipóteses diagnósticas." ,
+      "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica." 
+    ],
+    "avisosImportantes": [
+      "O TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA A UTILIZAÇÃO DO ESFIGMOMANÔMETRO, SEM INSUFLÁ-LO." 
+    ]
+  },
+  "materiaisDisponiveis": {
+    "impressos": [
+      {
+        "idImpresso": "est1_exame_fisico_geral",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO" ,
+        "gatilhoEntrega": "Ao indicar a realização do exame físico, receberia o IMPRESSO EXAME FÍSICO GERAL" ,
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS:",
+              "itens": [
+                {"chave": "Frequência Cardíaca", "valor": "101 batimentos por minuto." },
+                {"chave": "Frequência Respiratória", "valor": "19 incursões respiratórias por minuto." },
+                {"chave": "Pressão Arterial", "valor": "120x80 mmHg." },
+                {"chave": "Saturação de Oxigênio em ar ambiente", "valor": "97%." },
+                {"chave": "Temperatura Axilar", "valor": "38ºC." }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME CLÍNICO:",
+              "texto": [
+                "Regular estado geral, corado, hidratado, febril, sem alterações cutâneas." ,
+                "Exames físicos cardiovascular, respiratório, abdominal, neurológico e exame físico de extremidades: Sem alterações." 
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_prova_laco",
+        "tituloImpresso": "IMPRESSO - PROVA DO LAÇO" ,
+        "gatilhoEntrega": "Ao indicar a realização da PROVA DO LAÇO OU a PROVA DO TORNIQUETE ou o TESTE DE FRAGILIDADE CAPILAR, seria orientado a posicionar o esfigmomanômetro no braço do paciente, sem insuflá-lo, e a descrever as próximas etapas do teste. Após a conclusão do exame, receberia o IMPRESSO - PROVA DO LAÇO." ,
+        "tipoConteudo": "imagem_descritiva",
+        "conteudo": {
+          "descricao": "Diagrama ilustrando a área de contagem da prova do laço no antebraço, com um quadrado de 2,5 cm x 2,5 cm e a presença de petéquias." ,
+          "caminhoImagem": "/assets/imagens/estacao1/prova_laco.png"
+        }
+      },
+      {
+        "idImpresso": "est1_sorologias",
+        "tituloImpresso": "IMPRESSO - SOROLOGIAS" ,
+        "gatilhoEntrega": "Ao solicitar sorologias para dengue (NS1 e ou IgM e ou IgG) ou teste rápido para dengue, receberia o IMPRESSO - SOROLOGIAS." ,
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DENGUE:",
+              "itens": [
+                {"chave": "NS1", "valor": "positivo." },
+                {"chave": "IgM", "valor": "positivo." },
+                {"chave": "IgG", "valor": "negativo." }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_exames_laboratoriais",
+        "tituloImpresso": "IMPRESSO - EXAMES LABORATORIAIS" ,
+        "gatilhoEntrega": "Ao solicitar outros exames laboratoriais, receberia o IMPRESSO EXAMES LABORATORIAIS." ,
+        "tipoConteudo": "tabela_simples",
+        "conteudo": {
+          "colunas": ["Exame", "Resultado", "Valores de referência"],
+          "linhas": [
+            ["Hemoglobina (Hb)", "13,5 g/dL", "13,0-17,0 g/dL"],
+            ["Hematócrito (Hct)", "40,5 %", "38-50%"],
+            ["Leucocitos", "8.500 mm³", "5.000-10.000/mm³"],
+            ["Plaquetas", "320.000 mm³", "150.000-400.000/mm³"],
+            ["Creatinina", "1,1 mg/dL", "0,7-1,3 mg/dL"],
+            ["Ureia", "40 mg/dL", "10-50 mg/dL"]
+          ]
+        }
+      }
+    ],
+    "informacoesVerbaisSimulado": [
+      {"contextoOuPerguntaChave": "Identificação do paciente", "informacao": "se chama Marcos, tem 21 anos, é solteiro e estudante universitário" },
+      {"contextoOuPerguntaChave": "Detalhes da febre", "informacao": "está com febre há 4 dias, aferida em casa em até 39,5ºC" },
+      {"contextoOuPerguntaChave": "Outros sintomas associados à febre e cefaleia", "informacao": "sente dor de cabeça intensa no fundo dos olhos, sente dor no corpo, fraqueza, cansaço e falta de apetite" },
+      {"contextoOuPerguntaChave": "Medicações utilizadas", "informacao": "ingeriu paracetamol para alívio da dor e febre, mas os efeitos foram passageiros" },
+      {"contextoOuPerguntaChave": "Sintomas negativos relevantes, comorbidades, alergias, cirurgias", "informacao": "não tem outros sintomas, nem doenças prévias ou alergias e nunca foi operado" },
+      {"contextoOuPerguntaChave": "Uso de medicamentos contínuos ou vitaminas", "informacao": "não faz uso de medicamentos de uso contínuo nem de vitaminas" },
+      {"contextoOuPerguntaChave": "Hábitos (fumo, drogas, álcool)", "informacao": "não fuma ou usa drogas, e que costuma, apenas, beber duas latas de cerveja aos domingos" },
+      {"contextoOuPerguntaChave": "Histórico de viagens ou exposição a vetores específicos", "informacao": "não viajou recentemente e nem teve contato com água de enchente, rato, capivara ou carrapato" },
+      {"contextoOuPerguntaChave": "Exposição a mosquitos", "informacao": "no local em que trabalha, há muitos mosquitos (pernilongos)" },
+      {"contextoOuPerguntaChave": "Histórico familiar", "informacao": "sua mãe tem pressão alta sendo este o único histórico mórbido familiar" },
+      {"contextoOuPerguntaChave": "Contatos com sintomas semelhantes", "informacao": "desconhece se outra pessoa de seu convívio apresenta os mesmos sintomas" }
+    ],
+    "perguntasAtorSimulado": [
+      {
+        "condicaoGatilho": "No decorrer do atendimento, caso o(a) participante tenha adotado a conduta adequada" ,
+        "pergunta": "se o caso dele é grave e o que ele poderia tomar para tratar a enfermidade." 
+      }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "pep_revalida2024_2_estacao_1",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "A Estação 1, da área de Clínica Médica, abordou o caso de um homem de 21 anos com queixa de febre e cefaleia há 4 dias, em um quadro de dengue sem sinais de alarme e sem condições especiais (grupo A)." ,
+      "focoPrincipalDetalhado": [
+          "realizar o atendimento adequado de um paciente com sintomas de dengue, identificando, a partir de anamnese direcionada, os exames físicos e laboratoriais necessários à definição do diagnóstico e à avaliação da gravidade do caso;" ,
+          "realizar exame físico específico, prova do laço, posicionando o esfigmomanômetro no braço do paciente e, sem insuflá-lo, descrevendo as etapas necessárias à realização do exame;" ,
+          "interpretar os achados do exame físico e laboratorial adequadamente, diagnosticando a patologia como dengue e orientando o tratamento e os sinais de alarme que deverão ser observados pelo paciente." 
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item1_apresentacao",
+        "itemNumeroOficial": "1.",
+        "descricaoItem": "Apresentação: (1) identifica-se; e, (2) cumprimenta o paciente simulado e pergunta seu nome." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "realiza as duas ações." , "pontos": 0.5 },
+          "parcialmenteAdequado": { "criterio": "realiza uma ação." , "pontos": 0.25 },
+          "inadequado": { "criterio": "não realiza ação alguma." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item2_sintomas_associados",
+        "itemNumeroOficial": "2.",
+        "descricaoItem": "Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais: (1) sintomas gripais (tosse, expectoração, coriza, obstrução nasal); (2) mialgia (OU dor muscular OU dor nos músculos); (3) artralgia (OU dor articular); (4) diarreia (OU alteração no aspecto das fezes); (5) náuseas; (6) queixas oftalmológicas (hiperemia OU conjuntivite OU olho vermelho); e, (7) icterícia (OU olho amarelo OU pele amarela)." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "investiga quatro ou mais itens." , "pontos": 0.75 },
+          "parcialmenteAdequado": { "criterio": "investiga de um a três itens." , "pontos": 0.4 },
+          "inadequado": { "criterio": "não investiga item algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item3_fatores_melhora_piora",
+        "itemNumeroOficial": "3.",
+        "descricaoItem": "Pergunta sobre: (1) fatores de melhora; e, (2) fatores de piora." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "pergunta os dois itens." , "pontos": 0.5 },
+          "parcialmenteAdequado": { "criterio": "pergunta apenas um item." , "pontos": 0.25 },
+          "inadequado": { "criterio": "não pergunta item algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item4_historia_patologica_pregressa",
+        "itemNumeroOficial": "4.",
+        "descricaoItem": "Pergunta sobre a história patológica pregressa: (1) comorbidades; (2) medicações; e, (3) alergias." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "pergunta os três itens." , "pontos": 0.75 },
+          "parcialmenteAdequado": { "criterio": "pergunta um ou dois itens." , "pontos": 0.4 },
+          "inadequado": { "criterio": "não pergunta item algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item5_sinais_alarme_choque",
+        "itemNumeroOficial": "5.",
+        "descricaoItem": "Investiga sinais de alarme ou choque: (1) dor abdominal; (2) vômitos; (3) rebaixamento de sensório; (4) lipotimia; (5) irritabilidade; (6) acúmulo de líquido em cavidades; (7) sangramentos ou manchas na pele; e, (8) hipotensão." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "pergunta quatro ou mais sintomas." , "pontos": 0.75 },
+          "parcialmenteAdequado": { "criterio": "pergunta dois ou três sintomas." , "pontos": 0.4 },
+          "inadequado": { "criterio": "pergunta um sintoma ou não pergunta sintoma algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item6_historia_epidemiologica",
+        "itemNumeroOficial": "6.",
+        "descricaoItem": "Investiga história epidemiológica: (1) viagens recentes; (2) contato com água de enchente (OU água parada OU foco de água parada); (3) contato com rato OU capivara OU carrapato; (4) mosquitos nos ambientes que frequenta; (5) familiares e ou vizinhos com os mesmos sintomas." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "investiga três ou mais itens." , "pontos": 0.75 },
+          "parcialmenteAdequado": { "criterio": "investiga um ou dois itens." , "pontos": 0.4 },
+          "inadequado": { "criterio": "não investiga item algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item7_solicita_hemograma",
+        "itemNumeroOficial": "7.",
+        "descricaoItem": "Solicita hemograma." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "solicita." , "pontos": 0.5 },
+          "parcialmenteAdequado": null,
+          "inadequado": { "criterio": "não solicita." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item8_realiza_prova_laco",
+        "itemNumeroOficial": "8.",
+        "descricaoItem": "Realiza a prova do laço, obedecendo as etapas a seguir: (1) coloca o manguito do tensiômetro no braço do ator; (2) descreve a insuflação do manguito até o valor médio da PA (PAS+PAD)/2; (3) descreve que deixará o manguito insuflado por 5 minutos; e (4) descreve que desenha um quadrado de 2,5 cm de lado no antebraço e conta o número de petéquias na área." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "realiza a prova, seguindo todas as etapas." , "pontos": 1.0 },
+          "parcialmenteAdequado": null,
+          "inadequado": { "criterio": "não realiza ou não segue todas as etapas." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item9_verbaliza_diagnostico_dengue",
+        "itemNumeroOficial": "9.",
+        "descricaoItem": "Verbaliza o diagnóstico de dengue sem sinais de alarme (OU Grupo A)." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "verbaliza o diagnóstico e a gravidade." , "pontos": 1.0 },
+          "parcialmenteAdequado": { "criterio": "verbaliza o diagnóstico de dengue, sem especificar gravidade." , "pontos": 0.5 },
+          "inadequado": { "criterio": "não verbaliza o diagnóstico de dengue ou verbaliza, mas com gravidade diferente do grupo A." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10_orienta_repouso_hidratacao",
+        "itemNumeroOficial": "10.",
+        "descricaoItem": "Orienta repouso e hidratação oral (com ou sem menção ao volume e composição adequados dos líquidos para reposição)." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "orienta as duas condutas." , "pontos": 0.5 },
+          "parcialmenteAdequado": { "criterio": "orienta apenas uma conduta." , "pontos": 0.25 },
+          "inadequado": { "criterio": "não orienta conduta alguma." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11_orienta_paracetamol_dipirona",
+        "itemNumeroOficial": "11.",
+        "descricaoItem": "Orienta uso de paracetamol e/ou dipirona para dor e febre." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "orienta." , "pontos": 0.75 },
+          "parcialmenteAdequado": null,
+          "inadequado": { "criterio": "não orienta." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12_orienta_nao_uso_aines_aas",
+        "itemNumeroOficial": "12.",
+        "descricaoItem": "Orienta a não utilizar anti-inflamatórios não esteroidais (AINES) ou AAS." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "orienta ao menos uma medicação." , "pontos": 0.75 },
+          "parcialmenteAdequado": null,
+          "inadequado": { "criterio": "não orienta nenhuma medicação." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13_orienta_sinais_alarme",
+        "itemNumeroOficial": "13.",
+        "descricaoItem": "Orienta sobre sinais de alarme: (1) dor abdominal; (2) vômitos; (3) alteração de consciência; e, (4) sangramentos" ,
+        "pontuacoes": {
+          "adequado": { "criterio": "orienta os quatro sinais." , "pontos": 1.0 },
+          "parcialmenteAdequado": { "criterio": "orienta dois ou três sinais." , "pontos": 0.5 },
+          "inadequado": { "criterio": "orienta um sinal ou não orienta sinal algum." , "pontos": 0.0 }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14_verbaliza_notificacao_sinan",
+        "itemNumeroOficial": "14.",
+        "descricaoItem": "Verbaliza a necessidade de notificação do caso no SINAN." ,
+        "pontuacoes": {
+          "adequado": { "criterio": "verbaliza." , "pontos": 0.5 },
+          "parcialmenteAdequado": null,
+          "inadequado": { "criterio": "não verbaliza." , "pontos": 0.0 }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

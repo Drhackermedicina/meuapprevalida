@@ -1,0 +1,216 @@
+{
+  "idEstacao": "REVALIDA_FACIL_EST_ITU",
+  "tituloEstacao": "CLÍNICA MÉDICA - INFECÇÃO DO TRATO URINÁRIO (ITU)",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "ITU, infecção urinária, disúria, polaciúria, urgência miccional, febre, dor lombar, urocultura, antibiótico",
+  "nivelDificuldade": "Fácil",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Primária à Saúde - Unidade Básica de Saúde.",
+      "tipoAtendimento": "Consulta ambulatorial.",
+      "infraestruturaUnidade": [
+        "Consultório médico equipado.",
+        "Aparelho de aferição de pressão arterial, estetoscópio, termômetro.",
+        "Acesso a exames laboratoriais (sumário de urina, urocultura)."
+      ]
+    },
+    "descricaoCasoCompleta": "Você é o médico(a) da Unidade Básica de Saúde. Uma mulher de 28 anos de idade, sexualmente ativa, procura o serviço com queixa de dor ao urinar, aumento da frequência urinária e sensação de urgência há 2 dias. Ela não apresenta febre ou dor lombar.",
+    "tarefasPrincipais": [
+      "Realizar anamnese focada nos sintomas urinários e fatores de risco para ITU.",
+      "Solicitar e interpretar exame físico geral e abdominal.",
+      "Solicitar e interpretar exames complementares (sumário de urina, urocultura).",
+      "Definir a hipótese diagnóstica de Cistite Aguda Não Complicada.",
+      "Propor conduta inicial (antibioticoterapia, sintomáticos) e orientações à paciente."
+    ],
+    "avisosImportantes": [
+      "VERBALIZE TODOS OS SEUS ACHADOS, RACIOCÍNIO, DIAGNÓSTICOS PRESUNTIVOS E CONDUTAS EM VOZ ALTA.",
+      "CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DA PACIENTE",
+        "informacao": "Meu nome é Camila Oliveira. Tenho 28 anos. Sou estudante."
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com dor para fazer xixi e vontade toda hora."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL (HDA) - FEBRE, CEFALEIA, VOMITOS, NAUSEAS, DIARREIA, DOR ABDOMINAL, SINTOMAS ACOMPANHANTES, ETC.....",
+        "informacao": "Início: Há 2 dias.\nSintomas: Dor ao urinar (disúria), aumento da frequência urinária (polaciúria), sensação de urgência para urinar. Nega febre, calafrios, dor nas costas (lombar), náuseas, vômitos ou dor abdominal intensa.\nFatores de Risco: Sou sexualmente ativa. Não uso métodos contraceptivos de barreira."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS",
+        "informacao": "Doenças Prévias: Nega. Nunca tive infecção urinária antes.\nMedicamentos em Uso: Nenhum."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Higiene: Faço higiene normal.\nLíquidos: Bebo bastante água."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "impresso_itu_sv",
+        "tituloImpresso": "IMPRESSO - SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {"chave": "Pressão Arterial", "valor": "120x80 mmHg"},
+                {"chave": "Frequência Cardíaca", "valor": "78 bpm"},
+                {"chave": "Frequência Respiratória", "valor": "16 irpm"},
+                {"chave": "Saturação de O₂", "valor": "99% em ar ambiente"},
+                {"chave": "Temperatura axilar", "valor": "36.8°C"}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "impresso_itu_ex_fisico",
+        "tituloImpresso": "IMPRESSO - EXAME FÍSICO GERAL E ABDOMINAL (Verbalizado)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {"chave": "Geral", "valor": "Bom estado geral, corada, hidratada, afebril."},
+                {"chave": "Abdome", "valor": "Flácido, indolor à palpação superficial e profunda, RHA presentes. Sem dor à descompressão. Punho-percussão lombar negativa bilateralmente."},
+                {"chave": "Genitais (se solicitado)", "valor": "Sem lesões visíveis ou sinais de vulvovaginite."}
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "impresso_itu_urina",
+        "tituloImpresso": "IMPRESSO - SUMÁRIO DE URINA E UROCULTURA",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "Sumário de Urina (Urina 1)",
+              "itens": [
+                {"chave": "Aspecto", "valor": "Turvo"},
+                {"chave": "Cor", "valor": "Amarelo escuro"},
+                {"chave": "Densidade", "valor": "1.020"},
+                {"chave": "pH", "valor": "6.0"},
+                {"chave": "Proteínas", "valor": "Negativo"},
+                {"chave": "Glicose", "valor": "Negativo"},
+                {"chave": "Cetonas", "valor": "Negativo"},
+                {"chave": "Nitrito", "valor": "Positivo"},
+                {"chave": "Leucócitos (Esterase)", "valor": "Positivo"},
+                {"chave": "Hemácias", "valor": "5-10 por campo"},
+                {"chave": "Leucócitos", "valor": ">50 por campo"},
+                {"chave": "Bactérias", "valor": "Numerosas"}
+              ]
+            },
+            {
+              "tituloSecao": "Urocultura (Resultado após 48h, se solicitada)",
+              "itens": [
+                {"chave": "Resultado", "valor": "Escherichia coli > 10^5 UFC/mL. Sensível a Ciprofloxacino, Nitrofurantoína, Sulfametoxazol-Trimetoprim."}
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": [
+      {
+        "contextoOuPerguntaChave": "PERGUNTA DO PACIENTE (Após diagnóstico)",
+        "informacao": "Doutor(a), o que é isso? É grave? Preciso tomar antibiótico?"
+      }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_REVALIDA_FACIL_EST_ITU",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 28 anos, sexualmente ativa, com sintomas de disúria, polaciúria e urgência miccional, sem febre ou dor lombar. Sumário de urina com nitrito e leucócitos positivos, e bactérias numerosas. Diagnóstico de Cistite Aguda Não Complicada.",
+      "focoPrincipalDetalhado": [
+        "Anamnese focada em sintomas urinários baixos e fatores de risco para ITU.",
+        "Exame físico para excluir pielonefrite (dor lombar, febre) e outras causas.",
+        "Solicitação e interpretação de sumário de urina para triagem.",
+        "Definição da hipótese diagnóstica de Cistite Aguda Não Complicada.",
+        "Proposta de antibioticoterapia empírica adequada e orientações sobre hidratação e higiene."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_itu_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Realiza anamnese focada em disúria, polaciúria, urgência miccional, e questiona febre, calafrios, dor lombar e fatores de risco (atividade sexual, histórico de ITU).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Investiga ≥3 sintomas urinários e exclui sintomas de pielonefrite, além de questionar fatores de risco.", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Investiga 2 sintomas urinários e/ou omite exclusão de pielonefrite/fatores de risco.", "pontos": 1.0},
+          "inadequado": {"criterio": "Investiga ≤1 sintoma ou não investiga fatores importantes.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Solicita e interpreta exame físico geral e abdominal, incluindo punho-percussão lombar para excluir pielonefrite.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita/verbaliza exame físico e realiza punho-percussão lombar, interpretando corretamente.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Realiza exame, mas omite punho-percussão ou interpretação incompleta.", "pontos": 0.75},
+          "inadequado": {"criterio": "Não solicita/verbaliza ou não realiza adequadamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Solicita sumário de urina (Urina 1) e urocultura.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Solicita sumário de urina e urocultura.", "pontos": 1.5},
+          "parcialmenteAdequado": {"criterio": "Solicita apenas sumário de urina.", "pontos": 0.75},
+          "inadequado": {"criterio": "Não solicita ou solicita incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Interpreta corretamente o sumário de urina (nitrito, leucócitos, bactérias) e o resultado da urocultura (se disponível).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Interpreta corretamente ≥2 achados do sumário de urina e/ou urocultura.", "pontos": 2.0},
+          "parcialmenteAdequado": {"criterio": "Interpreta 1 achado ou interpreta parcialmente.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não interpreta ou interpreta incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Define a hipótese diagnóstica de Cistite Aguda Não Complicada.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Define Cistite Aguda Não Complicada.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não define ou define incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Propõe conduta inicial com antibioticoterapia empírica adequada (ex: Nitrofurantoína, Fosfomicina, Sulfametoxazol-Trimetoprim) e sintomáticos.",
+        "pontuacoes": {
+          "adequado": {"criterio": "Propõe antibioticoterapia adequada e sintomáticos.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não propõe ou propõe incorretamente.", "pontos": 0.0}
+        }
+      },
+      {
+        "idItem": "pep_itu_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Orienta a paciente sobre hidratação, higiene, retorno em caso de piora ou sinais de alarme (febre, dor lombar).",
+        "pontuacoes": {
+          "adequado": {"criterio": "Orienta sobre hidratação, higiene e sinais de alarme.", "pontos": 1.0},
+          "inadequado": {"criterio": "Não orienta.", "pontos": 0.0}
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0
+  }
+}

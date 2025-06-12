@@ -1,0 +1,32 @@
+/* src/style.css */
+
+/* Reset básico opcional (ajuda na consistência entre navegadores) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #4fcedf; /* Fundo da página global: cinza bem claro e suave */
+  color: #212529; /* Cor de texto padrão escura para boa legibilidade */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #46505a; /* Cor um pouco mais suave para títulos */
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: #207D76; /* Usando o Teal primário (#207D76) para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
