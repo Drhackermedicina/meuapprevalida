@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "appestacoes"
+    "default": "revalida-companion",
+    "revalidafacil": "revalida-companion"
   },
   "targets": {
     "appestacoes": {

@@ -40,20 +40,27 @@ async function fetchStations() {
   isLoadingStations.value = true;
   errorMessage.value = '';
   stations.value = [];
-  console.log("[DEBUG] Iniciando fetchStations...");
-  try {
+  console.log("[DEBUG] Iniciando fetchStations...");  try {
     const stationsColRef = collection(db, 'estacoes_clinicas');
-    const q = query(stationsColRef, orderBy("numeroDaEstacao"));
-    console.log("[DEBUG] Executando getDocs na coleção 'estacoes_clinicas' ordenado por 'numeroDaEstacao'...");
-    const querySnapshot = await getDocs(q);
+    // Sem orderBy para evitar problema de índice
+    console.log("[DEBUG] Executando getDocs na coleção 'estacoes_clinicas' sem ordenação...");
+    const querySnapshot = await getDocs(stationsColRef);
 
     const stationsList = [];
     querySnapshot.forEach((doc) => {
       stationsList.push({ id: doc.id, ...doc.data() });
     });
+    
+    // Ordenando manualmente no cliente
+    stationsList.sort((a, b) => {
+      const numA = a.numeroDaEstacao || 0;
+      const numB = b.numeroDaEstacao || 0;
+      return numA - numB;
+    });
+    
     stations.value = stationsList;
-    console.log(`[DEBUG] Estações carregadas e (espera-se) ordenadas pelo Firestore: ${stations.value.length}`);
-    if (stations.value.length === 0) {
+    console.log(`[DEBUG] Estações carregadas e ordenadas manualmente: ${stations.value.length}`);
+    console.log("[DEBUG] Primeira estação:", stations.value[0]);    if (stations.value.length === 0) {
       errorMessage.value = "Nenhuma estação encontrada no Firestore na coleção 'estacoes_clinicas'.";
     }
 
@@ -63,7 +70,7 @@ async function fetchStations() {
     if (error.code === 'permission-denied') {
       errorMessage.value += " (Erro de permissão! Verifique as Regras de Segurança do Firestore)";
     } else if (error.code === 'failed-precondition' && error.message.toLowerCase().includes('index')) {
-      errorMessage.value += ` (ÍNDICE DO FIRESTORE AUSENTE! A query 'orderBy("numeroDaEstacao")' requer um índice. Verifique o console do navegador ou do Firebase para o link de criação do índice na coleção 'estacoes_clinicas' para o campo 'numeroDaEstacao'.)`;
+      errorMessage.value += ` (ÍNDICE DO FIRESTORE AUSENTE! A query 'orderBy("numeroDaEstacao")' requer um índice. Verifique o console do navegador ou do Firebase para o link de criação do índice na coleção 'revalidafacio' para o campo 'numeroDaEstacao'.)`;
       console.error("Firestore Index missing for 'numeroDaEstacao'. Please create it in the Firebase console. The error message usually provides a direct link.");
     }
   } finally {
@@ -73,47 +80,70 @@ async function fetchStations() {
 }
 
 const stations2024_2 = computed(() => {
-  return stations.value.filter(station =>
-    station.tituloEstacao && station.tituloEstacao.toUpperCase().includes("2024.2")
-  );
+  return stations.value.filter(station => {
+    const titulo = station.tituloEstacao?.toUpperCase() || '';
+    // Filtra apenas estações com título "INEP 2024.2"
+    return titulo.includes("INEP") && titulo.includes("2024.2");
+  });
 });
 
 // Computed property base para todas as estações de Revalida Fácil
 const stationsRevalidaFacil = computed(() => {
-  return stations.value.filter(station =>
-    station.origem === "REVALIDA_FACIL"
-  );
+  return stations.value.filter(station => {
+    const titulo = station.tituloEstacao?.toUpperCase() || '';
+    // Filtra apenas estações com título "REVALIDA FACIL"
+    return titulo.includes("REVALIDA FACIL") || titulo.includes("REVALIDAFACIL");
+  });
 });
 
 // Computed properties para cada subpasta de Revalida Fácil
 const stationsRevalidaFacilClinicaMedica = computed(() => {
-  return stationsRevalidaFacil.value.filter(station =>
-    station.especialidade && station.especialidade.toUpperCase() === "CLÍNICA MÉDICA"
-  );
+  return stationsRevalidaFacil.value.filter(station => {
+    const especialidade = station.especialidade?.toUpperCase() || '';
+    const area = station.area?.toUpperCase() || '';
+    return especialidade.includes("CLÍNICA MÉDICA") || 
+           especialidade.includes("CLINICA MEDICA") ||
+           area.includes("CLÍNICA MÉDICA") ||
+           area.includes("CLINICA MEDICA");
+  });
 });
 
 const stationsRevalidaFacilGO = computed(() => {
-  return stationsRevalidaFacil.value.filter(station =>
-    station.especialidade && station.especialidade.toUpperCase() === "GINECOLOGIA E OBSTETRÍCIA"
-  );
+  return stationsRevalidaFacil.value.filter(station => {
+    const especialidade = station.especialidade?.toUpperCase() || '';
+    const area = station.area?.toUpperCase() || '';
+    return especialidade.includes("GINECOLOGIA") || 
+           especialidade.includes("OBSTETRÍCIA") ||
+           especialidade.includes("OBSTETRICIA") ||
+           area.includes("GINECOLOGIA") ||
+           area.includes("OBSTETRÍCIA") ||
+           area.includes("OBSTETRICIA") ||
+           especialidade.includes("G.O");
+  });
 });
 
 const stationsRevalidaFacilCirurgia = computed(() => {
-  return stationsRevalidaFacil.value.filter(station =>
-    station.especialidade && station.especialidade.toUpperCase() === "CIRURGIA GERAL"
-  );
+  return stationsRevalidaFacil.value.filter(station => {
+    const especialidade = station.especialidade?.toUpperCase() || '';
+    const area = station.area?.toUpperCase() || '';
+    return especialidade.includes("CIRURGIA") || area.includes("CIRURGIA");
+  });
 });
 
 const stationsRevalidaFacilPreventiva = computed(() => {
-  return stationsRevalidaFacil.value.filter(station =>
-    station.especialidade && station.especialidade.toUpperCase() === "PREVENTIVA"
-  );
+  return stationsRevalidaFacil.value.filter(station => {
+    const especialidade = station.especialidade?.toUpperCase() || '';
+    const area = station.area?.toUpperCase() || '';
+    return especialidade.includes("PREVENTIVA") || area.includes("PREVENTIVA");
+  });
 });
 
 const stationsRevalidaFacilPediatria = computed(() => {
-  return stationsRevalidaFacil.value.filter(station =>
-    station.especialidade && station.especialidade.toUpperCase() === "PEDIATRIA"
-  );
+  return stationsRevalidaFacil.value.filter(station => {
+    const especialidade = station.especialidade?.toUpperCase() || '';
+    const area = station.area?.toUpperCase() || '';
+    return especialidade.includes("PEDIATRIA") || area.includes("PEDIATRIA");
+  });
 });
 
 
@@ -131,9 +161,8 @@ async function startSimulationAsActor(stationId, checklistIdFromStation) {
 
   const currentStation = stations.value.find(s => s.id === stationId);
   const stationDuration = currentStation?.tempoDuracaoMinutos || DEFAULT_STATION_DURATION_MINUTES_CLIENT;
-  console.log(`ATOR: Duração para a estação ${stationId}: ${stationDuration} minutos.`);
-  try {
-    const backendUrl ='https://revalidafacil-backend-160232798179.southamerica-east1.run.app/api/create-session';
+  console.log(`ATOR: Duração para a estação ${stationId}: ${stationDuration} minutos.`);  try {
+    const backendUrl = 'http://localhost:3000/api/create-session'; // Backend local
     const response = await fetch(backendUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -198,11 +227,26 @@ function goToEditStation(stationId) {
   router.push({ name: 'EditStation', params: { id: stationId } });
 }
 
+const goToAdminUpload = () => {
+  console.log('Clicou no botão Upload (Área Admin)');
+  try {
+    router.push('/admin/upload');
+    console.log('Redirecionamento para /admin/upload executado');
+  } catch (error) {
+    console.error('Erro ao redirecionar:', error);
+  }
+}
+
 onMounted(fetchStations);
 </script>
 
 <template>
   <div class="station-list-container">
+    <!-- Mostra o UID do usuário para depuração -->
+    <div v-if="currentUser">UID logado: {{ currentUser.uid }}</div>
+    <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToAdminUpload" class="admin-upload-button">
+      Upload (Área Admin)
+    </button>
 
     <h2>Lista de Estações Disponíveis</h2>
 
@@ -243,9 +287,8 @@ onMounted(fetchStations);
                   @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)"
                   :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
-                </button>
-                <button
-                  v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'"
+                </button>                <button
+                  v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'"
                   @click="goToEditStation(station.id)"
                   class="edit-station-button" title="Editar Estação (Admin)">
                   Editar
@@ -298,7 +341,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -333,7 +376,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -368,7 +411,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -403,7 +446,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -438,7 +481,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -555,10 +598,7 @@ onMounted(fetchStations);
 }
 /* FIM DAS NOVAS CLASSES DE COR */
 
-
-.exam-year-container {
-  /* Estilos se necessário para o container das subpastas */
-}
+/* Estilos se necessário para o container das subpastas */
 
 .toggle-arrow {
   font-size: 1em;
@@ -728,4 +768,18 @@ color: #137967;}
 }
 .invite-link-section button:hover:not(:disabled) { background-color: #16A34A; }
 
+.admin-upload-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 18px;
+  font-size: 1em;
+}
+.admin-upload-button:hover {
+  background-color: #0056b3;
+}
 </style>

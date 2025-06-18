@@ -3,17 +3,16 @@
 import { initializeApp } from "firebase/app";
 // Vamos importar também o que precisamos para Autenticação e Firestore
 import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeFirestore } from "firebase/firestore";
 
 // Suas credenciais do Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDIVtTrioEtvHXGCcvNATsxbYxZrUZhqng", // <<< SUA API KEY REAL AQUI
-  authDomain: "appestacoes.firebaseapp.com",
-  projectId: "appestacoes",
-  storageBucket: "appestacoes.firebasestorage.app",
-  messagingSenderId: "160232798179",
-  appId: "1:160232798179:web:f9ce1140035c5f4ea312d6",
-  measurementId: "G-1MLQKNX03Y" // Este é opcional
+  apiKey: "AIzaSyDuakOooHv9a5slO0I3o3gttSBlSXD0aWw", // <<< SUA API KEY REAL AQUI
+  authDomain: "revalida-companion.firebaseapp.com",
+  projectId: "revalida-companion",
+  storageBucket: "revalida-companion.appspot.com", // Corrigido para .appspot.com
+  messagingSenderId: "772316263153",
+  appId: "1:772316263153:web:d0af4ecc404b6ca16a2f50" // Substitua pelo appId correto se necessário
 };
 
 // Inicializa o Firebase com a sua configuração
@@ -22,7 +21,8 @@ const app = initializeApp(firebaseConfig);
 // Inicializa os serviços de Autenticação e Firestore e os exporta
 // para que outros arquivos do seu projeto possam usá-los
 export const auth = getAuth(app);
-export const db = getFirestore(app);
+// Inicializa o Firestore apontando para o banco de dados 'estacoes'
+export const db = initializeFirestore(app, { databaseId: 'estacoes' });
 
 // Opcionalmente, você pode exportar a instância 'app' se precisar dela em algum outro lugar
 export default app;

@@ -78,15 +78,36 @@ function playSoundEffect() {
 }
 
 // --- NOVO: Função para Formatar a Descrição do Item do PEP para Exibição ---
-function formatItemDescriptionForDisplay(descriptionText) {
+function formatItemDescriptionForDisplay(descriptionText, itemTitle = '') {
   if (!descriptionText || typeof descriptionText !== 'string') {
     return descriptionText || '';
   }
-  // Substitui '\n' por <br>
-  let formatted = descriptionText.replace(/\\n/g, '<br>');
-  // Substitui ';' por <br> (ou <br><br> se quiser um espaçamento maior para "parágrafos")
-  formatted = formatted.replace(/;/g, '<br>');
-  return formatted;
+  let desc = descriptionText.trim();
+
+  // Remove o nome do item do início da descrição (ex: "Apresentação: ...")
+  if (itemTitle) {
+    const regex = new RegExp('^' + itemTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\s*:', 'i');
+    desc = desc.replace(regex, '').trim();
+  } else {
+    desc = desc.replace(/^([^:]+):/, '').trim();
+  }
+
+  // Remove 'e,' e 'e' desnecessários
+  desc = desc.replace(/\s+e,?\s+/g, ', ');
+  desc = desc.replace(/,\s*,/g, ','); // remove vírgulas duplas
+  desc = desc.replace(/,\s*\./g, '.'); // remove vírgula antes de ponto final
+  desc = desc.replace(/,\s*$/g, ''); // remove vírgula no final
+
+  // NOVO: Remove vírgula imediatamente antes de parênteses
+  desc = desc.replace(/,\s*\(/g, ' (');
+
+  // Substitui '\n' e ';' por <br>
+  desc = desc.replace(/\\n/g, '<br>').replace(/;/g, '<br>');
+
+  // Coloca em negrito apenas o que vem antes dos dois pontos, exceto se estiver entre parênteses
+  desc = desc.replace(/(^|<br>)([^<\(\)\n:]+?):/g, '$1<strong>$2:</strong>');
+
+  return desc;
 }
 
 // REMOVIDO: A computed property `parsedDescriptions` e a função `parseItemDescription` original
@@ -148,7 +169,7 @@ async function fetchSimulationData(currentStationId) {
 function connectWebSocket() {
   if (!sessionId.value || !userRole.value || !stationId.value || !currentUser.value?.uid) { console.error("SOCKET: Dados essenciais faltando para conexão.");
     return; }
-  const backendUrl = 'https://revalidafacil-backend-160232798179.southamerica-east1.run.app';
+  const backendUrl = 'http://localhost:3000'; // Backend local
   console.log(`SOCKET: Conectando a ${backendUrl} para Sessão: ${sessionId.value}, Usuário: ${currentUser.value.uid}, Papel: ${userRole.value}`);
   connectionStatus.value = 'Conectando';
   if (socket.value && socket.value.connected) { socket.value.disconnect(); }
@@ -800,7 +821,7 @@ watch(evaluationScores, (newScores) => {
                       <strong v-if="item.itemNumeroOficial">{{ item.itemNumeroOficial }}. </strong>
                       {{ item.descricaoItem ? item.descricaoItem.split(':')[0].trim() : 'Item sem descrição' }}
                     </h5>
-                    <p class="pep-item-full-description" v-html="formatItemDescriptionForDisplay(item.descricaoItem)"></p>
+                    <p class="pep-item-full-description" v-html="formatItemDescriptionForDisplay(item.descricaoItem, item.descricaoItem ? item.descricaoItem.split(':')[0].trim() : '')"></p>
                     
                     <div class="pep-criteria-texts-exact">
                         <div v-if="item.pontuacoes?.adequado?.criterio" class="pep-criterion-line-text"><strong>Adequado:</strong> {{ item.pontuacoes.adequado.criterio }}</div>

@@ -6,7 +6,6 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "target": "revalidafacil-principal",
     "public": "dist",
     "ignore": [
       "firebase.json",
@@ -24,5 +23,10 @@
     "source": "functions",
     "runtime": "nodejs20",
     "predeploy": []
+  },
+  "apphosting": {
+    "revalidafacil-1": {
+      "source": "backtrend"
+    }
   }
 }

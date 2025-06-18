@@ -3,7 +3,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 // --- Importa os Componentes ---
-import LoginView from '../components/Login.vue';         // CORRIGIDO
+import LoginView from '../components/login.vue';         // Corrigido para minúsculo
 import RegisterView from '../components/Register.vue';   // CORRIGIDO
 import StationList from '../components/StationList.vue'; // CORRIGIDO
 import SimulationView from '../components/SimulationView.vue'; // CORRIGIDO
@@ -76,18 +76,18 @@ router.beforeEach((to, from, next) => {
   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
   const requiresAdmin = to.matched.some(record => record.meta.requiresAdmin); 
   const isAuthenticated = currentUser.value != null;
-  const isAdmin = isAuthenticated && currentUser.value.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+  const isAdmin = isAuthenticated && currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33';
 
-  // console.log(`Navegando para: ${to.path}, Requer Auth: ${requiresAuth}, Requer Admin: ${requiresAdmin}, Autenticado: ${isAuthenticated}, É Admin: ${isAdmin}`);
+  console.log(`Navegando para: ${to.path}, Requer Auth: ${requiresAuth}, Requer Admin: ${requiresAdmin}, Autenticado: ${isAuthenticated}, É Admin: ${isAdmin}`);
 
   if (requiresAdmin && !isAdmin) {
-    // console.log("Acesso negado à rota de admin! Redirecionando para /stations");
+    console.log("Acesso negado à rota de admin! Redirecionando para /stations");
     next('/stations'); 
   } else if (requiresAuth && !isAuthenticated) {
-    // console.log("Não autenticado! Redirecionando para /login");
+    console.log("Não autenticado! Redirecionando para /login");
     next('/login');
   } else if ((to.path === '/login' || to.path === '/register') && isAuthenticated) {
-    // console.log("Já logado! Redirecionando para /stations");
+    console.log("Já logado! Redirecionando para /stations");
     next('/stations');
   } else {
     next();

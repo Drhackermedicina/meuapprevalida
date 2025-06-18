@@ -50,17 +50,16 @@ const handleLogin = async () => {
     // O onAuthStateChanged no authStore.js vai atualizar o currentUser automaticamente.
 
     console.log('Usuário logado com sucesso:', userCredential.user.email);
-    // Não precisamos mais do alert aqui, o redirecionamento é o feedback principal.
-    // alert(`Login de ${userCredential.user.email} bem-sucedido!`);
-
-    // **MUITO IMPORTANTE:** Substitua 'SEU_UID_DE_ADMIN_AQUI' pelo UID real
-    // do seu usuário administrador (o mesmo que você colocou no router/index.js).
-    const adminUID = 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+    console.log('UID do usuário logado:', userCredential.user.uid);
+    // Atualiza o UID do admin para o correto
+    const adminUID = 'kCJbc2xYS4Z02jGNGmHKiezKZOC2';
 
     if (userCredential.user.uid === adminUID) {
-      router.push('/admin/upload'); // Redireciona admin para a página de upload
+      console.log('Usuário é admin, redirecionando para /admin/upload');
+      router.push('/admin/upload');
     } else {
-      router.push('/stations'); // Redireciona usuários normais para a lista de estações
+      console.log('Usuário comum, redirecionando para /stations');
+      router.push('/stations');
     }
 
   } catch (error) {

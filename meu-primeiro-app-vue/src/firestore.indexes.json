@@ -1,22 +1,15 @@
 {
   "indexes": [
     {
-      "collectionGroup": "estacoes_clinicas",
+      "collectionGroup": "revalidafacio",
       "queryScope": "COLLECTION",
       "fields": [
         {
           "fieldPath": "numeroDaEstacao",
           "order": "ASCENDING"
         }
-        // Se você também quisesse uma ordenação secundária, por exemplo, por 'tituloEstacao':
-        // ,
-        // {
-        //   "fieldPath": "tituloEstacao",
-        //   "order": "ASCENDING"
-        // }
       ]
     }
-    // Pode adicionar definições para outros índices aqui
   ],
   "fieldOverrides": []
 }

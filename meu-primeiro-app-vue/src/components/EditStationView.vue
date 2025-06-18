@@ -52,7 +52,7 @@ function parseImpressoConteudo(impressosArray) {
 
 // Verifica se o usuário atual é o admin definido
 const isAdmin = computed(() => {
-  return currentUser.value && currentUser.value.uid === 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+  return currentUser.value && currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33';
 });
 
 async function fetchStationToEdit() {
@@ -192,6 +192,139 @@ function addPEPItem() {
     }
 }
 
+// Função para limpar texto removendo caracteres desnecessários
+function cleanText(text) {
+  if (!text || typeof text !== 'string') return text;
+  
+  return text
+    // Remove "e," no final de frases
+    .replace(/\s*e,\s*$/gim, '')
+    .replace(/\s*e,\s*(\.|;|!|\?)/g, '$1')
+    // Remove "ITEM AVALIAÇÃO" (pode aparecer em diferentes formatos)
+    .replace(/\s*ITEM\s+AVALIA[ÇC][ÃA]O\s*/gi, '')
+    .replace(/\s*ITEM\s+DE\s+AVALIA[ÇC][ÃA]O\s*/gi, '')
+    // Remove vírgulas duplas
+    .replace(/,,+/g, ',')
+    // Remove espaços extras antes de pontuação
+    .replace(/\s+([,.;:!?])/g, '$1')
+    // Remove espaços extras no meio do texto
+    .replace(/\s{2,}/g, ' ')
+    // Remove espaços no início e fim
+    .trim();
+}
+
+// Função para limpar todos os campos de texto da estação
+function cleanAllTextFields() {
+  if (!stationData.value) return;
+  
+  // Limpar título da estação
+  if (stationData.value.tituloEstacao) {
+    stationData.value.tituloEstacao = cleanText(stationData.value.tituloEstacao);
+  }
+  
+  // Limpar especialidade
+  if (stationData.value.especialidade) {
+    stationData.value.especialidade = cleanText(stationData.value.especialidade);
+  }
+  
+  // Limpar instruções do participante
+  if (stationData.value.instrucoesParticipante) {
+    if (stationData.value.instrucoesParticipante.descricaoCasoCompleta) {
+      stationData.value.instrucoesParticipante.descricaoCasoCompleta = 
+        cleanText(stationData.value.instrucoesParticipante.descricaoCasoCompleta);
+    }
+    
+    // Limpar tarefas principais
+    if (stationData.value.instrucoesParticipante.tarefasPrincipais) {
+      stationData.value.instrucoesParticipante.tarefasPrincipais = 
+        stationData.value.instrucoesParticipante.tarefasPrincipais.map(cleanText);
+    }
+    
+    // Limpar avisos importantes
+    if (stationData.value.instrucoesParticipante.avisosImportantes) {
+      stationData.value.instrucoesParticipante.avisosImportantes = 
+        stationData.value.instrucoesParticipante.avisosImportantes.map(cleanText);
+    }
+  }
+  
+  // Limpar informações verbais do simulado
+  if (stationData.value.materiaisDisponiveis?.informacoesVerbaisSimulado) {
+    stationData.value.materiaisDisponiveis.informacoesVerbaisSimulado = 
+      stationData.value.materiaisDisponiveis.informacoesVerbaisSimulado.map(info => ({
+        ...info,
+        informacao: cleanText(info.informacao)
+      }));
+  }
+  
+  // Limpar itens de avaliação PEP
+  if (stationData.value.padraoEsperadoProcedimento?.itensAvaliacao) {
+    stationData.value.padraoEsperadoProcedimento.itensAvaliacao = 
+      stationData.value.padraoEsperadoProcedimento.itensAvaliacao.map(item => ({
+        ...item,
+        descricaoItem: cleanText(item.descricaoItem),
+        pontuacoes: {
+          adequado: {
+            ...item.pontuacoes.adequado,
+            criterio: cleanText(item.pontuacoes.adequado.criterio)
+          },
+          parcialmenteAdequado: {
+            ...item.pontuacoes.parcialmenteAdequado,
+            criterio: cleanText(item.pontuacoes.parcialmenteAdequado.criterio)
+          },
+          inadequado: {
+            ...item.pontuacoes.inadequado,
+            criterio: cleanText(item.pontuacoes.inadequado.criterio)
+          }
+        }
+      }));
+  }
+  
+  successMessage.value = "Texto limpo com sucesso! Caracteres desnecessários foram removidos.";
+  setTimeout(() => { successMessage.value = ''; }, 3000);
+}
+
+// Função para limpar um campo de texto específico
+function cleanSingleField(fieldPath) {
+  const pathParts = fieldPath.split('.');
+  let current = stationData.value;
+  
+  // Navegar até o campo correto
+  for (let i = 0; i < pathParts.length - 1; i++) {
+    if (current[pathParts[i]]) {
+      current = current[pathParts[i]];
+    } else {
+      return; // Campo não existe
+    }
+  }
+  
+  const fieldName = pathParts[pathParts.length - 1];
+  if (current[fieldName]) {
+    current[fieldName] = cleanText(current[fieldName]);
+  }
+}
+
+// Função para limpar campo específico de um item PEP
+function cleanPEPField(pepIndex, fieldPath) {
+  if (!stationData.value.padraoEsperadoProcedimento?.itensAvaliacao?.[pepIndex]) return;
+  
+  const item = stationData.value.padraoEsperadoProcedimento.itensAvaliacao[pepIndex];
+  const pathParts = fieldPath.split('.');
+  let current = item;
+  
+  for (let i = 0; i < pathParts.length - 1; i++) {
+    if (current[pathParts[i]]) {
+      current = current[pathParts[i]];
+    } else {
+      return;
+    }
+  }
+  
+  const fieldName = pathParts[pathParts.length - 1];
+  if (current[fieldName]) {
+    current[fieldName] = cleanText(current[fieldName]);
+  }
+}
+
 onMounted(() => {
   // O watch com immediate: true já chama fetchStationToEdit na montagem se route.params.id estiver presente
 });
@@ -265,10 +398,13 @@ watch(() => route.params.id, (newId) => {
                 </div>
                 <button type="button" @click="addToArray(stationData.instrucoesParticipante.cenarioAtendimento.infraestruturaUnidade, '')" class="add-button-small">Adicionar Infraestrutura</button>
             </div>
-        </div>
-
-        <div class="form-group">
-          <label for="descricaoCasoCompleta">Descrição do Caso Completa:</label>
+        </div>        <div class="form-group">
+          <div class="form-group-header">
+            <label for="descricaoCasoCompleta">Descrição do Caso Completa:</label>
+            <button type="button" @click="cleanSingleField('instrucoesParticipante.descricaoCasoCompleta')" class="clean-button-small" title="Limpar este campo">
+              🧹
+            </button>
+          </div>
           <textarea id="descricaoCasoCompleta" v-model="stationData.instrucoesParticipante.descricaoCasoCompleta" rows="5"></textarea>
         </div>
         
@@ -346,28 +482,42 @@ watch(() => route.params.id, (newId) => {
                 <textarea :id="'pepDesc-' + pepIndex" v-model="itemPEP.descricaoItem" rows="4"></textarea>
             </div>
             <div v-if="itemPEP.pontuacoes" class="sub-fieldset">
-                <label class="sub-legend">Pontuações</label>
-                <div v-if="itemPEP.pontuacoes.adequado" class="form-group">
-                    <label>Adequado - Critério:</label> <textarea v-model="itemPEP.pontuacoes.adequado.criterio" rows="2"></textarea>
+                <label class="sub-legend">Pontuações</label>                <div v-if="itemPEP.pontuacoes.adequado" class="form-group">
+                    <div class="form-group-header">
+                        <label>Adequado - Critério:</label>
+                        <button type="button" @click="cleanPEPField(pepIndex, 'pontuacoes.adequado.criterio')" class="clean-button-small" title="Limpar critério">🧹</button>
+                    </div>
+                    <textarea v-model="itemPEP.pontuacoes.adequado.criterio" rows="2"></textarea>
                     <label>Adequado - Pontos:</label> <input type="number" step="0.01" v-model.number="itemPEP.pontuacoes.adequado.pontos">
                 </div>
                 <div class="form-group" v-if="itemPEP.pontuacoes.parcialmenteAdequado">
-                    <label>Parcialmente Adequado - Critério:</label> <textarea v-model="itemPEP.pontuacoes.parcialmenteAdequado.criterio" rows="2"></textarea>
+                    <div class="form-group-header">
+                        <label>Parcialmente Adequado - Critério:</label>
+                        <button type="button" @click="cleanPEPField(pepIndex, 'pontuacoes.parcialmenteAdequado.criterio')" class="clean-button-small" title="Limpar critério">🧹</button>
+                    </div>
+                    <textarea v-model="itemPEP.pontuacoes.parcialmenteAdequado.criterio" rows="2"></textarea>
                     <label>Parcialmente Adequado - Pontos:</label> <input type="number" step="0.01" v-model.number="itemPEP.pontuacoes.parcialmenteAdequado.pontos">
-                </div>
-                <div v-if="itemPEP.pontuacoes.inadequado" class="form-group">
-                    <label>Inadequado - Critério:</label> <textarea v-model="itemPEP.pontuacoes.inadequado.criterio" rows="2"></textarea>
+                </div>                <div v-if="itemPEP.pontuacoes.inadequado" class="form-group">
+                    <div class="form-group-header">
+                        <label>Inadequado - Critério:</label>
+                        <button type="button" @click="cleanPEPField(pepIndex, 'pontuacoes.inadequado.criterio')" class="clean-button-small" title="Limpar critério">🧹</button>
+                    </div>
+                    <textarea v-model="itemPEP.pontuacoes.inadequado.criterio" rows="2"></textarea>
                     <label>Inadequado - Pontos:</label> <input type="number" step="0.01" v-model.number="itemPEP.pontuacoes.inadequado.pontos">
                 </div>
             </div>
              <button type="button" @click="removeFromArray(stationData.padraoEsperadoProcedimento.itensAvaliacao, pepIndex)" class="remove-button">Remover Item PEP</button>
         </div>
-        <button type="button" @click="addPEPItem()" class="add-button">Adicionar Item ao PEP</button>
-      </fieldset>
+        <button type="button" @click="addPEPItem()" class="add-button">Adicionar Item ao PEP</button>      </fieldset>
 
-      <button type="submit" class="save-button" :disabled="isLoading">
-        {{ isLoading ? 'Salvando...' : 'Salvar Alterações na Estação' }}
-      </button>
+      <div class="action-buttons">
+        <button type="button" @click="cleanAllTextFields()" class="clean-button" title="Remove caracteres desnecessários como 'e,' no final de frases">
+          🧹 Limpar Texto
+        </button>
+        <button type="submit" class="save-button" :disabled="isLoading">
+          {{ isLoading ? 'Salvando...' : 'Salvar Alterações na Estação' }}
+        </button>
+      </div>
     </form>
     <div v-else-if="!isAdmin && !isLoading">
         <p class="feedback error">Você não tem permissão para editar esta estação.</p>
@@ -481,12 +631,10 @@ legend {
 
 .array-item-editor {
   border: 1px solid #e0e0e0;
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: 15px;  margin-bottom: 15px;
   border-radius: 4px;
   background-color: #f8f9fa;
 }
-.item-bloco {}
 
 .array-item-editor-simple {
     display: flex;
@@ -540,6 +688,34 @@ legend {
 .add-button { background-color: #007bff; }
 .add-button:hover { background-color: #0056b3; }
 
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.clean-button {
+  padding: 12px 25px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.0em;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.1s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.clean-button:hover { 
+  background-color: #138496; 
+  transform: translateY(-1px);
+}
+
 .save-button {
   padding: 12px 25px;
   background-color: #28a745;
@@ -550,9 +726,9 @@ legend {
   font-size: 1.1em;
   font-weight: bold;
   transition: background-color 0.2s;
-  align-self: center;
-  margin-top: 20px;
+  margin-top: 0; /* Remove margin-top já que agora está no container flex */
 }
+
 .save-button:hover { background-color: #218838; }
 .save-button:disabled { background-color: #aaa; cursor: not-allowed; }
 
@@ -560,4 +736,27 @@ legend {
 .feedback.error { background-color: #f8d7da; color: #721c24; border-color: #f5c6cb; }
 .feedback.loading { background-color: #d1ecf1; color: #0c5460; border-color: #bee5eb; }
 .feedback.success { background-color: #d4edda; color: #155724; border-color: #c3e6cb; }
+
+.form-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.clean-button-small {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+.clean-button-small:hover {
+  background-color: #138496;
+}
 </style>
