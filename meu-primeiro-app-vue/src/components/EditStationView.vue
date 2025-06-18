@@ -52,7 +52,10 @@ function parseImpressoConteudo(impressosArray) {
 
 // Verifica se o usuário atual é o admin definido
 const isAdmin = computed(() => {
-  return currentUser.value && currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33';
+  return currentUser.value && (
+    currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' ||
+    currentUser.value.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3'
+  );
 });
 
 async function fetchStationToEdit() {

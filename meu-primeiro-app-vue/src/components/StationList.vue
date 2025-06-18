@@ -162,7 +162,8 @@ async function startSimulationAsActor(stationId, checklistIdFromStation) {
   const currentStation = stations.value.find(s => s.id === stationId);
   const stationDuration = currentStation?.tempoDuracaoMinutos || DEFAULT_STATION_DURATION_MINUTES_CLIENT;
   console.log(`ATOR: Duração para a estação ${stationId}: ${stationDuration} minutos.`);  try {
-    const backendUrl = 'http://localhost:3000/api/create-session'; // Backend local
+    // Troque para a URL do backend em produção ou use variável de ambiente
+    const backendUrl = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000') + '/api/create-session';
     const response = await fetch(backendUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -244,7 +245,7 @@ onMounted(fetchStations);
   <div class="station-list-container">
     <!-- Mostra o UID do usuário para depuração -->
     <div v-if="currentUser">UID logado: {{ currentUser.uid }}</div>
-    <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToAdminUpload" class="admin-upload-button">
+    <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToAdminUpload" class="admin-upload-button">
       Upload (Área Admin)
     </button>
 
@@ -288,7 +289,7 @@ onMounted(fetchStations);
                   :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>                <button
-                  v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'"
+                  v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')"
                   @click="goToEditStation(station.id)"
                   class="edit-station-button" title="Editar Estação (Admin)">
                   Editar
@@ -341,7 +342,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -376,7 +377,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -411,7 +412,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -446,7 +447,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>
@@ -481,7 +482,7 @@ onMounted(fetchStations);
                 <button @click="startSimulationAsActor(station.id, station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" :disabled="isLoadingSession || !(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)">
                   {{ isLoadingSession && creatingSessionForStationId === station.id ? 'Criando...' : 'Iniciar Como Ator' }}
                 </button>
-                <button v-if="currentUser && currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33'" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
+                <button v-if="currentUser && (currentUser.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' || currentUser.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3')" @click="goToEditStation(station.id)" class="edit-station-button" title="Editar Estação (Admin)">Editar</button>
                 <p v-if="!(station.padraoEsperadoProcedimento && station.padraoEsperadoProcedimento.idChecklistAssociado)" class="feedback error small" style="text-align: right;">ID do Checklist ausente</p>
               </div>
             </li>

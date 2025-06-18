@@ -7,12 +7,13 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: '*', // Em produção, troque para seu domínio
-    methods: ['GET', 'POST']
+    origin: 'https://revalida-companion.web.app', // Liberar apenas o domínio do frontend
+    methods: ['GET', 'POST'],
+    credentials: true
   }
 });
 
-app.use(cors({ origin: '*' })); // Em produção, troque para seu domínio
+app.use(cors({ origin: 'https://revalida-companion.web.app' })); // Liberar apenas o domínio do frontend
 app.use(express.json());
 
 // Rota de teste

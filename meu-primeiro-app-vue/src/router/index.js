@@ -76,7 +76,10 @@ router.beforeEach((to, from, next) => {
   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
   const requiresAdmin = to.matched.some(record => record.meta.requiresAdmin); 
   const isAuthenticated = currentUser.value != null;
-  const isAdmin = isAuthenticated && currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33';
+  const isAdmin = isAuthenticated && (
+    currentUser.value.uid === 'xN0BqF7vvbbwpWlMNxhORH48Ri33' ||
+    currentUser.value.uid === 'F8NOHX6eCxPORAf8x3faSq3Wy9D3'
+  );
 
   console.log(`Navegando para: ${to.path}, Requer Auth: ${requiresAuth}, Requer Admin: ${requiresAdmin}, Autenticado: ${isAuthenticated}, É Admin: ${isAdmin}`);
 

@@ -4,13 +4,19 @@ service cloud.firestore {
     // Regra para a coleção 'estacoes_clinicas'
     match /estacoes_clinicas/{stationId} {
       allow read: if request.auth != null; 
-      allow write: if request.auth != null && request.auth.uid == 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+      allow write: if request.auth != null && (
+        request.auth.uid == 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2' ||
+        request.auth.uid == 'F8NOHX6eCxPORAf8x3faSq3Wy9D3'
+      );
     }
 
     // Regra para a coleção 'checklists'
     match /checklists/{checklistId} {
       allow read: if request.auth != null; 
-      allow write: if request.auth != null && request.auth.uid == 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+      allow write: if request.auth != null && (
+        request.auth.uid == 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2' ||
+        request.auth.uid == 'F8NOHX6eCxPORAf8x3faSq3Wy9D3'
+      );
     }
     // Adicione outras regras conforme necessário
   }

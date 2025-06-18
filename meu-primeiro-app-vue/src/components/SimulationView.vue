@@ -169,7 +169,8 @@ async function fetchSimulationData(currentStationId) {
 function connectWebSocket() {
   if (!sessionId.value || !userRole.value || !stationId.value || !currentUser.value?.uid) { console.error("SOCKET: Dados essenciais faltando para conexão.");
     return; }
-  const backendUrl = 'http://localhost:3000'; // Backend local
+  // Troque para a URL do backend em produção ou use variável de ambiente
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000'; // Apenas domínio para WebSocket
   console.log(`SOCKET: Conectando a ${backendUrl} para Sessão: ${sessionId.value}, Usuário: ${currentUser.value.uid}, Papel: ${userRole.value}`);
   connectionStatus.value = 'Conectando';
   if (socket.value && socket.value.connected) { socket.value.disconnect(); }

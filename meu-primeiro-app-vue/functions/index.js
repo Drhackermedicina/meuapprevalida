@@ -140,3 +140,48 @@ exports.adminUpload = https.onCall(
     return { status: 'success', message: 'Upload processado com sucesso em /adminupload.' };
   }
 );
+
+// --- Função para Atribuir o Papel de 'admin' a um Usuário pelo UID ---
+exports.addAdminRole = https.onCall(
+  {
+    region: 'us-central1',
+    enforceAppCheck: false,
+  },
+  async (data, context) => {
+    if (!context.auth) {
+      throw new https.HttpsError(
+        'unauthenticated',
+        'Apenas usuários autenticados podem atribuir papéis.'
+      );
+    }
+
+    const adminUID = 'zpJfB1NZjTO6FYTUZsIvrpSrp4g2';
+    if (context.auth.uid !== adminUID) {
+      throw new https.HttpsError(
+        'permission-denied',
+        'Apenas administradores podem atribuir papéis.'
+      );
+    }
+
+    const targetUid = data.uid;
+    if (!targetUid) {
+      throw new https.HttpsError(
+        'invalid-argument',
+        'O UID do usuário é obrigatório.'
+      );
+    }
+
+    try {
+      await admin.auth().setCustomUserClaims(targetUid, { admin: true });
+      return {
+        message: `O papel de 'admin' foi atribuído ao usuário UID: ${targetUid}.`
+      };
+    } catch (error) {
+      throw new https.HttpsError(
+        'internal',
+        'Falha ao adicionar papel de admin.',
+        error.message
+      );
+    }
+  }
+);

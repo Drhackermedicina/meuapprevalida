@@ -19,14 +19,10 @@
       }
     ]
   },
-  "functions": {
-    "source": "functions",
-    "runtime": "nodejs20",
-    "predeploy": []
-  },
-  "apphosting": {
-    "revalidafacil-1": {
-      "source": "backtrend"
+  "apphosting": [
+    {
+      "source": "./backend",
+      "runtime": "nodejs18"
     }
-  }
+  ]
 }

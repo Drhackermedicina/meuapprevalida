@@ -1,8 +1,8 @@
 // src/socket.js
 import { io } from 'socket.io-client';
 
-// URL do seu backend (porta 3000, conforme último log de sucesso)
-const URL = 'http://localhost:3000';
+// URL do seu backend (pode ser definida por variável de ambiente para produção)
+const URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000'; // Apenas domínio para WebSocket
 
 console.log(`[Socket] Criando instância para ${URL}`);
 const socket = io(URL, {
